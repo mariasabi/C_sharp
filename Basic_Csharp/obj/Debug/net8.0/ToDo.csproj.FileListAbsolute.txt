@@ -1,0 +1,14 @@
+C:\Users\P10\source\repos\ToDo\ToDo\bin\Debug\net8.0\ToDo.exe
+C:\Users\P10\source\repos\ToDo\ToDo\bin\Debug\net8.0\ToDo.deps.json
+C:\Users\P10\source\repos\ToDo\ToDo\bin\Debug\net8.0\ToDo.runtimeconfig.json
+C:\Users\P10\source\repos\ToDo\ToDo\bin\Debug\net8.0\ToDo.dll
+C:\Users\P10\source\repos\ToDo\ToDo\bin\Debug\net8.0\ToDo.pdb
+C:\Users\P10\source\repos\ToDo\ToDo\obj\Debug\net8.0\ToDo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\P10\source\repos\ToDo\ToDo\obj\Debug\net8.0\ToDo.AssemblyInfoInputs.cache
+C:\Users\P10\source\repos\ToDo\ToDo\obj\Debug\net8.0\ToDo.AssemblyInfo.cs
+C:\Users\P10\source\repos\ToDo\ToDo\obj\Debug\net8.0\ToDo.csproj.CoreCompileInputs.cache
+C:\Users\P10\source\repos\ToDo\ToDo\obj\Debug\net8.0\ToDo.dll
+C:\Users\P10\source\repos\ToDo\ToDo\obj\Debug\net8.0\refint\ToDo.dll
+C:\Users\P10\source\repos\ToDo\ToDo\obj\Debug\net8.0\ToDo.pdb
+C:\Users\P10\source\repos\ToDo\ToDo\obj\Debug\net8.0\ToDo.genruntimeconfig.cache
+C:\Users\P10\source\repos\ToDo\ToDo\obj\Debug\net8.0\ref\ToDo.dll

@@ -1,0 +1,14 @@
+C:\Users\P10\source\repos\WarriorWars\WarriorWars\bin\Debug\net8.0\WarriorWars.exe
+C:\Users\P10\source\repos\WarriorWars\WarriorWars\bin\Debug\net8.0\WarriorWars.deps.json
+C:\Users\P10\source\repos\WarriorWars\WarriorWars\bin\Debug\net8.0\WarriorWars.runtimeconfig.json
+C:\Users\P10\source\repos\WarriorWars\WarriorWars\bin\Debug\net8.0\WarriorWars.dll
+C:\Users\P10\source\repos\WarriorWars\WarriorWars\bin\Debug\net8.0\WarriorWars.pdb
+C:\Users\P10\source\repos\WarriorWars\WarriorWars\obj\Debug\net8.0\WarriorWars.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\P10\source\repos\WarriorWars\WarriorWars\obj\Debug\net8.0\WarriorWars.AssemblyInfoInputs.cache
+C:\Users\P10\source\repos\WarriorWars\WarriorWars\obj\Debug\net8.0\WarriorWars.AssemblyInfo.cs
+C:\Users\P10\source\repos\WarriorWars\WarriorWars\obj\Debug\net8.0\WarriorWars.csproj.CoreCompileInputs.cache
+C:\Users\P10\source\repos\WarriorWars\WarriorWars\obj\Debug\net8.0\WarriorWars.dll
+C:\Users\P10\source\repos\WarriorWars\WarriorWars\obj\Debug\net8.0\refint\WarriorWars.dll
+C:\Users\P10\source\repos\WarriorWars\WarriorWars\obj\Debug\net8.0\WarriorWars.pdb
+C:\Users\P10\source\repos\WarriorWars\WarriorWars\obj\Debug\net8.0\WarriorWars.genruntimeconfig.cache
+C:\Users\P10\source\repos\WarriorWars\WarriorWars\obj\Debug\net8.0\ref\WarriorWars.dll
