@@ -1,0 +1,32 @@
+C:\Users\P10\source\repos\Order management\Order management\obj\Debug\net8.0\Order management.csproj.AssemblyReference.cache
+C:\Users\P10\source\repos\Order management\Order management\obj\Debug\net8.0\Order management.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\P10\source\repos\Order management\Order management\obj\Debug\net8.0\Order management.AssemblyInfoInputs.cache
+C:\Users\P10\source\repos\Order management\Order management\obj\Debug\net8.0\Order management.AssemblyInfo.cs
+C:\Users\P10\source\repos\Order management\Order management\obj\Debug\net8.0\Order management.csproj.CoreCompileInputs.cache
+C:\Users\P10\source\repos\Order management\Order management\obj\Debug\net8.0\Order management.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\P10\source\repos\Order management\Order management\obj\Debug\net8.0\Order management.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\P10\source\repos\Order management\Order management\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\P10\source\repos\Order management\Order management\bin\Debug\net8.0\appsettings.json
+C:\Users\P10\source\repos\Order management\Order management\bin\Debug\net8.0\Order management.exe
+C:\Users\P10\source\repos\Order management\Order management\bin\Debug\net8.0\Order management.deps.json
+C:\Users\P10\source\repos\Order management\Order management\bin\Debug\net8.0\Order management.runtimeconfig.json
+C:\Users\P10\source\repos\Order management\Order management\bin\Debug\net8.0\Order management.dll
+C:\Users\P10\source\repos\Order management\Order management\bin\Debug\net8.0\Order management.pdb
+C:\Users\P10\source\repos\Order management\Order management\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\P10\source\repos\Order management\Order management\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\P10\source\repos\Order management\Order management\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\P10\source\repos\Order management\Order management\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\P10\source\repos\Order management\Order management\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\P10\source\repos\Order management\Order management\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\P10\source\repos\Order management\Order management\obj\Debug\net8.0\staticwebassets\msbuild.Order management.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\P10\source\repos\Order management\Order management\obj\Debug\net8.0\staticwebassets\msbuild.build.Order management.props
+C:\Users\P10\source\repos\Order management\Order management\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Order management.props
+C:\Users\P10\source\repos\Order management\Order management\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Order management.props
+C:\Users\P10\source\repos\Order management\Order management\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\P10\source\repos\Order management\Order management\obj\Debug\net8.0\scopedcss\bundle\Order management.styles.css
+C:\Users\P10\source\repos\Order management\Order management\obj\Debug\net8.0\Order ma.AFA86EFE.Up2Date
+C:\Users\P10\source\repos\Order management\Order management\obj\Debug\net8.0\Order management.dll
+C:\Users\P10\source\repos\Order management\Order management\obj\Debug\net8.0\refint\Order management.dll
+C:\Users\P10\source\repos\Order management\Order management\obj\Debug\net8.0\Order management.pdb
+C:\Users\P10\source\repos\Order management\Order management\obj\Debug\net8.0\Order management.genruntimeconfig.cache
+C:\Users\P10\source\repos\Order management\Order management\obj\Debug\net8.0\ref\Order management.dll
