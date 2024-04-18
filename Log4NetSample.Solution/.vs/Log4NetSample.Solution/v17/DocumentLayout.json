@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\P10\\Downloads\\Log4NetSample.Solution\\Log4NetSample.Solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44F398C7-F336-4857-9462-2CB5BD25F855}|Log4NetSample.ConsoleApp\\Log4NetSample.ConsoleApp.csproj|c:\\users\\p10\\downloads\\log4netsample.solution\\log4netsample.solution\\log4netsample.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44F398C7-F336-4857-9462-2CB5BD25F855}|Log4NetSample.ConsoleApp\\Log4NetSample.ConsoleApp.csproj|solutionrelative:log4netsample.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F398C7-F336-4857-9462-2CB5BD25F855}|Log4NetSample.ConsoleApp\\Log4NetSample.ConsoleApp.csproj|c:\\users\\p10\\downloads\\log4netsample.solution\\log4netsample.solution\\log4netsample.consoleapp\\log4netsample.consoleapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{44F398C7-F336-4857-9462-2CB5BD25F855}|Log4NetSample.ConsoleApp\\Log4NetSample.ConsoleApp.csproj|solutionrelative:log4netsample.consoleapp\\log4netsample.consoleapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C0E453-EA8D-4625-BF25-522D05DEE3E4}|Log4NetSample.LogUtility\\Log4NetSample.LogUtility.csproj|c:\\users\\p10\\downloads\\log4netsample.solution\\log4netsample.solution\\log4netsample.logutility\\log4netsample.logutility.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D0C0E453-EA8D-4625-BF25-522D05DEE3E4}|Log4NetSample.LogUtility\\Log4NetSample.LogUtility.csproj|solutionrelative:log4netsample.logutility\\log4netsample.logutility.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44F398C7-F336-4857-9462-2CB5BD25F855}|Log4NetSample.ConsoleApp\\Log4NetSample.ConsoleApp.csproj|c:\\users\\p10\\downloads\\log4netsample.solution\\log4netsample.solution\\log4netsample.consoleapp\\log4netconfig.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{44F398C7-F336-4857-9462-2CB5BD25F855}|Log4NetSample.ConsoleApp\\Log4NetSample.ConsoleApp.csproj|solutionrelative:log4netsample.consoleapp\\log4netconfig.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 108,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Log4NetSample.LogUtility.csproj",
+              "DocumentMoniker": "C:\\Users\\P10\\Downloads\\Log4NetSample.Solution\\Log4NetSample.Solution\\Log4NetSample.LogUtility\\Log4NetSample.LogUtility.csproj",
+              "RelativeDocumentMoniker": "Log4NetSample.LogUtility\\Log4NetSample.LogUtility.csproj",
+              "ToolTip": "C:\\Users\\P10\\Downloads\\Log4NetSample.Solution\\Log4NetSample.Solution\\Log4NetSample.LogUtility\\Log4NetSample.LogUtility.csproj",
+              "RelativeToolTip": "Log4NetSample.LogUtility\\Log4NetSample.LogUtility.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-18T11:29:11.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "log4netconfig.config",
+              "DocumentMoniker": "C:\\Users\\P10\\Downloads\\Log4NetSample.Solution\\Log4NetSample.Solution\\Log4NetSample.ConsoleApp\\log4netconfig.config",
+              "RelativeDocumentMoniker": "Log4NetSample.ConsoleApp\\log4netconfig.config",
+              "ToolTip": "C:\\Users\\P10\\Downloads\\Log4NetSample.Solution\\Log4NetSample.Solution\\Log4NetSample.ConsoleApp\\log4netconfig.config",
+              "RelativeToolTip": "Log4NetSample.ConsoleApp\\log4netconfig.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-18T05:48:15.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Log4NetSample.ConsoleApp.csproj",
+              "DocumentMoniker": "C:\\Users\\P10\\Downloads\\Log4NetSample.Solution\\Log4NetSample.Solution\\Log4NetSample.ConsoleApp\\Log4NetSample.ConsoleApp.csproj",
+              "RelativeDocumentMoniker": "Log4NetSample.ConsoleApp\\Log4NetSample.ConsoleApp.csproj",
+              "ToolTip": "C:\\Users\\P10\\Downloads\\Log4NetSample.Solution\\Log4NetSample.Solution\\Log4NetSample.ConsoleApp\\Log4NetSample.ConsoleApp.csproj",
+              "RelativeToolTip": "Log4NetSample.ConsoleApp\\Log4NetSample.ConsoleApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-18T05:48:15.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\Downloads\\Log4NetSample.Solution\\Log4NetSample.Solution\\Log4NetSample.ConsoleApp\\Program.cs",
+              "RelativeDocumentMoniker": "Log4NetSample.ConsoleApp\\Program.cs",
+              "ToolTip": "C:\\Users\\P10\\Downloads\\Log4NetSample.Solution\\Log4NetSample.Solution\\Log4NetSample.ConsoleApp\\Program.cs",
+              "RelativeToolTip": "Log4NetSample.ConsoleApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T05:48:15.855Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

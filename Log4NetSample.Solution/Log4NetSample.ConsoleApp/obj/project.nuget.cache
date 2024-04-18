@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "vZysMQLMuOMgSiGSDGEW4TE68sq+pX4NT/MuW62k2Y75lJR7+Q+dmBhWxKi8XA0CGe9Pmc6z1zWZd01uhExthg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\P10\\Downloads\\Log4NetSample.Solution\\Log4NetSample.Solution\\Log4NetSample.ConsoleApp\\Log4NetSample.ConsoleApp.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Log4NetSample.LogUtility is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project Log4NetSample.LogUtility supports: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "Log4NetSample.LogUtility",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
