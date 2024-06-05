@@ -1,0 +1,11 @@
+C:\Users\P10\source\repos\Order_management1\Log4net\bin\Debug\net8.0\Log4net.deps.json
+C:\Users\P10\source\repos\Order_management1\Log4net\bin\Debug\net8.0\Log4net.dll
+C:\Users\P10\source\repos\Order_management1\Log4net\bin\Debug\net8.0\Log4net.pdb
+C:\Users\P10\source\repos\Order_management1\Log4net\obj\Debug\net8.0\Log4net.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\P10\source\repos\Order_management1\Log4net\obj\Debug\net8.0\Log4net.AssemblyInfoInputs.cache
+C:\Users\P10\source\repos\Order_management1\Log4net\obj\Debug\net8.0\Log4net.AssemblyInfo.cs
+C:\Users\P10\source\repos\Order_management1\Log4net\obj\Debug\net8.0\Log4net.csproj.CoreCompileInputs.cache
+C:\Users\P10\source\repos\Order_management1\Log4net\obj\Debug\net8.0\Log4net.dll
+C:\Users\P10\source\repos\Order_management1\Log4net\obj\Debug\net8.0\refint\Log4net.dll
+C:\Users\P10\source\repos\Order_management1\Log4net\obj\Debug\net8.0\Log4net.pdb
+C:\Users\P10\source\repos\Order_management1\Log4net\obj\Debug\net8.0\ref\Log4net.dll

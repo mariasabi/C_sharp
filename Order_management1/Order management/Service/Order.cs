@@ -9,23 +9,6 @@ namespace Order_management.Service
     public class Order:IOrder
     {
         private readonly OrderManagementContext _context;
-        /*     private static List<Item> items = new List<Item>()
-                 {
-                     new Item()
-                     {
-                         Id =1,
-                         Name="Dove soap",
-                         Type="Bath & body",
-                         Quantity=10
-                     },
-                     new Item()
-                     {
-                         Id=2,
-                         Name="Lux soap",
-                         Type="Bath & body",
-                         Quantity=15
-                     }
-                 };*/
         private static List<Item> items = new List<Item>();
         public Order(OrderManagementContext context)
         {
@@ -33,7 +16,6 @@ namespace Order_management.Service
         }
         public Task<List<Item>> GetItems()
         {
-            // return _items;
            return _context.Items.ToListAsync();
         }
         public async Task<Item> GetItem(int id)
@@ -42,18 +24,18 @@ namespace Order_management.Service
             var item =  _context.Items.FirstOrDefault(x => x.Id == id);
             return item;
         }
-        public async Task<List<Item>> AddItem(Item request)
+        public async Task<Item> AddItem(Item request)
         {
-            var existingItem = _context.Items.FirstOrDefault(x => x.Id == request.Id);
+           /* var existingItem = _context.Items.FirstOrDefault(x => x.Id == request.Id);
             if (existingItem != null)
             {
                 return null;
-            }
+            } */
             _context.Items.Add(request);
             _context.SaveChanges();
-            return items;
+            return request;
         }
-        public async Task<List<Item>> UpdateItem(Item request)
+        public async Task<Item> UpdateItem(Item request)
         {
             var existingItem = _context.Items.FirstOrDefault(x => x.Id == request.Id);
             if (existingItem == null)
@@ -64,7 +46,7 @@ namespace Order_management.Service
             existingItem.Name = request.Name;
             existingItem.Type = request.Type;
             _context.SaveChanges();
-            return items;
+            return request;
         }
         public async Task<Item> DeleteItem(int id)
         {

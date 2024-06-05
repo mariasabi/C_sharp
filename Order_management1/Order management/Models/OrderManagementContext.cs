@@ -29,8 +29,8 @@ public partial class OrderManagementContext : DbContext
 
             entity.ToTable("Item");
 
-            entity.Property(e => e.Id).ValueGeneratedNever()
-            .HasColumnName("Id");
+            entity.Property(e => e.Id)
+            .HasColumnName("Id").ValueGeneratedOnAdd();
             entity.Property(e => e.Name)
                 .HasMaxLength(50)
                 .HasColumnName("Name");

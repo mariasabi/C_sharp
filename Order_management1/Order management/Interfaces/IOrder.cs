@@ -6,8 +6,8 @@ namespace Order_management.Interfaces
     {
         Task<List<Item>> GetItems();
         Task<Item> GetItem(int id);
-        Task<List<Item>> AddItem(Item request);
-        Task<List<Item>> UpdateItem(Item request);
+        Task<Item> AddItem(Item request);
+        Task<Item> UpdateItem(Item request);
         Task<Item> DeleteItem(int id);
 
     }

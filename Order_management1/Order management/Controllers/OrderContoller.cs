@@ -27,10 +27,6 @@ namespace Order_management.Controllers
         [Route("getItem")]
         public async Task<ActionResult<Item>> GetItem(int id)
         {
-            if(id==null)
-            {
-                return NotFound();
-            }
             var item = await _order.GetItem(id);
             if (item == null)
                 return BadRequest("No item found!");
@@ -42,22 +38,22 @@ namespace Order_management.Controllers
         [Route("addItem")]
         public async Task<ActionResult<Item>> AddItem(Item request)
         {
-            var items = await _order.AddItem(request);
-            if (items==null)
-                return BadRequest("Such an item already exists");
+            var item = await _order.AddItem(request);
+           // if (item==null)
+             //   return BadRequest("Such an item already exists!");
             
-            return Ok(items);
+            return Ok(item);
         }
 
         [HttpPut]
         [Route("updateItem")]
         public async Task<ActionResult<Item>> UpdateItem(Item request)
         {
-            var items = await _order.UpdateItem(request);
-            if (items == null)
+            var item = await _order.UpdateItem(request);
+            if (item == null)
                 return BadRequest("No item found!");
 
-            return Ok(items);
+            return Ok(item);
         }
         [HttpGet]
         [Route("deleteItem")]

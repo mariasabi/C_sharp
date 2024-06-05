@@ -2851,6 +2851,16 @@
             "rid": "win"
           }
         }
+      },
+      "Log4net/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Log4net.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Log4net.dll": {}
+        }
       }
     }
   },
@@ -8294,10 +8304,16 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Log4net/1.0.0": {
+      "type": "project",
+      "path": "../Log4net/Log4net.csproj",
+      "msbuildProject": "../Log4net/Log4net.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Log4net >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.4",
@@ -8313,11 +8329,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\P10\\source\\repos\\Order management\\Order management\\Order management.csproj",
+      "projectUniqueName": "C:\\Users\\P10\\source\\repos\\Order_management1\\Order management\\Order management.csproj",
       "projectName": "Order management",
-      "projectPath": "C:\\Users\\P10\\source\\repos\\Order management\\Order management\\Order management.csproj",
+      "projectPath": "C:\\Users\\P10\\source\\repos\\Order_management1\\Order management\\Order management.csproj",
       "packagesPath": "C:\\Users\\P10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\P10\\source\\repos\\Order management\\Order management\\obj\\",
+      "outputPath": "C:\\Users\\P10\\source\\repos\\Order_management1\\Order management\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8338,7 +8354,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\P10\\source\\repos\\Order_management1\\Log4net\\Log4net.csproj": {
+              "projectPath": "C:\\Users\\P10\\source\\repos\\Order_management1\\Log4net\\Log4net.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
