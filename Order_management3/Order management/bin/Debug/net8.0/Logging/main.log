@@ -1,0 +1,8 @@
+2024-06-06 14:54:46,663 [9] INFO Order_management.Service.Order.GetItems[25] - Retrieved items
+2024-06-06 14:55:10,946 [5] INFO Order_management.Service.Order.GetItems[25] - Retrieved items
+2024-06-06 16:54:20,723 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-06 16:55:46,751 [7] INFO Order_management.Controllers.OrderContoller.MoveNext[30] - Retrieved items
+2024-06-06 16:56:22,692 [7] INFO Order_management.Controllers.OrderContoller.MoveNext[82] - Item deleted
+2024-06-06 16:56:29,354 [5] DEBUG Order_management.Controllers.OrderContoller.MoveNext[79] - No item found!
+2024-06-07 18:14:53,645 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-07 18:17:02,175 [20] DEBUG Order_management.Controllers.OrderContoller.MoveNext[42] - No such item id found!
