@@ -1,0 +1,8 @@
+2024-06-10 12:05:29,554 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-10 12:06:33,880 [7] INFO Order_management.Controllers.OrderController.MoveNext[31] - Retrieved items
+2024-06-10 12:07:47,170 [9] INFO Order_management.Controllers.OrderController.MoveNext[55] - Item added
+2024-06-12 11:59:03,737 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-12 12:03:39,530 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-12 14:53:27,676 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-12 14:58:14,431 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-12 15:25:17,144 [1] INFO Program.<Main>$[9] - Application started.
