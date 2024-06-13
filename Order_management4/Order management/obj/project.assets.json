@@ -9141,11 +9141,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\P10\\source\\repos\\Order_management4\\Order management\\Order management.csproj",
+      "projectUniqueName": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\Order management.csproj",
       "projectName": "Order management",
-      "projectPath": "C:\\Users\\P10\\source\\repos\\Order_management4\\Order management\\Order management.csproj",
+      "projectPath": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\Order management.csproj",
       "packagesPath": "C:\\Users\\P10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\P10\\source\\repos\\Order_management4\\Order management\\obj\\",
+      "outputPath": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

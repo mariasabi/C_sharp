@@ -1,38 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\P10\\source\\repos\\Order_management4\\",
+  "WorkspaceRootPath": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management4\\order management\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management4\\order management\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management4\\order management\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management4\\order management\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management4\\order management\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management4\\order management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\c_sharp\\order_management4\\order management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management4\\order management\\dtos\\resetrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\dtos\\resetrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\c_sharp\\order_management4\\order management\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management4\\order management\\service\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\c_sharp\\order_management4\\order management\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\c_sharp\\order_management4\\order management\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\c_sharp\\order_management4\\order management\\service\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\service\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\c_sharp\\order_management4\\order management\\exceptions\\argumentsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\exceptions\\argumentsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\c_sharp\\order_management4\\order management\\exceptions\\idnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\exceptions\\idnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\c_sharp\\order_management4\\order management\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\c_sharp\\order_management4\\order management\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\c_sharp\\order_management4\\order management\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,70 +50,120 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
+              "Title": "ArgumentsException.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\Exceptions\\ArgumentsException.cs",
+              "RelativeDocumentMoniker": "Order management\\Exceptions\\ArgumentsException.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\Exceptions\\ArgumentsException.cs",
+              "RelativeToolTip": "Order management\\Exceptions\\ArgumentsException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T13:23:25.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IdNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\Exceptions\\IdNotFoundException.cs",
+              "RelativeDocumentMoniker": "Order management\\Exceptions\\IdNotFoundException.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\Exceptions\\IdNotFoundException.cs",
+              "RelativeToolTip": "Order management\\Exceptions\\IdNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T13:13:56.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management4\\Order management\\Service\\Order.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\Service\\Order.cs",
               "RelativeDocumentMoniker": "Order management\\Service\\Order.cs",
-              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management4\\Order management\\Service\\Order.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\Service\\Order.cs",
               "RelativeToolTip": "Order management\\Service\\Order.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T09:15:30.952Z",
-              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\Interfaces\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "Order management\\Interfaces\\IAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\Interfaces\\IAuthenticationService.cs",
+              "RelativeToolTip": "Order management\\Interfaces\\IAuthenticationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T11:18:42.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management4\\Order management\\Controllers\\OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Order management\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management4\\Order management\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\Controllers\\OrderController.cs",
               "RelativeToolTip": "Order management\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAwwAAAAAAAAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T10:02:54.911Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ResetRequest.cs",
-              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management4\\Order management\\DTOs\\ResetRequest.cs",
-              "RelativeDocumentMoniker": "Order management\\DTOs\\ResetRequest.cs",
-              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management4\\Order management\\DTOs\\ResetRequest.cs",
-              "RelativeToolTip": "Order management\\DTOs\\ResetRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "Order management\\Service\\AuthService.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\Service\\AuthService.cs",
+              "RelativeToolTip": "Order management\\Service\\AuthService.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowI4AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T09:52:12.687Z",
+              "WhenOpened": "2024-06-12T05:13:52.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Order management\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Order management\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCYAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T05:05:26.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "RegisterRequest.cs",
-              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management4\\Order management\\DTOs\\RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\DTOs\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "Order management\\DTOs\\RegisterRequest.cs",
-              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management4\\Order management\\DTOs\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\DTOs\\RegisterRequest.cs",
               "RelativeToolTip": "Order management\\DTOs\\RegisterRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T09:51:26.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T09:51:26.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management4\\Order management\\DTOs\\LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\DTOs\\LoginRequest.cs",
               "RelativeDocumentMoniker": "Order management\\DTOs\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management4\\Order management\\DTOs\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\DTOs\\LoginRequest.cs",
               "RelativeToolTip": "Order management\\DTOs\\LoginRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T09:51:10.195Z",
               "EditorCaption": ""
@@ -113,40 +171,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management4\\Order management\\Service\\AuthService.cs",
-              "RelativeDocumentMoniker": "Order management\\Service\\AuthService.cs",
-              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management4\\Order management\\Service\\AuthService.cs",
-              "RelativeToolTip": "Order management\\Service\\AuthService.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAQwG4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T05:13:52.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management4\\Order management\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\Program.cs",
               "RelativeDocumentMoniker": "Order management\\Program.cs",
-              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management4\\Order management\\Program.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\C_sharp\\Order_management4\\Order management\\Program.cs",
               "RelativeToolTip": "Order management\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T06:21:09.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management4\\Order management\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Order management\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management4\\Order management\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Order management\\Controllers\\UserController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwC4AAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T05:05:26.473Z",
               "EditorCaption": ""
             }
           ]

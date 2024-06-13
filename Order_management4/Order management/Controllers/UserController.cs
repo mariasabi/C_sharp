@@ -14,7 +14,7 @@ namespace Order_management.Controllers
     public class UserController :ControllerBase
     {
         private readonly IAuthenticationService _authenticationService;
-
+        
         public UserController(IAuthenticationService authenticationService)
         {
             _authenticationService = authenticationService;
@@ -37,10 +37,9 @@ namespace Order_management.Controllers
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(string))]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> Register([FromBody] RegisterRequest request)
+        public async Task<ActionResult<User>> Register([FromBody] RegisterRequest request)
         {
             var response = await _authenticationService.Register(request);
-
             return Ok(response);
         }
         [AllowAnonymous]
@@ -52,6 +51,20 @@ namespace Order_management.Controllers
         {
             var response = await _authenticationService.ResetPassword(request);
 
+            return Ok(response);
+        }
+        [AllowAnonymous]
+        [HttpGet("getUsers")]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(string))]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult<User>> GetUsers()
+        {
+            var response = await _authenticationService.GetUsers();
+            if(response.Count==0)
+            {
+                return NotFound("No user found");
+            }
             return Ok(response);
         }
     }

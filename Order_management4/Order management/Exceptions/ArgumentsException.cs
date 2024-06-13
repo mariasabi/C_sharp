@@ -1,15 +1,14 @@
 ﻿namespace Order_management.Exceptions
 {
-    public class IdNotFoundException : Exception
+    public class ArgumentsException: Exception
     {
-        public IdNotFoundException(string message) : base(message)
+        public ArgumentsException(string message) : base(message)
         {
-
         }
+
         public override string ToString()
         {
             return Message;
         }
     }
 }
-

@@ -6,7 +6,10 @@ using System.Security.Cryptography;
 using System.Text;
 using Order_management.DTOs;
 using System.ComponentModel.DataAnnotations;
-
+using log4net;
+using Order_management.Controllers;
+using Microsoft.IdentityModel.Tokens;
+using Order_management.Exceptions;
 
 
 //using Microsoft.AspNetCore.Identity.Data;
@@ -17,13 +20,13 @@ namespace Order_management.Service
     {
         private readonly OrderManagementContext _context;
         private readonly IConfiguration _configuration;
-
+        private static readonly ILog log = LogManager.GetLogger(typeof(AuthService));
         public AuthService(OrderManagementContext context, IConfiguration configuration)
         {
             _context = context;
             _configuration = configuration;
         }
-        public async Task<string> Register(RegisterRequest request)
+        public async Task<User> Register(RegisterRequest request)
         {
             ValidateEmail(request.Email);
             ValidateUsername(request.Username);
@@ -33,7 +36,8 @@ namespace Order_management.Service
 
             if (userByEmail != null || userByUsername != null)
             {
-                throw new ArgumentException($"User with email {request.Email} or username {request.Username} already exists.");
+                log.Debug($"Registration failed! User {request.Username} already exists.");
+                throw new ArgumentsException($"Such a user already exists.");
             }
 
             var user = new User
@@ -45,8 +49,8 @@ namespace Order_management.Service
 
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
-
-            return "Registration successful";
+            log.Info($"New user with user {request.Username} added.");
+            return user;
         }
 
         public async Task<string> Login(LoginRequest request)
@@ -55,9 +59,10 @@ namespace Order_management.Service
 
             if (user == null || !VerifyPassword(request.Password, user.Password))
             {
-                throw new ArgumentException($"Unable to authenticate user {request.Username}");
+                log.Debug($"Login failed! Username or password is invalid.");
+                throw new ArgumentsException($"Login failed");
             }
-
+            log.Info($"User {request.Username} logged in.");
             return "Login successful";
         }
 
@@ -67,11 +72,24 @@ namespace Order_management.Service
 
             if (user == null || !VerifyPassword(request.OldPassword, user.Password))
             {
-                throw new ArgumentException($"Unable to authenticate user {request.Username}");
+                log.Debug($"Unable to authenticate user for resetting password.");
+                throw new ArgumentsException($"Username or old password is not valid.");
             }
             user.Password = HashPassword(request.NewPassword);
             _context.SaveChanges();
-            return "Password reset";
+            log.Debug($"Password reset for user {request.Username}.");
+            return "Password reset successfully";
+        }
+        public async Task<List<User>> GetUsers()
+        {
+            var user = await _context.Users.ToListAsync();
+
+            if (user.Count==0)
+            {
+                log.Debug("No users found to retrieve.");
+            }
+           
+            return user;
         }
         private string HashPassword(string password)
         {
@@ -95,7 +113,7 @@ namespace Order_management.Service
             var emailAttribute = new EmailAddressAttribute();
             if (!emailAttribute.IsValid(email))
             {
-                throw new ArgumentException("Invalid email format");
+                throw new ArgumentsException("Invalid email format.");
             }
         }
 
@@ -103,7 +121,8 @@ namespace Order_management.Service
         {
             if (string.IsNullOrWhiteSpace(username) || username.Length < 3)
             {
-                throw new ArgumentException("Username must be at least 3 characters long");
+                throw new ArgumentsException("Username must be at least 3 characters long.");
+
             }
         }
 
@@ -111,11 +130,20 @@ namespace Order_management.Service
         {
             if (string.IsNullOrWhiteSpace(password) || password.Length < 6)
             {
-                throw new ArgumentException("Password must be at least 6 characters long");
+                throw new ArgumentsException("Password must be at least 6 characters long.");
             }
 
-            // Additional password complexity checks can be added here
+            if (!password.Any(char.IsUpper))
+            {
+                throw new ArgumentsException("Password must contain at least one uppercase letter.");
+            }
+
+            if (!password.Any(ch => !char.IsLetterOrDigit(ch)))
+            {
+                throw new ArgumentsException("Password must contain at least one special character.");
+            }
         }
+
 
     }
 }
