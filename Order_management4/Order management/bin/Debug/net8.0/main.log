@@ -44,3 +44,19 @@
 2024-06-13 18:50:07,886 [5] DEBUG Order_management.Service.AuthService.MoveNext[62] - Login failed! Username or password is invalid.
 2024-06-13 19:01:39,582 [1] INFO Program.<Main>$[9] - Application started.
 2024-06-13 19:02:14,779 [7] DEBUG Order_management.Service.AuthService.MoveNext[62] - Login failed! Username or password is invalid.
+2024-06-14 10:53:19,179 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-14 11:58:51,988 [9] DEBUG Order_management.Service.AuthService.MoveNext[57] - Login failed! Username or password is invalid.
+2024-06-14 11:59:30,386 [9] INFO Order_management.Service.AuthService.MoveNext[60] - User maria logged in.
+2024-06-14 12:00:12,351 [31] DEBUG Order_management.Service.AuthService.MoveNext[70] - Unable to authenticate user for resetting password.
+2024-06-14 12:00:29,803 [31] DEBUG Order_management.Service.AuthService.MoveNext[75] - Password reset for user Gigi.
+2024-06-14 12:00:38,104 [24] DEBUG Order_management.Service.AuthService.MoveNext[75] - Password reset for user Gigi.
+2024-06-14 12:01:39,590 [9] INFO Order_management.Service.Order.MoveNext[29] - Retrieved all items.
+2024-06-14 12:01:50,178 [23] DEBUG Order_management.Service.Order.MoveNext[38] - Item cannot be retrieved.
+2024-06-14 15:14:08,839 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-14 15:26:39,601 [5] INFO Order_management.Service.AuthService.MoveNext[0] - User maria logged in.
+2024-06-14 16:12:10,714 [15] INFO Order_management.Service.AuthService.MoveNext[0] - User maria logged in.
+2024-06-14 16:14:41,134 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-14 16:45:45,726 [23] INFO Order_management.Service.AuthService.MoveNext[47] - New user with user Yadu added.
+2024-06-14 16:47:58,753 [17] DEBUG Order_management.Service.AuthService.MoveNext[57] - Login failed! Username or password is invalid.
+2024-06-14 16:48:23,153 [26] INFO Order_management.Service.AuthService.MoveNext[60] - User maria logged in.
+2024-06-14 16:48:58,320 [26] DEBUG Order_management.Service.AuthService.MoveNext[75] - Password reset for user maria.

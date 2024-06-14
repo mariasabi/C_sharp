@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿
 using Microsoft.EntityFrameworkCore;
 using Order_management.Interfaces;
 using Order_management.Models;
@@ -7,24 +7,19 @@ using System.Text;
 using Order_management.DTOs;
 using System.ComponentModel.DataAnnotations;
 using log4net;
-using Order_management.Controllers;
-using Microsoft.IdentityModel.Tokens;
 using Order_management.Exceptions;
 
 
-//using Microsoft.AspNetCore.Identity.Data;
 
 namespace Order_management.Service
 {
     public class AuthService: IAuthenticationService
     {
         private readonly OrderManagementContext _context;
-        private readonly IConfiguration _configuration;
         private static readonly ILog log = LogManager.GetLogger(typeof(AuthService));
-        public AuthService(OrderManagementContext context, IConfiguration configuration)
+        public AuthService(OrderManagementContext context)
         {
             _context = context;
-            _configuration = configuration;
         }
         public async Task<User> Register(RegisterRequest request)
         {
@@ -125,7 +120,6 @@ namespace Order_management.Service
 
             }
         }
-
         private void ValidatePassword(string password)
         {
             if (string.IsNullOrWhiteSpace(password) || password.Length < 6)

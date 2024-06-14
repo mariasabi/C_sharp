@@ -1,6 +1,5 @@
-﻿//using Microsoft.AspNetCore.Authentication;
+﻿
 using Microsoft.AspNetCore.Authorization;
-//using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 using Order_management.Interfaces;
 using Order_management.Models;
@@ -22,10 +21,8 @@ namespace Order_management.Controllers
 
         [AllowAnonymous]
         [HttpPost("login")]
-        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(string))]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> Login([FromBody] LoginRequest request)
+       
+        public async Task<IActionResult> Login( LoginRequest request)
         {
             var response = await _authenticationService.Login(request);
 
@@ -34,30 +31,23 @@ namespace Order_management.Controllers
 
         [AllowAnonymous]
         [HttpPost("register")]
-        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(string))]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<ActionResult<User>> Register([FromBody] RegisterRequest request)
+    
+        public async Task<ActionResult<User>> Register( RegisterRequest request)
         {
             var response = await _authenticationService.Register(request);
             return Ok(response);
         }
         [AllowAnonymous]
         [HttpPut("resetPassword")]
-        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(string))]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> ResetPassword([FromBody] ResetRequest request)
+      
+        public async Task<IActionResult> ResetPassword(ResetRequest request)
         {
             var response = await _authenticationService.ResetPassword(request);
 
             return Ok(response);
         }
-        [AllowAnonymous]
+        
         [HttpGet("getUsers")]
-        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(string))]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<User>> GetUsers()
         {
             var response = await _authenticationService.GetUsers();
