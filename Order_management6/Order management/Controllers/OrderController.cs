@@ -7,7 +7,7 @@ using Order_management.Exceptions;
 using Microsoft.AspNetCore.Authorization;
 namespace Order_management.Controllers
 {
-   //[Authorize]
+  // [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class OrderController : ControllerBase

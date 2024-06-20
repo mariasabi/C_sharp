@@ -88,3 +88,30 @@
 2024-06-19 16:48:34,449 [5] INFO Order_management.Service.Order.MoveNext[72] - Retrieved all items.
 2024-06-19 17:12:57,511 [1] INFO Program.<Main>$[13] - Application started.
 2024-06-19 17:13:24,710 [9] INFO Order_management.Service.Order.MoveNext[72] - Retrieved all items.
+2024-06-20 10:38:15,767 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-20 11:06:32,327 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-20 11:09:32,867 [5] INFO Order_management.Service.AuthService.MoveNext[66] - User Yadu logged in.
+2024-06-20 11:10:09,129 [5] INFO Order_management.Service.Order.MoveNext[74] - Retrieved all items.
+2024-06-20 11:10:28,092 [20] INFO Order_management.Service.Order.MoveNext[64] - Added all items in bulk to database.
+2024-06-20 11:10:31,063 [5] INFO Order_management.Service.Order.MoveNext[74] - Retrieved all items.
+2024-06-20 12:01:04,649 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-20 12:04:15,453 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-20 12:32:40,095 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-20 12:33:40,658 [7] INFO Order_management.Service.Order.MoveNext[111] - Added all items in bulk to database.
+2024-06-20 12:33:50,291 [7] DEBUG Order_management.Service.Order.MoveNext[64] - CSV header does not match the expected format, Bulk Upload failed
+2024-06-20 12:34:01,988 [17] INFO Order_management.Service.Order.MoveNext[111] - Added all items in bulk to database.
+2024-06-20 12:34:16,329 [5] DEBUG Order_management.Service.Order.MoveNext[78] - CSV contains empty or null fields, Bulk Upload failed
+2024-06-20 12:34:42,434 [7] INFO Order_management.Service.Order.MoveNext[121] - Retrieved all items.
+2024-06-20 12:35:18,278 [5] INFO Order_management.Service.Order.MoveNext[111] - Added all items in bulk to database.
+2024-06-20 12:35:22,804 [3] INFO Order_management.Service.Order.MoveNext[121] - Retrieved all items.
+2024-06-20 12:36:46,365 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-20 12:37:37,846 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-20 12:37:53,727 [7] INFO Order_management.Service.Order.MoveNext[111] - Added all items in bulk to database.
+2024-06-20 12:37:59,210 [5] INFO Order_management.Service.Order.MoveNext[121] - Retrieved all items.
+2024-06-20 13:21:11,434 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-20 13:21:35,595 [9] INFO Order_management.Service.Order.MoveNext[100] - Added all items in bulk from bulk1.csvto database.
+2024-06-20 13:21:39,847 [10] INFO Order_management.Service.Order.MoveNext[110] - Retrieved all items.
+2024-06-20 15:51:51,134 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-20 15:52:13,403 [5] INFO Order_management.Service.Order.MoveNext[121] - Retrieved all items.
+2024-06-20 15:52:57,211 [19] DEBUG Order_management.Service.Order.MoveNext[78] - CSV contains empty or null fields, Bulk Upload failed
+2024-06-20 15:53:03,112 [5] INFO Order_management.Service.Order.MoveNext[121] - Retrieved all items.
