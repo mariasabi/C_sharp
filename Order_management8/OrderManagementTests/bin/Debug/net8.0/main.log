@@ -1,0 +1,98 @@
+2024-06-25 18:18:56,363 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-25 18:22:20,191 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-25 18:22:37,348 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-25 18:23:15,836 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-25 18:24:01,410 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-25 18:30:07,271 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-25 18:30:31,951 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-25 18:37:02,725 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[134] - No items found to retrieve.
+2024-06-25 18:37:02,725 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-25 18:37:02,748 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-25 18:43:21,295 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[134] - No items found to retrieve.
+2024-06-25 18:43:21,317 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-25 18:43:21,470 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-25 18:45:48,842 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[134] - No items found to retrieve.
+2024-06-25 18:45:48,867 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-25 18:45:48,915 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[168] - Retrieved item with ID 2.
+2024-06-25 18:45:48,918 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-25 18:45:49,031 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[164] - Item cannot be retrieved.
+2024-06-26 10:17:39,371 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[134] - No items found to retrieve.
+2024-06-26 10:17:40,103 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-26 10:17:40,496 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[168] - Retrieved item with ID 2.
+2024-06-26 10:17:40,544 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[164] - Item cannot be retrieved.
+2024-06-26 10:17:40,657 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-26 11:14:37,130 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[194] - Item cannot be retrieved to update.
+2024-06-26 11:14:37,130 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[134] - No items found to retrieve.
+2024-06-26 11:14:37,401 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-26 11:14:37,523 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[164] - Item cannot be retrieved.
+2024-06-26 11:14:37,525 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[168] - Retrieved item with ID 2.
+2024-06-26 11:14:37,576 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-26 11:14:37,762 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[197] - Item with ID 2 updated.
+2024-06-26 11:14:38,592 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[180] - Item with ID 4 added.
+2024-06-26 11:18:47,031 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[194] - Item cannot be retrieved to update.
+2024-06-26 11:18:47,031 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[194] - Item cannot be retrieved to update.
+2024-06-26 11:18:47,031 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[134] - No items found to retrieve.
+2024-06-26 11:18:47,057 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-26 11:18:47,130 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[164] - Item cannot be retrieved.
+2024-06-26 11:18:47,131 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[168] - Retrieved item with ID 2.
+2024-06-26 11:18:47,192 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-26 11:18:47,193 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[197] - Item with ID 2 updated.
+2024-06-26 11:18:47,368 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[180] - Item with ID 4 added.
+2024-06-26 11:21:42,519 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[134] - No items found to retrieve.
+2024-06-26 11:21:42,519 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[194] - Item cannot be retrieved to update.
+2024-06-26 11:21:42,519 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[194] - Item cannot be retrieved to update.
+2024-06-26 11:21:42,542 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-26 11:21:42,618 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[164] - Item cannot be retrieved.
+2024-06-26 11:21:42,619 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[168] - Retrieved item with ID 2.
+2024-06-26 11:21:42,669 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-26 11:21:42,671 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[197] - Item with ID 2 updated.
+2024-06-26 11:21:42,958 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[180] - Item with ID 4 added.
+2024-06-26 11:24:24,303 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[134] - No items found to retrieve.
+2024-06-26 11:24:24,303 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[197] - Item with ID 2 updated.
+2024-06-26 11:24:24,303 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[194] - Item cannot be retrieved to update.
+2024-06-26 11:24:24,303 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[218] - Item with ID 2 deleted.
+2024-06-26 11:24:24,332 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-26 11:24:24,413 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[164] - Item cannot be retrieved.
+2024-06-26 11:24:24,425 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[168] - Retrieved item with ID 2.
+2024-06-26 11:24:24,486 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[180] - Item with ID 4 added.
+2024-06-26 11:24:24,489 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-26 11:25:46,161 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[194] - Item cannot be retrieved to update.
+2024-06-26 11:25:46,161 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[197] - Item with ID 2 updated.
+2024-06-26 11:25:46,161 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[215] - Item cannot be retrieved to delete.
+2024-06-26 11:25:46,161 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[134] - No items found to retrieve.
+2024-06-26 11:25:46,191 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-26 11:25:46,260 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[164] - Item cannot be retrieved.
+2024-06-26 11:25:46,260 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[168] - Retrieved item with ID 2.
+2024-06-26 11:25:46,302 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-26 11:25:46,305 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[180] - Item with ID 4 added.
+2024-06-26 11:31:05,817 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[134] - No items found to retrieve.
+2024-06-26 11:31:05,817 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[147] - Page number requested is more than total pages which is 2.
+2024-06-26 11:31:05,817 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[215] - Item cannot be retrieved to delete.
+2024-06-26 11:31:05,817 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[194] - Item cannot be retrieved to update.
+2024-06-26 11:31:05,840 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-26 11:31:05,902 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[197] - Item with ID 2 updated.
+2024-06-26 11:31:05,910 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[164] - Item cannot be retrieved.
+2024-06-26 11:31:05,912 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[168] - Retrieved item with ID 2.
+2024-06-26 11:31:05,972 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[180] - Item with ID 4 added.
+2024-06-26 11:31:05,975 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-26 11:37:40,562 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[59] - File doesn't exist, Bulk Upload failed
+2024-06-26 11:40:21,596 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[76] - CSV header does not match the expected format, Bulk Upload failed
+2024-06-26 11:42:14,398 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[76] - CSV header does not match the expected format, Bulk Upload failed
+2024-06-26 11:43:22,830 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[91] - CSV contains empty or null fields at row 1
+2024-06-26 11:43:23,075 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[121] - Items added from withnullfields.csv and added to DB successfully, but some cells are empty or null
+2024-06-26 16:43:16,279 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[218] - Item with ID 2 deleted.
+2024-06-26 16:43:16,279 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[194] - Item cannot be retrieved to update.
+2024-06-26 16:43:16,279 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[215] - Item cannot be retrieved to delete.
+2024-06-26 16:43:16,279 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[59] - File doesn't exist, Bulk Upload failed
+2024-06-26 16:43:16,489 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[134] - No items found to retrieve.
+2024-06-26 16:43:16,490 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-26 16:43:16,494 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[164] - Item cannot be retrieved.
+2024-06-26 16:43:16,549 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[147] - Page number requested is more than total pages which is 2.
+2024-06-26 16:43:16,584 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[180] - Item with ID 4 added.
+2024-06-26 16:43:16,587 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[197] - Item with ID 2 updated.
+2024-06-26 16:43:16,590 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[168] - Retrieved item with ID 2.
+2024-06-26 16:43:16,630 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[76] - CSV header does not match the expected format, Bulk Upload failed
+2024-06-26 16:43:16,640 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[91] - CSV contains empty or null fields at row 1
+2024-06-26 16:43:16,644 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-26 16:43:16,762 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[121] - Items added from withnullfields.csv and added to DB successfully, but some cells are empty or null
+2024-06-26 16:44:49,023 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[218] - Item with ID 2 deleted.

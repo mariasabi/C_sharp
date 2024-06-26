@@ -1,0 +1,128 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\P10\\source\\repos\\Order_management8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6890D51B-EB66-4F4E-9128-EA250504C73D}|OrderManagementTests\\OrderManagementTests.csproj|c:\\users\\p10\\source\\repos\\order_management8\\ordermanagementtests\\usercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6890D51B-EB66-4F4E-9128-EA250504C73D}|OrderManagementTests\\OrderManagementTests.csproj|solutionrelative:ordermanagementtests\\usercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management8\\order management\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management8\\order management\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6890D51B-EB66-4F4E-9128-EA250504C73D}|OrderManagementTests\\OrderManagementTests.csproj|c:\\users\\p10\\source\\repos\\order_management8\\ordermanagementtests\\orderservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6890D51B-EB66-4F4E-9128-EA250504C73D}|OrderManagementTests\\OrderManagementTests.csproj|solutionrelative:ordermanagementtests\\orderservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6890D51B-EB66-4F4E-9128-EA250504C73D}|OrderManagementTests\\OrderManagementTests.csproj|c:\\users\\p10\\source\\repos\\order_management8\\ordermanagementtests\\ordercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6890D51B-EB66-4F4E-9128-EA250504C73D}|OrderManagementTests\\OrderManagementTests.csproj|solutionrelative:ordermanagementtests\\ordercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6890D51B-EB66-4F4E-9128-EA250504C73D}|OrderManagementTests\\OrderManagementTests.csproj|c:\\users\\p10\\source\\repos\\order_management8\\ordermanagementtests\\authservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6890D51B-EB66-4F4E-9128-EA250504C73D}|OrderManagementTests\\OrderManagementTests.csproj|solutionrelative:ordermanagementtests\\authservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 256,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management8\\OrderManagementTests\\AuthServiceTests.cs",
+              "RelativeDocumentMoniker": "OrderManagementTests\\AuthServiceTests.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management8\\OrderManagementTests\\AuthServiceTests.cs",
+              "RelativeToolTip": "OrderManagementTests\\AuthServiceTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T11:18:01.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management8\\OrderManagementTests\\UserControllerTests.cs",
+              "RelativeDocumentMoniker": "OrderManagementTests\\UserControllerTests.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management8\\OrderManagementTests\\UserControllerTests.cs",
+              "RelativeToolTip": "OrderManagementTests\\UserControllerTests.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAgwHEAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T11:18:47.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management8\\OrderManagementTests\\OrderControllerTests.cs",
+              "RelativeDocumentMoniker": "OrderManagementTests\\OrderControllerTests.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management8\\OrderManagementTests\\OrderControllerTests.cs",
+              "RelativeToolTip": "OrderManagementTests\\OrderControllerTests.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAIwFUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T08:30:07.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management8\\OrderManagementTests\\OrderServiceTests.cs",
+              "RelativeDocumentMoniker": "OrderManagementTests\\OrderServiceTests.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management8\\OrderManagementTests\\OrderServiceTests.cs",
+              "RelativeToolTip": "OrderManagementTests\\OrderServiceTests.cs",
+              "ViewState": "AQIAANkAAAAAAAAAAAAQwOYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T11:16:38.346Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management8\\Order management\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "Order management\\Service\\AuthService.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management8\\Order management\\Service\\AuthService.cs",
+              "RelativeToolTip": "Order management\\Service\\AuthService.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAIwHoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T11:16:17.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management8\\Order management\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Order management\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management8\\Order management\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Order management\\Controllers\\UserController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAIwDwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T11:16:03.082Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
