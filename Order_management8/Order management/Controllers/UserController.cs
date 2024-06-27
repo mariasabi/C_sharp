@@ -39,7 +39,7 @@ namespace Order_management.Controllers
         [AllowAnonymous]
         [HttpPost("register")]
     
-        public async Task<ActionResult<User>> Register( RegisterRequest request)
+        public async Task<IActionResult> Register( RegisterRequest request)
         {
             var response = await _authenticationService.Register(request);
             return Ok(response);

@@ -9,7 +9,7 @@ namespace Order_management.Interfaces
         Task<Item> AddItem(Item request);
         Task<Item> UpdateItem(Item request);
         Task<Item> DeleteItem(int id);
-        Task<string> BulkAddItem(string filename);
+    //    Task<string> BulkAddItem(string filename);
     //    Task<string> BulkAddItemDynamic(string filename);
         Task<List<Item>> GetPaginatedItems(int page, int pageSize);
     }

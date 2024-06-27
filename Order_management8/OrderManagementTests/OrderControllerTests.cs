@@ -21,17 +21,7 @@ namespace OrderManagementTests
             new Item { Id = 1,Name="Vicks",Type="medicine",Quantity=10,Price=30},
             new Item { Id = 2,Name="Dolo",Type="medicine",Quantity=5,Price=3}
         };
-        [Fact]
-        public async void BulkAddItem_ReturnsOk()
-        {
-            var response= "Items added successfully ";
-            _mockOrder.Setup(x => x.BulkAddItem(It.IsAny<string>())).ReturnsAsync(response);
-            var result = await _controller.BulkAddItem(It.IsAny<string>());
-
-            var okResult = Assert.IsType<OkObjectResult>(result.Result);
-            var returnValue = Assert.IsType<string>(okResult.Value);
-            //Assert.Equal(2, returnValue.Count);
-        }
+       
         [Fact]
         public async void GetItems_ReturnsOk()
         {
@@ -85,7 +75,7 @@ namespace OrderManagementTests
 
             var okResult =Assert.IsType<OkObjectResult>(result.Result);
             var returnValue = Assert.IsType<Item>(okResult.Value);
-            //Assert.Equal(2, returnValue.Count);
+            
         }
         [Fact]
         public async void UpdateItem_ReturnsOk()
@@ -96,7 +86,7 @@ namespace OrderManagementTests
 
             var okResult = Assert.IsType<OkObjectResult>(result.Result);
             var returnValue = Assert.IsType<Item>(okResult.Value);
-            //Assert.Equal(2, returnValue.Count);
+            
         }
         [Fact]
         public async void DeleteItem_ReturnsOk()
@@ -107,7 +97,7 @@ namespace OrderManagementTests
 
             var okResult = Assert.IsType<OkObjectResult>(result.Result);
             var returnValue = Assert.IsType<Item>(okResult.Value);
-            //Assert.Equal(2, returnValue.Count);
+         
         }
     }
 }

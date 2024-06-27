@@ -117,6 +117,7 @@ namespace Order_management.Service
                 log.Debug($"Unable to authenticate user for resetting password.");
                 throw new ArgumentsException($"Username or old password is not valid.");
             }
+            ValidatePassword(request.NewPassword);
             user.Password = HashPassword(request.NewPassword);
             _context.SaveChanges();
             log.Debug($"Password reset for user {request.Username}.");
@@ -142,7 +143,7 @@ namespace Order_management.Service
         /// </summary>
         /// <param name="password"></param>
         /// <returns>string</returns>
-        private string HashPassword(string password)
+        public string HashPassword(string password)
         {
             using var sha256 = SHA256.Create();
             var bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));

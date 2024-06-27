@@ -8,7 +8,7 @@ using Order_management.Exceptions;
 using Order_management.Models;
 using System.ComponentModel;
 using System.Reflection;
-using Order_management.Interfaces;
+using Order_management .Interfaces;
 using NetTopologySuite.Index.HPRtree;
 
 namespace Order_management.Service
@@ -50,7 +50,7 @@ namespace Order_management.Service
                 csv.ReadHeader();
                 var headerRow = csv.HeaderRecord;
                 // Dynamically check and map headers to properties
-                // var properties = typeof(Item).GetProperties();
+                
                 var propertyMap = new Dictionary<string, PropertyInfo>();
 
                 foreach (var header in headerRow)
@@ -63,15 +63,13 @@ namespace Order_management.Service
                     else
                     {
                         log.Debug($"CSV header '{header}' does not match any property in the Item class.");
-                        throw new ArgumentException($"CSV header '{header}' does not match any property in the Item class.");
+                        throw new CSVException($"CSV header '{header}' does not match any property in the Item class.");
                     }
                 }
 
                 int i = 0;
                 bool flag = false;
-                //int headerLength = headerRow.Count();
-
-                // var allFields = new List<string>();
+                
                 while (csv.Read())
                 {
                     i++;
@@ -123,12 +121,17 @@ namespace Order_management.Service
                     }
                 }
             }
-            await _context.BulkInsertAsync(items);
-            _context.SaveChanges();
+            foreach(var i in items)
+            {
+                _context.Items.Add(i);
+
+            }
+            await _context.SaveChangesAsync();
             log.Debug("Items added from " + fileName + " and added to DB successfully" + emptyCell);
             return "Items added successfully " + emptyCell;
 
         }
+
         public async Task<Item> UpdateItem(Item request)
         {
             var existingItem = _context.Items.FirstOrDefault(x => x.Id == request.Id);

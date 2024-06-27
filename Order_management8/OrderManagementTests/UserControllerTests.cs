@@ -26,7 +26,7 @@ namespace OrderManagementTests
             _controller = new UserController(_mockAuthService.Object);
         }
        
-        //private RegisterRequest _regist
+       
         [Fact]
         public async Task Login_ValidCredentials_TokenGenerated()
         {
@@ -43,43 +43,41 @@ namespace OrderManagementTests
         [Fact]
         public async Task Login_InValidCredentials_UnauthorizedUser()
         {
-            //User _user = new User { Email = "maria@gmail.com", Username = "maria", Password = "maria.123" };
             LoginRequest _login = new LoginRequest { Username = "maria_sabi", Password = "maria.123" };
-            //string response = "Sometoken";
+           
             _mockAuthService.Setup(x => x.Login(_login)).ReturnsAsync((User)null);
-            //_mockAuthService.Setup(x => x.GenerateJSONWebToken(It.IsAny<User>())).Returns(response);
+           
             var result = await _controller.Login(_login);
 
             var okResult = Assert.IsType<UnauthorizedResult>(result);
-           // var returnValue = Assert.IsType<string>(okResult.Value);
+         
         }
         [Fact]
         public async Task Register_RegisteredUser()
         {
             User _user = new User { Email = "maria@gmail.com", Username = "maria", Password = "maria.123" };
             RegisterRequest _register = new RegisterRequest { Email="maria@gmail.com",Username = "maria", Password = "maria.123" };
-            //string response = "Sometoken";
+           
             _mockAuthService.Setup(x => x.Register(_register)).ReturnsAsync(_user);
-            //_mockAuthService.Setup(x => x.GenerateJSONWebToken(It.IsAny<User>())).Returns(response);
+            
             var result = await _controller.Register(_register);
 
             var okResult = Assert.IsType<OkObjectResult>(result);
             var returnValue = Assert.IsType<User>(okResult.Value);
-            // var returnValue = Assert.IsType<string>(okResult.Value);
+            
         }
         [Fact]
         public async Task ResetPassword_UpdatedUser()
         {
-           // User _user = new User { Email = "maria@gmail.com", Username = "maria", Password = "maria.1234" };
-            ResetRequest _reset = new ResetRequest { Username = "maria", OldPassword = "maria.123",NewPassword="maria.1234" };
-            //string response = "Sometoken";
+
+            ResetRequest _reset = new ResetRequest { Username = "maria", OldPassword = "maria.123", NewPassword = "maria.1234" };
+
             _mockAuthService.Setup(x => x.ResetPassword(_reset)).ReturnsAsync("Password reset successfully");
-            //_mockAuthService.Setup(x => x.GenerateJSONWebToken(It.IsAny<User>())).Returns(response);
+
             var result = await _controller.ResetPassword(_reset);
 
             var okResult = Assert.IsType<OkObjectResult>(result);
             var returnValue = Assert.IsType<string>(okResult.Value);
-            // var returnValue = Assert.IsType<string>(okResult.Value);
         }
         [Fact]
         public async Task GetUsers_ReturnOneOrMoreUsers()
@@ -90,31 +88,23 @@ namespace OrderManagementTests
                 new User { Email = "gigi@gmail.com", Username = "gigi", Password = "gigi.1234" }
             };
             User _user = new User { Email = "maria@gmail.com", Username = "maria", Password = "maria.1234" };
-            //ResetRequest _reset = new ResetRequest { Username = "maria", OldPassword = "maria.123", NewPassword = "maria.1234" };
-            //string response = "Sometoken";
+            
             _mockAuthService.Setup(x => x.GetUsers()).ReturnsAsync(_users);
-            //_mockAuthService.Setup(x => x.GenerateJSONWebToken(It.IsAny<User>())).Returns(response);
+            
             var result = await _controller.GetUsers();
 
             var okResult = Assert.IsType<OkObjectResult>(result.Result);
             var returnValue = Assert.IsType<List<User>>(okResult.Value);
-            // var returnValue = Assert.IsType<string>(okResult.Value);
+           
         }
         [Fact]
         public async Task GetUsers_ReturnZeroUsers()
         {
-            //User _user = new User { Email = "maria@gmail.com", Username = "maria", Password = "maria.1234" };
-            //ResetRequest _reset = new ResetRequest { Username = "maria", OldPassword = "maria.123", NewPassword = "maria.1234" };
-            //string response = "Sometoken";
-            _mockAuthService.Setup(x => x.GetUsers()).ReturnsAsync(new List<User> { });
-            //_mockAuthService.Setup(x => x.GenerateJSONWebToken(It.IsAny<User>())).Returns(response);
-            var result = await _controller.GetUsers();
-
             
+            _mockAuthService.Setup(x => x.GetUsers()).ReturnsAsync(new List<User> { });          
+            var result = await _controller.GetUsers();            
             var okResult = Assert.IsType<NotFoundObjectResult>(result.Result);
-           // var returnValue = Assert.IsType<L>(okResult.Value);
-           // Assert.Empty(returnValue);
-            // var returnValue = Assert.IsType<string>(okResult.Value);
+          
         }
     }
 

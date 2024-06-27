@@ -7,7 +7,7 @@ using Order_management.Exceptions;
 using Microsoft.AspNetCore.Authorization;
 namespace Order_management.Controllers
 {
-   // [Authorize]
+    //[Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class OrderController : ControllerBase
@@ -18,14 +18,7 @@ namespace Order_management.Controllers
         {
             _order=orderservice;
         }
-        [HttpPut]
-        [Route("bulkaddItems")]
-        public async Task<ActionResult<string>> BulkAddItem(string filename)
-        {
-            var response = await _order.BulkAddItem(filename);
-            return Ok(response);
-        }
-      
+       
         [HttpGet]
         [Route("getItems")]
         public async Task<ActionResult<Item>> GetItems()

@@ -96,3 +96,141 @@
 2024-06-26 16:43:16,644 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
 2024-06-26 16:43:16,762 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[121] - Items added from withnullfields.csv and added to DB successfully, but some cells are empty or null
 2024-06-26 16:44:49,023 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[218] - Item with ID 2 deleted.
+2024-06-27 11:09:59,263 [.NET Long Running Task] INFO Order_management.Service.AuthService.MoveNext[61] - New user with user yadu added.
+2024-06-27 11:21:10,605 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[48] - Registration failed! User M a already exists.
+2024-06-27 11:26:42,644 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[77] - Login failed! Username or password is invalid.
+2024-06-27 11:26:49,332 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[77] - Login failed! Username or password is invalid.
+2024-06-27 11:37:53,675 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[135] - No users found to retrieve.
+2024-06-27 11:38:32,444 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[77] - Login failed! Username or password is invalid.
+2024-06-27 11:57:05,238 [.NET Long Running Task] INFO Order_management.Service.AuthService.MoveNext[80] - User maria logged in.
+2024-06-27 12:01:04,454 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[77] - Login failed! Username or password is invalid.
+2024-06-27 12:06:18,945 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[117] - Unable to authenticate user for resetting password.
+2024-06-27 12:09:58,042 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[123] - Password reset for user maria.
+2024-06-27 12:10:28,042 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[123] - Password reset for user maria.
+2024-06-27 12:11:23,620 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[117] - Unable to authenticate user for resetting password.
+2024-06-27 12:12:09,030 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[117] - Unable to authenticate user for resetting password.
+2024-06-27 12:12:09,030 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[48] - Registration failed! User M a already exists.
+2024-06-27 12:12:09,030 [.NET Long Running Task] INFO Order_management.Service.AuthService.MoveNext[61] - New user with user yadu added.
+2024-06-27 12:12:09,030 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[123] - Password reset for user maria.
+2024-06-27 12:12:09,113 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[117] - Unable to authenticate user for resetting password.
+2024-06-27 12:12:09,120 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[77] - Login failed! Username or password is invalid.
+2024-06-27 12:12:09,151 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[48] - Registration failed! User maria already exists.
+2024-06-27 12:12:09,180 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[77] - Login failed! Username or password is invalid.
+2024-06-27 12:12:09,185 [.NET Long Running Task] INFO Order_management.Service.AuthService.MoveNext[80] - User maria logged in.
+2024-06-27 13:23:18,016 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[123] - Password reset for user maria.
+2024-06-27 13:23:18,016 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[48] - Registration failed! User M a already exists.
+2024-06-27 13:23:18,016 [.NET Long Running Task] INFO Order_management.Service.AuthService.MoveNext[61] - New user with user yadu added.
+2024-06-27 13:23:18,016 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[117] - Unable to authenticate user for resetting password.
+2024-06-27 13:23:18,117 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[48] - Registration failed! User maria already exists.
+2024-06-27 13:23:18,118 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[117] - Unable to authenticate user for resetting password.
+2024-06-27 13:23:18,120 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[77] - Login failed! Username or password is invalid.
+2024-06-27 13:23:18,203 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[77] - Login failed! Username or password is invalid.
+2024-06-27 13:23:18,209 [.NET Long Running Task] INFO Order_management.Service.AuthService.MoveNext[80] - User maria logged in.
+2024-06-27 15:21:37,725 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[76] - CSV header does not match the expected format, Bulk Upload failed
+2024-06-27 15:21:37,932 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[59] - File doesn't exist, Bulk Upload failed
+2024-06-27 15:21:37,973 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[76] - CSV header does not match the expected format, Bulk Upload failed
+2024-06-27 15:21:38,037 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[76] - CSV header does not match the expected format, Bulk Upload failed
+2024-06-27 15:23:59,251 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[121] - Items added from invalidheader.csv and added to DB successfully
+2024-06-27 15:25:27,674 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[76] - CSV header does not match the expected format, Bulk Upload failed
+2024-06-27 15:26:06,361 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[76] - CSV header does not match the expected format, Bulk Upload failed
+2024-06-27 15:29:10,165 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[85] - CSV contains empty or null fields at row 1
+2024-06-27 15:29:10,200 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[128] - Items added from withnullfields.csv and added to DB successfully, but some cells are empty or null
+2024-06-27 16:05:55,640 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[146] - Item with ID 2 updated.
+2024-06-27 16:05:55,640 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[85] - CSV contains empty or null fields at row 1
+2024-06-27 16:05:55,683 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[128] - Items added from withnullfields.csv and added to DB successfully, but some cells are empty or null
+2024-06-27 16:05:55,769 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[37] - File doesn't exist, Bulk Upload failed
+2024-06-27 16:05:55,776 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[137] - Item cannot be retrieved to update.
+2024-06-27 16:05:55,892 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[65] - CSV header 'Quant' does not match any property in the Item class.
+2024-06-27 16:06:42,795 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[65] - CSV header 'Quant' does not match any property in the Item class.
+2024-06-27 16:07:13,790 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[65] - CSV header 'Quant' does not match any property in the Item class.
+2024-06-27 17:11:33,122 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[133] - Items added from validitems.csv and added to DB successfully
+2024-06-27 17:13:13,658 [.NET Long Running Task] INFO Order_management.Service.AuthService.MoveNext[61] - New user with user yadu added.
+2024-06-27 17:13:13,658 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[151] - Item with ID 2 updated.
+2024-06-27 17:13:13,658 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[48] - Registration failed! User M a already exists.
+2024-06-27 17:13:13,658 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[147] - Page number requested is more than total pages which is 2.
+2024-06-27 17:13:13,778 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[134] - No items found to retrieve.
+2024-06-27 17:13:13,779 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-27 17:13:13,880 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[142] - Item cannot be retrieved to update.
+2024-06-27 17:13:13,891 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[85] - CSV contains empty or null fields at row 1
+2024-06-27 17:13:13,892 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[215] - Item cannot be retrieved to delete.
+2024-06-27 17:13:13,893 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[133] - Items added from withnullfields.csv and added to DB successfully, but some cells are empty or null
+2024-06-27 17:13:13,929 [.NET Long Running Task] INFO Order_management.Service.AuthService.MoveNext[80] - User maria logged in.
+2024-06-27 17:13:13,992 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[59] - File doesn't exist, Bulk Upload failed
+2024-06-27 17:13:14,007 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[37] - File doesn't exist, Bulk Upload failed
+2024-06-27 17:13:14,074 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[123] - Password reset for user maria.
+2024-06-27 17:13:14,076 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[194] - Item cannot be retrieved to update.
+2024-06-27 17:13:14,119 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[133] - Items added from validitems.csv and added to DB successfully
+2024-06-27 17:13:14,143 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[77] - Login failed! Username or password is invalid.
+2024-06-27 17:13:14,157 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[164] - Item cannot be retrieved.
+2024-06-27 17:13:14,205 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[65] - CSV header 'Quant' does not match any property in the Item class.
+2024-06-27 17:13:14,211 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[117] - Unable to authenticate user for resetting password.
+2024-06-27 17:13:14,246 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[168] - Retrieved item with ID 2.
+2024-06-27 17:13:14,332 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[117] - Unable to authenticate user for resetting password.
+2024-06-27 17:13:14,342 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[218] - Item with ID 2 deleted.
+2024-06-27 17:13:14,430 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[48] - Registration failed! User maria already exists.
+2024-06-27 17:13:14,468 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[76] - CSV header does not match the expected format, Bulk Upload failed
+2024-06-27 17:13:14,500 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[77] - Login failed! Username or password is invalid.
+2024-06-27 17:13:14,540 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[197] - Item with ID 2 updated.
+2024-06-27 17:13:14,618 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[91] - CSV contains empty or null fields at row 1
+2024-06-27 17:13:14,627 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[121] - Items added from withnullfields.csv and added to DB successfully, but some cells are empty or null
+2024-06-27 17:13:14,674 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[180] - Item with ID 4 added.
+2024-06-27 17:13:14,773 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-27 17:35:30,528 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[65] - Page number requested is more than total pages which is 2.
+2024-06-27 17:35:30,528 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[48] - Registration failed! User M a already exists.
+2024-06-27 17:35:30,528 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[151] - Item with ID 2 updated.
+2024-06-27 17:35:30,528 [.NET Long Running Task] INFO Order_management.Service.AuthService.MoveNext[61] - New user with user yadu added.
+2024-06-27 17:35:30,671 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[52] - No items found to retrieve.
+2024-06-27 17:35:30,673 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[54] - Retrieved all items.
+2024-06-27 17:35:30,748 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[142] - Item cannot be retrieved to update.
+2024-06-27 17:35:30,765 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[85] - CSV contains empty or null fields at row 1
+2024-06-27 17:35:30,766 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[132] - Items added from withnullfields.csv and added to DB successfully, but some cells are empty or null
+2024-06-27 17:35:30,784 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[133] - Item cannot be retrieved to delete.
+2024-06-27 17:35:30,792 [.NET Long Running Task] INFO Order_management.Service.AuthService.MoveNext[80] - User maria logged in.
+2024-06-27 17:35:30,848 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[112] - Item cannot be retrieved to update.
+2024-06-27 17:35:30,859 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[37] - File doesn't exist, Bulk Upload failed
+2024-06-27 17:35:30,909 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[123] - Password reset for user maria.
+2024-06-27 17:35:30,917 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[82] - Item cannot be retrieved.
+2024-06-27 17:35:30,947 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[132] - Items added from validitems.csv and added to DB successfully
+2024-06-27 17:35:30,957 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[77] - Login failed! Username or password is invalid.
+2024-06-27 17:35:30,977 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[86] - Retrieved item with ID 2.
+2024-06-27 17:35:31,024 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[117] - Unable to authenticate user for resetting password.
+2024-06-27 17:35:31,039 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[65] - CSV header 'Quant' does not match any property in the Item class.
+2024-06-27 17:35:31,069 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Item with ID 2 deleted.
+2024-06-27 17:35:31,116 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[117] - Unable to authenticate user for resetting password.
+2024-06-27 17:35:31,127 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[115] - Item with ID 2 updated.
+2024-06-27 17:35:31,165 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[48] - Registration failed! User maria already exists.
+2024-06-27 17:35:31,168 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[98] - Item with ID 4 added.
+2024-06-27 17:35:31,236 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[77] - Login failed! Username or password is invalid.
+2024-06-27 17:35:31,277 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[54] - Retrieved all items.
+2024-06-27 18:01:13,012 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[48] - Registration failed! User M a already exists.
+2024-06-27 18:01:13,012 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[65] - Page number requested is more than total pages which is 2.
+2024-06-27 18:01:13,012 [.NET Long Running Task] INFO Order_management.Service.AuthService.MoveNext[61] - New user with user yadu added.
+2024-06-27 18:01:13,012 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[151] - Item with ID 2 updated.
+2024-06-27 18:01:13,118 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[52] - No items found to retrieve.
+2024-06-27 18:01:13,120 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[54] - Retrieved all items.
+2024-06-27 18:01:13,158 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[85] - CSV contains empty or null fields at row 1
+2024-06-27 18:01:13,160 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[132] - Items added from withnullfields.csv and added to DB successfully, but some cells are empty or null
+2024-06-27 18:01:13,160 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[142] - Item cannot be retrieved to update.
+2024-06-27 18:01:13,194 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[133] - Item cannot be retrieved to delete.
+2024-06-27 18:01:13,246 [.NET Long Running Task] INFO Order_management.Service.AuthService.MoveNext[80] - User maria logged in.
+2024-06-27 18:01:13,261 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[37] - File doesn't exist, Bulk Upload failed
+2024-06-27 18:01:13,275 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[112] - Item cannot be retrieved to update.
+2024-06-27 18:01:13,330 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[82] - Item cannot be retrieved.
+2024-06-27 18:01:13,337 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[132] - Items added from validitems.csv and added to DB successfully
+2024-06-27 18:01:13,359 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[123] - Password reset for user maria.
+2024-06-27 18:01:13,392 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[86] - Retrieved item with ID 2.
+2024-06-27 18:01:13,410 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[65] - CSV header 'Quant' does not match any property in the Item class.
+2024-06-27 18:01:13,414 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[77] - Login failed! Username or password is invalid.
+2024-06-27 18:01:13,445 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[136] - Item with ID 2 deleted.
+2024-06-27 18:01:13,446 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[117] - Unable to authenticate user for resetting password.
+2024-06-27 18:01:13,509 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[115] - Item with ID 2 updated.
+2024-06-27 18:01:13,525 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[117] - Unable to authenticate user for resetting password.
+2024-06-27 18:01:13,545 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[98] - Item with ID 4 added.
+2024-06-27 18:01:13,563 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[48] - Registration failed! User maria already exists.
+2024-06-27 18:01:13,610 [.NET Long Running Task] DEBUG Order_management.Service.AuthService.MoveNext[77] - Login failed! Username or password is invalid.
+2024-06-27 18:01:13,631 [.NET Long Running Task] INFO Order_management.Service.Order.MoveNext[54] - Retrieved all items.
+2024-06-27 18:10:57,014 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[65] - CSV header 'Quant' does not match any property in the Item class.
+2024-06-27 18:28:49,672 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[83] - CSV contains empty or null fields at row 1
+2024-06-27 18:28:49,725 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[130] - Items added from validitems.csv and added to DB successfully, but some cells are empty or null
+2024-06-27 18:28:51,229 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[65] - CSV header ' Type' does not match any property in the Item class.
+2024-06-27 18:30:04,954 [.NET Long Running Task] DEBUG Order_management.Service.Order.MoveNext[130] - Items added from validitems.csv and added to DB successfully

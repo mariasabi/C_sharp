@@ -248,3 +248,8 @@
 2024-06-24 18:08:29,487 [1] INFO Program.<Main>$[13] - Application started.
 2024-06-24 18:08:40,682 [5] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
 2024-06-25 17:56:27,619 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-27 17:36:33,515 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-27 17:43:32,056 [16] DEBUG Order_management.Service.Order.MoveNext[132] - Items added from bulk1.csv and added to DB successfully
+2024-06-27 17:44:21,090 [14] DEBUG Order_management.Service.Order.MoveNext[0] - Items added from bulk1.csv and added to DB successfully
+2024-06-27 17:44:25,948 [14] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-27 17:45:10,649 [18] INFO Order_management.Service.AuthService.MoveNext[0] - New user with user Jocelyn added.
