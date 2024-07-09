@@ -1,0 +1,306 @@
+2024-06-10 12:05:29,554 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-10 12:06:33,880 [7] INFO Order_management.Controllers.OrderController.MoveNext[31] - Retrieved items
+2024-06-10 12:07:47,170 [9] INFO Order_management.Controllers.OrderController.MoveNext[55] - Item added
+2024-06-12 11:59:03,737 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-12 12:03:39,530 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-12 14:53:27,676 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-12 14:58:14,431 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-12 15:25:17,144 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-13 11:48:34,639 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-13 15:15:49,071 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-13 15:22:29,385 [22] DEBUG Order_management.Service.AuthService.MoveNext[79] - Password reset for user Gigi
+2024-06-13 15:27:40,506 [27] DEBUG Order_management.Service.AuthService.MoveNext[61] - Login failed for user maria!
+2024-06-13 15:34:30,643 [27] DEBUG Order_management.Service.Order.MoveNext[40] - No such item id found!
+2024-06-13 15:38:04,384 [27] DEBUG Order_management.Service.Order.MoveNext[40] - No such item id found!
+2024-06-13 15:38:30,404 [3] DEBUG Order_management.Service.AuthService.MoveNext[61] - Login failed for user maria!
+2024-06-13 15:49:06,555 [7] INFO Order_management.Service.AuthService.MoveNext[0] - User maria logged in
+2024-06-13 15:49:14,563 [7] DEBUG Order_management.Service.AuthService.MoveNext[0] - Login failed. Username or password is invalid.
+2024-06-13 15:56:29,011 [10] INFO Order_management.Service.Order.GetItems[0] - Retrieved items
+2024-06-13 17:02:26,163 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-13 17:02:58,904 [7] DEBUG Order_management.Service.Order.MoveNext[37] - Item cannot be retrieved.
+2024-06-13 17:03:29,614 [19] DEBUG Order_management.Service.AuthService.MoveNext[61] - Login failed! Username or password is invalid.
+2024-06-13 17:03:49,191 [18] INFO Order_management.Service.Order.GetItems[29] - Retrieved all items.
+2024-06-13 17:09:02,106 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-13 17:43:37,357 [37] DEBUG Order_management.Service.AuthService.MoveNext[0] - No users found to retrieve.
+2024-06-13 17:44:07,640 [37] DEBUG Order_management.Service.AuthService.MoveNext[0] - No users found to retrieve.
+2024-06-13 17:48:10,995 [28] DEBUG Order_management.Service.AuthService.MoveNext[0] - No users found to retrieve.
+2024-06-13 17:48:17,192 [26] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-13 17:50:04,719 [25] INFO Order_management.Service.AuthService.MoveNext[0] - New user with user maria added.
+2024-06-13 18:22:53,784 [24] INFO Order_management.Service.AuthService.MoveNext[0] - New user with user gigi added.
+2024-06-13 18:26:52,353 [10] DEBUG Order_management.Service.AuthService.MoveNext[0] - Unable to authenticate user for resetting password.
+2024-06-13 18:27:15,387 [35] DEBUG Order_management.Service.AuthService.MoveNext[0] - Password reset for user Gigi.
+2024-06-13 18:27:27,490 [35] DEBUG Order_management.Service.AuthService.MoveNext[0] - Unable to authenticate user for resetting password.
+2024-06-13 18:27:34,673 [9] DEBUG Order_management.Service.AuthService.MoveNext[0] - Password reset for user Gigi.
+2024-06-13 18:27:59,176 [10] DEBUG Order_management.Service.AuthService.MoveNext[0] - Login failed! Username or password is invalid.
+2024-06-13 18:28:13,562 [10] INFO Order_management.Service.AuthService.MoveNext[0] - User Gigi logged in.
+2024-06-13 18:28:20,643 [35] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-13 18:28:31,361 [35] INFO Order_management.Service.Order.MoveNext[0] - Retrieved item with ID 2.
+2024-06-13 18:31:11,198 [10] INFO Order_management.Service.Order.MoveNext[0] - Retrieved item with ID 2.
+2024-06-13 18:31:19,292 [44] INFO Order_management.Service.Order.MoveNext[0] - Retrieved item with ID 1.
+2024-06-13 18:31:26,211 [10] DEBUG Order_management.Service.Order.MoveNext[0] - Item cannot be retrieved.
+2024-06-13 18:32:34,550 [46] DEBUG Order_management.Service.Order.MoveNext[0] - Item cannot be retrieved.
+2024-06-13 18:48:25,515 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-13 18:49:05,469 [7] DEBUG Order_management.Service.Order.MoveNext[38] - Item cannot be retrieved.
+2024-06-13 18:50:07,886 [5] DEBUG Order_management.Service.AuthService.MoveNext[62] - Login failed! Username or password is invalid.
+2024-06-13 19:01:39,582 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-13 19:02:14,779 [7] DEBUG Order_management.Service.AuthService.MoveNext[62] - Login failed! Username or password is invalid.
+2024-06-14 10:53:19,179 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-14 11:58:51,988 [9] DEBUG Order_management.Service.AuthService.MoveNext[57] - Login failed! Username or password is invalid.
+2024-06-14 11:59:30,386 [9] INFO Order_management.Service.AuthService.MoveNext[60] - User maria logged in.
+2024-06-14 12:00:12,351 [31] DEBUG Order_management.Service.AuthService.MoveNext[70] - Unable to authenticate user for resetting password.
+2024-06-14 12:00:29,803 [31] DEBUG Order_management.Service.AuthService.MoveNext[75] - Password reset for user Gigi.
+2024-06-14 12:00:38,104 [24] DEBUG Order_management.Service.AuthService.MoveNext[75] - Password reset for user Gigi.
+2024-06-14 12:01:39,590 [9] INFO Order_management.Service.Order.MoveNext[29] - Retrieved all items.
+2024-06-14 12:01:50,178 [23] DEBUG Order_management.Service.Order.MoveNext[38] - Item cannot be retrieved.
+2024-06-14 15:14:08,839 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-14 15:26:39,601 [5] INFO Order_management.Service.AuthService.MoveNext[0] - User maria logged in.
+2024-06-14 16:12:10,714 [15] INFO Order_management.Service.AuthService.MoveNext[0] - User maria logged in.
+2024-06-14 16:14:41,134 [1] INFO Program.<Main>$[9] - Application started.
+2024-06-14 16:45:45,726 [23] INFO Order_management.Service.AuthService.MoveNext[47] - New user with user Yadu added.
+2024-06-14 16:47:58,753 [17] DEBUG Order_management.Service.AuthService.MoveNext[57] - Login failed! Username or password is invalid.
+2024-06-14 16:48:23,153 [26] INFO Order_management.Service.AuthService.MoveNext[60] - User maria logged in.
+2024-06-14 16:48:58,320 [26] DEBUG Order_management.Service.AuthService.MoveNext[75] - Password reset for user maria.
+2024-06-17 18:32:33,090 [1] INFO Program.<Main>$[11] - Application started.
+2024-06-17 18:42:03,073 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-17 18:43:48,924 [17] DEBUG Order_management.Service.AuthService.MoveNext[61] - Login failed! Username or password is invalid.
+2024-06-17 18:45:05,274 [3] INFO Order_management.Service.AuthService.MoveNext[64] - User Yadu logged in.
+2024-06-17 18:45:53,057 [24] INFO Order_management.Service.AuthService.MoveNext[64] - User Yadu logged in.
+2024-06-18 10:49:38,955 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-18 10:51:25,093 [14] INFO Order_management.Service.AuthService.MoveNext[64] - User Yadu logged in.
+2024-06-18 10:56:37,720 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-18 10:57:22,756 [5] INFO Order_management.Service.AuthService.MoveNext[64] - User Yadu logged in.
+2024-06-18 11:03:22,740 [25] INFO Order_management.Service.AuthService.MoveNext[0] - User Yadu logged in.
+2024-06-18 11:14:12,831 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-18 11:14:54,130 [5] INFO Order_management.Service.AuthService.MoveNext[65] - User Yadu logged in.
+2024-06-18 11:33:50,359 [14] INFO Order_management.Service.AuthService.MoveNext[65] - User Yadu logged in.
+2024-06-18 11:34:22,287 [3] INFO Order_management.Service.Order.MoveNext[29] - Retrieved all items.
+2024-06-18 14:05:17,329 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-19 15:45:02,490 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-19 15:47:00,660 [4] INFO Order_management.Service.AuthService.MoveNext[66] - User Yadu logged in.
+2024-06-19 15:48:25,668 [7] INFO Order_management.Service.Order.MoveNext[82] - Retrieved all items.
+2024-06-19 15:50:38,525 [13] INFO Order_management.Service.Order.MoveNext[82] - Retrieved all items.
+2024-06-19 16:22:56,616 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-19 16:24:13,483 [5] INFO Order_management.Service.AuthService.MoveNext[66] - User Yadu logged in.
+2024-06-19 16:25:11,826 [5] INFO Order_management.Service.Order.MoveNext[70] - Retrieved all items.
+2024-06-19 16:27:04,460 [23] INFO Order_management.Service.AuthService.MoveNext[0] - User Yadu logged in.
+2024-06-19 16:28:23,144 [23] INFO Order_management.Service.AuthService.MoveNext[0] - User Yadu logged in.
+2024-06-19 16:48:08,508 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-19 16:48:34,449 [5] INFO Order_management.Service.Order.MoveNext[72] - Retrieved all items.
+2024-06-19 17:12:57,511 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-19 17:13:24,710 [9] INFO Order_management.Service.Order.MoveNext[72] - Retrieved all items.
+2024-06-20 10:38:15,767 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-20 11:06:32,327 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-20 11:09:32,867 [5] INFO Order_management.Service.AuthService.MoveNext[66] - User Yadu logged in.
+2024-06-20 11:10:09,129 [5] INFO Order_management.Service.Order.MoveNext[74] - Retrieved all items.
+2024-06-20 11:10:28,092 [20] INFO Order_management.Service.Order.MoveNext[64] - Added all items in bulk to database.
+2024-06-20 11:10:31,063 [5] INFO Order_management.Service.Order.MoveNext[74] - Retrieved all items.
+2024-06-20 12:01:04,649 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-20 12:04:15,453 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-20 12:32:40,095 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-20 12:33:40,658 [7] INFO Order_management.Service.Order.MoveNext[111] - Added all items in bulk to database.
+2024-06-20 12:33:50,291 [7] DEBUG Order_management.Service.Order.MoveNext[64] - CSV header does not match the expected format, Bulk Upload failed
+2024-06-20 12:34:01,988 [17] INFO Order_management.Service.Order.MoveNext[111] - Added all items in bulk to database.
+2024-06-20 12:34:16,329 [5] DEBUG Order_management.Service.Order.MoveNext[78] - CSV contains empty or null fields, Bulk Upload failed
+2024-06-20 12:34:42,434 [7] INFO Order_management.Service.Order.MoveNext[121] - Retrieved all items.
+2024-06-20 12:35:18,278 [5] INFO Order_management.Service.Order.MoveNext[111] - Added all items in bulk to database.
+2024-06-20 12:35:22,804 [3] INFO Order_management.Service.Order.MoveNext[121] - Retrieved all items.
+2024-06-20 12:36:46,365 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-20 12:37:37,846 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-20 12:37:53,727 [7] INFO Order_management.Service.Order.MoveNext[111] - Added all items in bulk to database.
+2024-06-20 12:37:59,210 [5] INFO Order_management.Service.Order.MoveNext[121] - Retrieved all items.
+2024-06-20 13:21:11,434 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-20 13:21:35,595 [9] INFO Order_management.Service.Order.MoveNext[100] - Added all items in bulk from bulk1.csvto database.
+2024-06-20 13:21:39,847 [10] INFO Order_management.Service.Order.MoveNext[110] - Retrieved all items.
+2024-06-20 15:51:51,134 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-20 15:52:13,403 [5] INFO Order_management.Service.Order.MoveNext[121] - Retrieved all items.
+2024-06-20 15:52:57,211 [19] DEBUG Order_management.Service.Order.MoveNext[78] - CSV contains empty or null fields, Bulk Upload failed
+2024-06-20 15:53:03,112 [5] INFO Order_management.Service.Order.MoveNext[121] - Retrieved all items.
+2024-06-21 11:45:41,442 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-21 11:48:05,397 [9] DEBUG Order_management.Service.AuthService.MoveNext[0] - Login failed! Username or password is invalid.
+2024-06-21 11:49:07,724 [22] INFO Order_management.Service.AuthService.MoveNext[0] - User Gigi logged in.
+2024-06-21 11:50:12,136 [18] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-21 11:50:25,742 [24] DEBUG Order_management.Service.Order.MoveNext[0] - File does not exist at the specified path.
+2024-06-21 11:52:26,116 [3] INFO Order_management.Service.AuthService.MoveNext[0] - User Gigi logged in.
+2024-06-21 11:52:50,167 [27] INFO Order_management.Service.Order.MoveNext[0] - Added all items in bulk from bulk1.csvto database.
+2024-06-21 11:52:54,800 [3] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-21 13:29:03,403 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-21 13:30:31,344 [10] INFO Order_management.Service.AuthService.MoveNext[80] - User Gigi logged in.
+2024-06-21 13:32:34,223 [5] INFO Order_management.Service.AuthService.MoveNext[0] - User Gigi logged in.
+2024-06-21 13:33:38,621 [5] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-21 13:33:50,752 [7] DEBUG Order_management.Service.Order.MoveNext[0] - CSV header does not match the expected format, Bulk Upload failed
+2024-06-21 13:33:56,787 [5] DEBUG Order_management.Service.Order.MoveNext[0] - CSV contains empty or null fields, Bulk Upload failed
+2024-06-21 13:55:32,615 [10] INFO Order_management.Service.AuthService.MoveNext[0] - User Gigi logged in.
+2024-06-21 13:55:52,115 [26] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-21 13:56:54,279 [30] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-21 13:56:56,504 [15] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-21 13:57:29,737 [19] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-21 13:57:30,684 [19] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-21 13:57:45,940 [22] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-21 13:58:02,801 [30] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-21 13:58:51,114 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-21 14:23:32,546 [9] INFO Order_management.Service.AuthService.MoveNext[80] - User Yadu logged in.
+2024-06-21 14:59:32,800 [31] INFO Order_management.Service.AuthService.MoveNext[80] - User Gigi logged in.
+2024-06-21 14:59:59,819 [15] INFO Order_management.Service.Order.MoveNext[116] - Retrieved all items.
+2024-06-21 15:00:39,070 [15] INFO Order_management.Service.Order.MoveNext[102] - Added all items in bulk from bulk1.csv to database.
+2024-06-21 15:00:43,502 [15] INFO Order_management.Service.Order.MoveNext[116] - Retrieved all items.
+2024-06-21 15:00:52,871 [27] INFO Order_management.Service.Order.MoveNext[116] - Retrieved all items.
+2024-06-21 15:01:19,509 [25] DEBUG Order_management.Service.Order.MoveNext[60] - CSV header does not match the expected format, Bulk Upload failed
+2024-06-21 15:01:34,487 [33] DEBUG Order_management.Service.Order.MoveNext[73] - CSV contains empty or null fields, Bulk Upload failed
+2024-06-21 15:09:11,082 [25] INFO Order_management.Service.Order.MoveNext[102] - Added all items in bulk from bulk1.csv to database.
+2024-06-21 15:09:13,646 [30] INFO Order_management.Service.Order.MoveNext[116] - Retrieved all items.
+2024-06-21 15:16:06,488 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-21 15:16:42,592 [9] INFO Order_management.Service.AuthService.MoveNext[80] - User Gigi logged in.
+2024-06-21 15:17:03,593 [14] INFO Order_management.Service.Order.MoveNext[102] - Added all items in bulk from bulk1.csv to database.
+2024-06-21 15:17:11,044 [18] INFO Order_management.Service.Order.MoveNext[116] - Retrieved all items.
+2024-06-21 15:18:20,366 [9] INFO Order_management.Service.Order.MoveNext[116] - Retrieved all items.
+2024-06-21 15:18:24,600 [9] INFO Order_management.Service.Order.MoveNext[102] - Added all items in bulk from bulk1.csv to database.
+2024-06-21 15:18:27,490 [9] INFO Order_management.Service.Order.MoveNext[116] - Retrieved all items.
+2024-06-21 15:18:36,457 [5] INFO Order_management.Service.Order.MoveNext[102] - Added all items in bulk from bulk1.csv to database.
+2024-06-21 15:18:36,644 [9] INFO Order_management.Service.Order.MoveNext[102] - Added all items in bulk from bulk1.csv to database.
+2024-06-21 15:18:37,324 [19] INFO Order_management.Service.Order.MoveNext[102] - Added all items in bulk from bulk1.csv to database.
+2024-06-21 15:18:39,603 [20] INFO Order_management.Service.Order.MoveNext[116] - Retrieved all items.
+2024-06-21 15:19:57,732 [22] INFO Order_management.Service.Order.MoveNext[116] - Retrieved all items.
+2024-06-21 15:21:18,556 [9] INFO Order_management.Service.AuthService.MoveNext[80] - User Yadu logged in.
+2024-06-21 15:21:40,688 [9] INFO Order_management.Service.Order.MoveNext[116] - Retrieved all items.
+2024-06-21 15:21:47,813 [22] INFO Order_management.Service.Order.MoveNext[102] - Added all items in bulk from bulk1.csv to database.
+2024-06-21 15:21:50,555 [24] INFO Order_management.Service.Order.MoveNext[116] - Retrieved all items.
+2024-06-21 15:26:07,536 [22] INFO Order_management.Service.AuthService.MoveNext[0] - User Yadu logged in.
+2024-06-21 15:26:24,987 [22] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-21 15:26:34,139 [21] INFO Order_management.Service.Order.MoveNext[0] - Added all items in bulk from bulk1.csv to database.
+2024-06-21 15:26:38,926 [26] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-21 15:26:42,505 [26] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-21 15:28:56,503 [25] INFO Order_management.Service.AuthService.MoveNext[0] - User Yadu logged in.
+2024-06-21 15:29:34,814 [9] INFO Order_management.Service.Order.MoveNext[0] - Added all items in bulk from bulk1.csv to database.
+2024-06-21 15:29:38,233 [26] INFO Order_management.Service.Order.MoveNext[0] - Added all items in bulk from bulk1.csv to database.
+2024-06-21 15:29:42,446 [26] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-21 15:31:28,487 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-21 15:33:32,471 [14] INFO Order_management.Service.AuthService.MoveNext[80] - User Yadu logged in.
+2024-06-21 15:33:53,617 [14] INFO Order_management.Service.Order.MoveNext[103] - Added all items in bulk from bulk1.csv to database.
+2024-06-21 15:33:58,550 [9] INFO Order_management.Service.Order.MoveNext[117] - Retrieved all items.
+2024-06-21 15:40:01,122 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-21 15:41:17,430 [5] INFO Order_management.Service.Order.MoveNext[0] - Added all items in bulk from bulk1.csv to database.
+2024-06-21 15:41:21,790 [17] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-21 15:41:27,110 [5] INFO Order_management.Service.Order.MoveNext[0] - Added all items in bulk from bulk1.csv to database.
+2024-06-21 15:41:29,573 [17] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-21 15:55:12,335 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-21 15:55:30,420 [5] DEBUG Order_management.Service.Order.MoveNext[50] - File doesn't exist, Bulk Upload failed
+2024-06-21 15:56:14,692 [7] DEBUG Order_management.Service.Order.MoveNext[0] - Items added from bulk1.csv and added to DB successfully.
+2024-06-21 15:56:19,092 [5] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-21 16:36:10,232 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-21 16:38:24,457 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-21 16:38:57,130 [7] INFO Order_management.Service.AuthService.MoveNext[80] - User Gigi logged in.
+2024-06-21 16:39:30,714 [7] INFO Order_management.Service.Order.MoveNext[125] - Retrieved all items.
+2024-06-21 17:10:51,031 [24] INFO Order_management.Service.AuthService.MoveNext[0] - User Yadu logged in.
+2024-06-21 17:11:06,270 [22] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-21 17:11:20,163 [15] DEBUG Order_management.Service.Order.MoveNext[0] - CSV contains empty or null fields at row 1
+2024-06-21 17:11:20,547 [15] DEBUG Order_management.Service.Order.MoveNext[0] - Items added from bulk3.csv and added to DB successfully, but some cells are empty or null
+2024-06-21 17:11:24,272 [10] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-21 17:13:18,518 [23] INFO Order_management.Service.AuthService.MoveNext[0] - User Yadu logged in.
+2024-06-21 17:13:42,268 [17] DEBUG Order_management.Service.Order.MoveNext[0] - CSV contains empty or null fields at row 1
+2024-06-21 17:13:42,296 [17] DEBUG Order_management.Service.Order.MoveNext[0] - Items added from bulk3.csv and added to DB successfully, but some cells are empty or null
+2024-06-21 17:13:46,743 [17] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-21 17:13:57,223 [22] INFO Order_management.Service.Order.MoveNext[0] - Item with ID 17 deleted.
+2024-06-21 17:14:01,251 [22] DEBUG Order_management.Service.Order.MoveNext[0] - CSV contains empty or null fields at row 1
+2024-06-21 17:14:01,266 [22] DEBUG Order_management.Service.Order.MoveNext[0] - Items added from bulk3.csv and added to DB successfully, but some cells are empty or null
+2024-06-21 17:14:06,010 [17] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-21 17:14:14,355 [23] DEBUG Order_management.Service.Order.MoveNext[0] - CSV contains empty or null fields at row 1
+2024-06-21 17:14:14,386 [23] DEBUG Order_management.Service.Order.MoveNext[0] - Items added from bulk3.csv and added to DB successfully, but some cells are empty or null
+2024-06-21 17:14:16,469 [10] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-24 12:32:57,409 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-24 12:33:49,855 [14] INFO Order_management.Service.AuthService.MoveNext[80] - User Yadu logged in.
+2024-06-24 12:34:17,118 [15] INFO Order_management.Service.Order.MoveNext[223] - Retrieved all items.
+2024-06-24 12:34:34,128 [16] DEBUG Order_management.Service.Order.MoveNext[233] - Page number requested is more than total pages.
+2024-06-24 12:36:03,240 [15] INFO Order_management.Service.AuthService.MoveNext[0] - User Yadu logged in.
+2024-06-24 12:36:22,738 [18] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-24 12:36:47,233 [15] DEBUG Order_management.Service.Order.MoveNext[0] - Page number requested is more than total pages.
+2024-06-24 12:37:03,254 [18] DEBUG Order_management.Service.Order.MoveNext[0] - Page number requested is more than total pages.
+2024-06-24 14:23:57,133 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-24 14:26:03,893 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-24 14:26:39,945 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-24 14:26:54,767 [5] INFO Order_management.Service.Order.MoveNext[218] - Retrieved all items.
+2024-06-24 14:35:02,445 [5] DEBUG Order_management.Service.Order.MoveNext[0] - CSV contains empty or null fields at row 2
+2024-06-24 14:35:05,790 [25] DEBUG Order_management.Service.Order.MoveNext[0] - Items added from bulk1.csv and added to DB successfully, but some cells are empty or null
+2024-06-24 14:35:17,242 [28] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-24 14:39:56,405 [18] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-24 14:40:46,609 [18] DEBUG Order_management.Service.Order.MoveNext[0] - CSV contains empty or null fields at row 1
+2024-06-24 14:40:47,168 [16] DEBUG Order_management.Service.Order.MoveNext[0] - Items added from bulk1.csv and added to DB successfully, but some cells are empty or null
+2024-06-24 14:40:52,213 [20] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-24 14:41:28,969 [5] DEBUG Order_management.Service.Order.MoveNext[0] - CSV contains empty or null fields at row 1
+2024-06-24 14:41:29,606 [20] DEBUG Order_management.Service.Order.MoveNext[0] - Items added from bulk1.csv and added to DB successfully, but some cells are empty or null
+2024-06-24 14:41:32,076 [5] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-24 16:11:21,382 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-24 16:12:00,391 [7] INFO Order_management.Service.Order.MoveNext[246] - Retrieved all items.
+2024-06-24 16:13:00,508 [5] DEBUG Order_management.Service.Order.MoveNext[0] - Items added from bulk1.csv and added to DB successfully
+2024-06-24 16:13:06,751 [7] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-24 17:11:50,912 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-24 17:17:54,782 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-24 17:19:16,194 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-24 17:21:08,151 [19] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-24 17:24:20,053 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-24 17:24:45,935 [7] INFO Order_management.Service.Order.MoveNext[146] - Item with ID 4 updated.
+2024-06-24 17:24:52,170 [7] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-24 17:45:14,831 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-24 17:58:08,661 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-24 17:59:16,490 [9] DEBUG Order_management.Service.Order.MoveNext[128] - Items added from bulk1.csv and added to DB successfully
+2024-06-24 17:59:21,143 [18] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-24 18:00:03,610 [14] DEBUG Order_management.Service.Order.MoveNext[128] - Items added from bulk1.csv and added to DB successfully
+2024-06-24 18:00:08,655 [7] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-24 18:08:29,487 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-24 18:08:40,682 [5] INFO Order_management.Service.Order.MoveNext[136] - Retrieved all items.
+2024-06-25 17:56:27,619 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-27 17:36:33,515 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-27 17:43:32,056 [16] DEBUG Order_management.Service.Order.MoveNext[132] - Items added from bulk1.csv and added to DB successfully
+2024-06-27 17:44:21,090 [14] DEBUG Order_management.Service.Order.MoveNext[0] - Items added from bulk1.csv and added to DB successfully
+2024-06-27 17:44:25,948 [14] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-06-27 17:45:10,649 [18] INFO Order_management.Service.AuthService.MoveNext[0] - New user with user Jocelyn added.
+2024-06-28 13:20:15,873 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-28 13:37:39,671 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-28 13:39:45,296 [5] INFO Order_management.Service.Order.MoveNext[54] - Retrieved all items.
+2024-06-28 13:39:52,834 [11] INFO Order_management.Service.Order.MoveNext[54] - Retrieved all items.
+2024-06-28 13:42:50,626 [11] DEBUG Order_management.Service.Order.MoveNext[142] - Items added from bulk1.csv and added to DB successfully
+2024-06-28 13:42:54,357 [11] INFO Order_management.Service.Order.MoveNext[54] - Retrieved all items.
+2024-06-28 13:43:54,397 [17] DEBUG Order_management.Service.Order.MoveNext[93] - CSV contains empty or null fields at row 3
+2024-06-28 13:43:55,105 [11] DEBUG Order_management.Service.Order.MoveNext[142] - Items added from bulk1.csv and added to DB successfully, but some cells are empty or null
+2024-06-28 13:44:02,307 [11] INFO Order_management.Service.Order.MoveNext[54] - Retrieved all items.
+2024-06-28 13:46:03,282 [17] INFO Order_management.Service.Order.MoveNext[166] - Item with ID 21 updated.
+2024-06-28 13:46:07,831 [17] INFO Order_management.Service.Order.MoveNext[54] - Retrieved all items.
+2024-06-28 14:09:23,848 [1] INFO Program.<Main>$[13] - Application started.
+2024-06-28 14:09:36,745 [9] INFO Order_management.Service.Order.MoveNext[54] - Retrieved all items.
+2024-06-28 14:52:22,317 [33] INFO Order_management.Service.Order.MoveNext[54] - Retrieved all items.
+2024-06-28 15:08:25,948 [47] DEBUG Order_management.Service.Order.MoveNext[93] - CSV contains empty or null fields at row 3
+2024-06-28 15:08:26,369 [33] DEBUG Order_management.Service.Order.MoveNext[142] - Items added from bulk1.csv and added to DB successfully, but some cells are empty or null
+2024-06-28 15:08:35,434 [33] INFO Order_management.Service.Order.MoveNext[54] - Retrieved all items.
+2024-06-28 15:09:40,508 [48] INFO Order_management.Service.Order.MoveNext[166] - Item with ID 25 updated.
+2024-06-28 15:09:45,094 [52] INFO Order_management.Service.Order.MoveNext[54] - Retrieved all items.
+2024-06-28 15:10:39,555 [50] DEBUG Order_management.Service.Order.MoveNext[71] - Page number requested is more than total pages which is 2.
+2024-06-28 15:22:31,128 [57] DEBUG Order_management.Service.Order.MoveNext[93] - CSV contains empty or null fields at row 2
+2024-06-28 15:22:31,129 [57] DEBUG Order_management.Service.Order.MoveNext[93] - CSV contains empty or null fields at row 3
+2024-06-28 15:22:31,152 [57] DEBUG Order_management.Service.Order.MoveNext[142] - Items added from bulk1.csv and added to DB successfully, but some cells are empty or null
+2024-07-03 12:11:07,086 [1] INFO Program.<Main>$[14] - Application started.
+2024-07-03 14:14:58,440 [1] INFO Program.<Main>$[14] - Application started.
+2024-07-03 14:27:20,779 [1] INFO Program.<Main>$[14] - Application started.
+2024-07-03 14:29:05,520 [1] INFO Program.<Main>$[14] - Application started.
+2024-07-03 14:49:48,409 [1] INFO Program.<Main>$[14] - Application started.
+2024-07-03 15:12:57,767 [1] INFO Program.<Main>$[14] - Application started.
+2024-07-03 15:20:20,613 [1] INFO Program.<Main>$[14] - Application started.
+2024-07-03 15:21:03,017 [5] INFO Order_management.Service.AuthService.MoveNext[83] - User Yadu logged in.
+2024-07-03 15:21:25,955 [10] INFO Order_management.Service.Order.MoveNext[64] - 6 Retrieved all items.
+2024-07-05 15:17:39,511 [1] INFO Program.<Main>$[13] - Application started.
+2024-07-05 15:43:19,542 [18] INFO Order_management.Service.AuthService.MoveNext[83] - User Yadu logged in.
+2024-07-05 15:55:16,706 [28] DEBUG Order_management.Logging.DBLogService.CallStoredProcedure[35] - SQL exception has occured
+2024-07-05 15:55:16,708 [28] INFO Order_management.Service.Order.MoveNext[65] - Retrieved all items.
+2024-07-05 16:01:16,812 [16] DEBUG Order_management.Logging.DBLogService.CallStoredProcedure[35] - SQL exception has occured
+2024-07-05 16:01:16,814 [16] INFO Order_management.Service.Order.MoveNext[65] - Retrieved all items.
+2024-07-05 16:02:35,400 [16] DEBUG Order_management.Logging.DBLogService.CallStoredProcedure[35] - SQL exception has occured
+2024-07-05 16:02:35,401 [16] INFO Order_management.Service.Order.MoveNext[65] - Retrieved all items.
+2024-07-05 16:03:19,782 [16] DEBUG Order_management.Logging.DBLogService.CallStoredProcedure[35] - SQL exception has occured
+2024-07-05 16:03:19,783 [16] INFO Order_management.Service.Order.MoveNext[65] - Retrieved all items.
+2024-07-05 17:18:07,432 [45] INFO Order_management.Service.AuthService.MoveNext[0] - User Yadu logged in.
+2024-07-05 17:18:28,145 [45] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-07-09 14:29:46,766 [1] INFO Program.<Main>$[13] - Application started.
+2024-07-09 14:32:01,940 [15] INFO Order_management.Service.AuthService.MoveNext[83] - User Yadu logged in.
+2024-07-09 14:32:21,323 [14] INFO Order_management.Service.Order.MoveNext[65] - Retrieved all items.
+2024-07-09 14:38:03,018 [1] INFO Program.<Main>$[13] - Application started.
+2024-07-09 14:38:31,150 [9] INFO Order_management.Service.AuthService.MoveNext[83] - User Gigi logged in.
+2024-07-09 14:39:02,991 [9] DEBUG Order_management.Logging.DBLogService.CallStoredProcedure[35] - SQL exception while adding logs to database has occurred.
+2024-07-09 14:39:02,994 [9] INFO Order_management.Service.Order.MoveNext[65] - Retrieved all items.
