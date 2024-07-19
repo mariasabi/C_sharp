@@ -334,3 +334,7 @@
 2024-07-09 17:16:31,590 [21] INFO Order_management.Service.Order.MoveNext[0] - Retrieved item with ID 4.
 2024-07-09 17:21:15,363 [26] INFO Order_management.Service.AuthService.MoveNext[0] - User Gigi logged in.
 2024-07-09 17:21:29,379 [9] INFO Order_management.Service.Order.MoveNext[0] - Retrieved all items.
+2024-07-12 10:44:49,892 [1] INFO Program.<Main>$[14] - Application started.
+2024-07-12 10:46:59,281 [13] INFO Order_management.Service.AuthService.MoveNext[83] - User Gigi logged in.
+2024-07-12 10:49:37,897 [14] INFO Order_management.Service.Order.MoveNext[65] - Retrieved all items.
+2024-07-12 14:01:26,512 [1] INFO Program.<Main>$[14] - Application started.

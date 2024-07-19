@@ -1,0 +1,7 @@
+2024-07-18 18:32:34,652 [1] INFO Program.<Main>$[13] - Application started.
+2024-07-18 18:33:16,047 [13] INFO UserService.Services.AuthService.MoveNext[80] - User Gigi logged in.
+2024-07-18 18:46:18,281 [1] INFO Program.<Main>$[13] - Application started.
+2024-07-18 18:47:29,840 [9] INFO UserService.Services.AuthService.MoveNext[80] - User Gigi logged in.
+2024-07-19 13:23:29,224 [1] INFO Program.<Main>$[13] - Application started.
+2024-07-19 13:26:59,105 [12] INFO UserService.Services.AuthService.MoveNext[80] - User Gigi logged in.
+2024-07-19 13:56:13,336 [26] INFO UserService.Services.AuthService.MoveNext[80] - User Gigi logged in.

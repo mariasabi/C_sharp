@@ -1,0 +1,357 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\P10\\source\\repos\\Order_management11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management11\\order management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management11\\order management\\controllers\\dynamicordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\controllers\\dynamicordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management11\\order management\\exceptions\\csvexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\exceptions\\csvexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management11\\order management\\service\\dynamicorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\service\\dynamicorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management11\\order management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management11\\order management\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management11\\order management\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management11\\order management\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management11\\order management\\logging\\dblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\logging\\dblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management11\\order management\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management11\\order management\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6890D51B-EB66-4F4E-9128-EA250504C73D}|OrderManagementTests\\OrderManagementTests.csproj|c:\\users\\p10\\source\\repos\\order_management11\\ordermanagementtests\\authservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6890D51B-EB66-4F4E-9128-EA250504C73D}|OrderManagementTests\\OrderManagementTests.csproj|solutionrelative:ordermanagementtests\\authservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management11\\order management\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management11\\order management\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management11\\order management\\dtos\\resetrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\dtos\\resetrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management11\\order management\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management11\\order management\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management11\\order management\\exceptions\\argumentsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\exceptions\\argumentsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management11\\order management\\service\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\service\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management11\\order management\\interfaces\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\interfaces\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|c:\\users\\p10\\source\\repos\\order_management11\\order management\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94706170-27F0-4BAF-A087-BF24FAB47A3D}|Order management\\Order management.csproj|solutionrelative:order management\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 159,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CSVException.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Exceptions\\CSVException.cs",
+              "RelativeDocumentMoniker": "Order management\\Exceptions\\CSVException.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Exceptions\\CSVException.cs",
+              "RelativeToolTip": "Order management\\Exceptions\\CSVException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T13:10:37.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "log4net.config",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\log4net.config",
+              "RelativeDocumentMoniker": "Order management\\log4net.config",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\log4net.config",
+              "RelativeToolTip": "Order management\\log4net.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-18T12:35:09.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Order management\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Order management\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T10:05:49.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management11\\OrderManagementTests\\AuthServiceTests.cs",
+              "RelativeDocumentMoniker": "OrderManagementTests\\AuthServiceTests.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management11\\OrderManagementTests\\AuthServiceTests.cs",
+              "RelativeToolTip": "OrderManagementTests\\AuthServiceTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T06:09:28.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Order management\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Order management\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T10:05:48.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ResetRequest.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\DTOs\\ResetRequest.cs",
+              "RelativeDocumentMoniker": "Order management\\DTOs\\ResetRequest.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\DTOs\\ResetRequest.cs",
+              "RelativeToolTip": "Order management\\DTOs\\ResetRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T09:54:41.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\DTOs\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Order management\\DTOs\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\DTOs\\LoginRequest.cs",
+              "RelativeToolTip": "Order management\\DTOs\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T09:54:17.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\DTOs\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "Order management\\DTOs\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\DTOs\\RegisterRequest.cs",
+              "RelativeToolTip": "Order management\\DTOs\\RegisterRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T09:53:49.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Order management\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Models\\User.cs",
+              "RelativeToolTip": "Order management\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T09:49:36.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ArgumentsException.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Exceptions\\ArgumentsException.cs",
+              "RelativeDocumentMoniker": "Order management\\Exceptions\\ArgumentsException.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Exceptions\\ArgumentsException.cs",
+              "RelativeToolTip": "Order management\\Exceptions\\ArgumentsException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T07:11:29.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IOrder.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Interfaces\\IOrder.cs",
+              "RelativeDocumentMoniker": "Order management\\Interfaces\\IOrder.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Interfaces\\IOrder.cs",
+              "RelativeToolTip": "Order management\\Interfaces\\IOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T07:06:17.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\appsettings.json",
+              "RelativeDocumentMoniker": "Order management\\appsettings.json",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\appsettings.json",
+              "RelativeToolTip": "Order management\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-17T06:44:34.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "Order management\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Models\\Item.cs",
+              "RelativeToolTip": "Order management\\Models\\Item.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T06:34:57.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DynamicOrderController.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Controllers\\DynamicOrderController.cs",
+              "RelativeDocumentMoniker": "Order management\\Controllers\\DynamicOrderController.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Controllers\\DynamicOrderController.cs",
+              "RelativeToolTip": "Order management\\Controllers\\DynamicOrderController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T10:28:02.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DynamicOrder.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Service\\DynamicOrder.cs",
+              "RelativeDocumentMoniker": "Order management\\Service\\DynamicOrder.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Service\\DynamicOrder.cs",
+              "RelativeToolTip": "Order management\\Service\\DynamicOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T10:24:58.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Service\\Order.cs",
+              "RelativeDocumentMoniker": "Order management\\Service\\Order.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Service\\Order.cs",
+              "RelativeToolTip": "Order management\\Service\\Order.cs",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAmwKQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T07:26:12.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Order management\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Order management\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T07:13:09.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Program.cs",
+              "RelativeDocumentMoniker": "Order management\\Program.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Program.cs",
+              "RelativeToolTip": "Order management\\Program.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAIwEsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T05:58:49.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "Order management\\Service\\AuthService.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Service\\AuthService.cs",
+              "RelativeToolTip": "Order management\\Service\\AuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAM4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T05:52:26.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JwtMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Middleware\\JwtMiddleware.cs",
+              "RelativeDocumentMoniker": "Order management\\Middleware\\JwtMiddleware.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Middleware\\JwtMiddleware.cs",
+              "RelativeToolTip": "Order management\\Middleware\\JwtMiddleware.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowBMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T10:03:09.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DBLogService.cs",
+              "DocumentMoniker": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Logging\\DBLogService.cs",
+              "RelativeDocumentMoniker": "Order management\\Logging\\DBLogService.cs",
+              "ToolTip": "C:\\Users\\P10\\source\\repos\\Order_management11\\Order management\\Logging\\DBLogService.cs",
+              "RelativeToolTip": "Order management\\Logging\\DBLogService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T12:34:03.31Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

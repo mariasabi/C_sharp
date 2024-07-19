@@ -1,0 +1,12 @@
+2024-07-18 18:32:34,652 [1] INFO Program.<Main>$[13] - Application started.
+2024-07-18 18:33:48,408 [7] INFO OrderService.Services.Order.MoveNext[44] - Retrieved all items.
+2024-07-18 18:46:18,281 [1] INFO Program.<Main>$[13] - Application started.
+2024-07-18 18:47:51,100 [7] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-07-18 18:48:36,977 [10] DEBUG OrderService.Services.Order.MoveNext[216] - CSV contains empty or null fields at row 2
+2024-07-18 18:48:37,088 [10] DEBUG OrderService.Services.Order.MoveNext[216] - CSV contains empty or null fields at row 3
+2024-07-18 18:48:37,698 [10] INFO OrderService.Services.Order.MoveNext[266] - Items added from bulk1.csv and added to DB successfully, but some cells are empty or null
+2024-07-18 18:48:46,439 [13] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-07-19 13:23:29,224 [1] INFO Program.<Main>$[13] - Application started.
+2024-07-19 13:27:45,557 [5] INFO OrderService.Services.Order.MoveNext[104] - Item with ID 4 added.
+2024-07-19 13:27:53,403 [11] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-07-19 13:56:42,588 [32] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
