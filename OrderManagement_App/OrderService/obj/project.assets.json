@@ -4423,11 +4423,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\P10\\source\\repos\\OrderManagement_App\\OrderService\\OrderService.csproj",
+      "projectUniqueName": "C:\\Users\\P10\\source\\repos\\C_sharp\\OrderManagement_App\\OrderService\\OrderService.csproj",
       "projectName": "OrderService",
-      "projectPath": "C:\\Users\\P10\\source\\repos\\OrderManagement_App\\OrderService\\OrderService.csproj",
+      "projectPath": "C:\\Users\\P10\\source\\repos\\C_sharp\\OrderManagement_App\\OrderService\\OrderService.csproj",
       "packagesPath": "C:\\Users\\P10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\P10\\source\\repos\\OrderManagement_App\\OrderService\\obj\\",
+      "outputPath": "C:\\Users\\P10\\source\\repos\\C_sharp\\OrderManagement_App\\OrderService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

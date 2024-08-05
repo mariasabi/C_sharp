@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7EffY3ME9rTcrxT7YHi28tbXelFY5IXvI10Ycw09UqP/Q8wIXGPbfyJOlZcU47ve5opnFvqhnKXnmVhlE367dg==",
+  "dgSpecHash": "7p1Elty5oD/6sZsNrTrjgF9fO52ZHjZfa2ksZfNVl0J9oaWFa1oelmF4UBmyFfipx46T810Q1A6XTCoEQo6a3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\P10\\source\\repos\\OrderManagement_App\\OrderService\\OrderService.csproj",
+  "projectFilePath": "C:\\Users\\P10\\source\\repos\\C_sharp\\OrderManagement_App\\OrderService\\OrderService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\P10\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\P10\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using OrderService.Exceptions;
 using OrderService.Interfaces;
 using OrderService.Models;
 
@@ -31,15 +32,29 @@ namespace OrderService.Controllers
         [Route("getPaginatedItems")]
         public async Task<ActionResult<Item>> GetPaginatedItems(int page = 1, int pageSize = 10)
         {
-            var items = await _order.GetPaginatedItems(page, pageSize);
-            return Ok(items);
+            try
+            {
+                var items = await _order.GetPaginatedItems(page, pageSize);
+                if (items.Count == 0)
+                    return NotFound("No items found");
+                return Ok(items);
+            }
+            catch (ArgumentsException ex)
+            { return BadRequest(ex.Message); }
         }
         [HttpGet]
         [Route("getItem")]
         public async Task<ActionResult<Item>> GetItem(int id)
         {
-            var item = await _order.GetItem(id);
-            return Ok(item);
+            try
+            {
+                var item = await _order.GetItem(id);
+                return Ok(item);
+            }
+            catch (IdNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
         }
 
         [HttpPost]
@@ -52,11 +67,19 @@ namespace OrderService.Controllers
 
         [HttpPut]
         [Route("updateItem")]
-        public async Task<ActionResult<Item>> UpdateItem(Item request)
+        public async Task<ActionResult<Item>> UpdateItemDynamic(Item request)
         {
-            var item = await _order.UpdateItem(request);
-            return Ok(item);
+            try
+            {
+                var item = await _order.UpdateItem(request);
+                return Ok(item);
+            }
+            catch (IdNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
         }
+
         [HttpDelete]
         [Route("deleteItem")]
         public async Task<ActionResult<Item>> DeleteItem(int id)
@@ -66,10 +89,31 @@ namespace OrderService.Controllers
         }
         [HttpPost]
         [Route("bulkaddItemsDynamic")]
-        public async Task<ActionResult<string>> BulkAddItemDynamic(string filename)
+        public async Task<ActionResult<string>> BulkAddItemDynamic()
         {
-            var response = await _order.BulkAddItem(filename);
-            return Ok(response);
+            try
+            {
+                var file = Request.Form.Files[0];
+
+
+                if (file.Length > 0)
+                {
+
+                    var response = await _order.BulkAddItem(file);
+
+                    return Ok(response);
+                }
+                else { return BadRequest("File is empty"); }
+
+            }
+            catch (CSVException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex}");
+            }
 
         }
     }

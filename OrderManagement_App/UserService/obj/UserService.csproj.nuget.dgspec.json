@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\P10\\source\\repos\\OrderManagement_App\\UserService\\UserService.csproj": {}
+    "C:\\Users\\P10\\source\\repos\\C_sharp\\OrderManagement_App\\UserService\\UserService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\P10\\source\\repos\\OrderManagement_App\\UserService\\UserService.csproj": {
+    "C:\\Users\\P10\\source\\repos\\C_sharp\\OrderManagement_App\\UserService\\UserService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\P10\\source\\repos\\OrderManagement_App\\UserService\\UserService.csproj",
+        "projectUniqueName": "C:\\Users\\P10\\source\\repos\\C_sharp\\OrderManagement_App\\UserService\\UserService.csproj",
         "projectName": "UserService",
-        "projectPath": "C:\\Users\\P10\\source\\repos\\OrderManagement_App\\UserService\\UserService.csproj",
+        "projectPath": "C:\\Users\\P10\\source\\repos\\C_sharp\\OrderManagement_App\\UserService\\UserService.csproj",
         "packagesPath": "C:\\Users\\P10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\P10\\source\\repos\\OrderManagement_App\\UserService\\obj\\",
+        "outputPath": "C:\\Users\\P10\\source\\repos\\C_sharp\\OrderManagement_App\\UserService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

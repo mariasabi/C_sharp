@@ -10,3 +10,41 @@
 2024-07-19 13:27:45,557 [5] INFO OrderService.Services.Order.MoveNext[104] - Item with ID 4 added.
 2024-07-19 13:27:53,403 [11] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
 2024-07-19 13:56:42,588 [32] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-01 17:40:12,189 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-01 17:45:23,478 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-01 17:45:55,868 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-01 17:58:37,338 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-01 18:15:34,323 [10] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-01 18:15:34,515 [14] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-01 18:15:34,764 [3] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-01 18:15:37,506 [10] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-01 18:15:37,633 [10] INFO OrderService.Services.Order.MoveNext[70] - Retrieved all paginated items.
+2024-08-01 18:15:39,369 [5] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-01 18:19:44,436 [21] DEBUG OrderService.Services.Order.MoveNext[211] - CSV contains empty or null fields at row 2
+2024-08-01 18:19:45,206 [21] INFO OrderService.Services.Order.MoveNext[261] - Items added from file and added to DB successfully, but some cells are empty or null
+2024-08-01 18:19:47,543 [16] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-01 18:19:56,756 [16] INFO OrderService.Services.Order.MoveNext[91] - Retrieved item with ID 2.
+2024-08-01 18:20:01,895 [21] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-01 18:20:02,030 [16] INFO OrderService.Services.Order.MoveNext[70] - Retrieved all paginated items.
+2024-08-01 18:20:08,483 [14] INFO OrderService.Services.Order.MoveNext[149] - Item with ID 6 deleted.
+2024-08-01 18:20:11,833 [22] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-01 18:20:18,838 [14] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-01 18:20:34,148 [14] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-01 18:20:34,905 [20] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-01 18:20:35,091 [16] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-01 18:20:50,892 [16] INFO OrderService.Services.Order.MoveNext[129] - Item with ID 5 updated.
+2024-08-01 18:20:52,703 [16] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-01 18:21:08,482 [14] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-01 18:21:22,387 [21] INFO OrderService.Services.Order.MoveNext[104] - Item with ID 7 added.
+2024-08-01 18:21:24,949 [16] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-02 10:02:59,738 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-02 10:05:30,371 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-02 10:07:22,138 [10] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-02 10:10:50,098 [17] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-02 10:10:52,966 [17] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-02 10:10:53,217 [22] INFO OrderService.Services.Order.MoveNext[70] - Retrieved all paginated items.
+2024-08-02 10:10:54,782 [3] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-02 10:13:26,468 [23] DEBUG OrderService.Services.Order.MoveNext[190] - CSV header 'item' does not match any property in the Item class.
+2024-08-02 10:13:31,878 [27] DEBUG OrderService.Services.Order.MoveNext[211] - CSV contains empty or null fields at row 1
+2024-08-02 10:13:32,377 [27] INFO OrderService.Services.Order.MoveNext[261] - Items added from file and added to DB successfully, but some cells are empty or null
+2024-08-02 10:13:35,407 [23] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
