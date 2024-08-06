@@ -89,9 +89,17 @@ namespace OrderService.Controllers
         [Route("deleteItem")]
         [Authorize(Roles = "Admin")]
         public async Task<ActionResult<Item>> DeleteItem(int id)
-        {
+        {  
+            try
+            {
             var item = await _order.DeleteItem(id);
             return Ok(item);
+            }
+            catch (IdNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
+
         }
         [HttpPost]
         [Route("bulkaddItemsDynamic")]

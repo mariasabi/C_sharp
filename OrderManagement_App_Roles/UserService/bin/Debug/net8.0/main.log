@@ -39,3 +39,12 @@
 2024-08-05 15:27:15,922 [11] INFO UserService.Services.AuthService.MoveNext[81] - User Maria logged in.
 2024-08-05 15:27:48,828 [23] INFO UserService.Services.AuthService.MoveNext[81] - User Gigi logged in.
 2024-08-05 15:27:59,785 [24] INFO UserService.Services.AuthService.MoveNext[81] - User Maria logged in.
+2024-08-06 14:51:39,129 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-06 15:36:03,788 [10] DEBUG UserService.Services.AuthService.MoveNext[78] - Login failed! Username or password is invalid.
+2024-08-06 15:36:03,788 [9] DEBUG UserService.Services.AuthService.MoveNext[78] - Login failed! Username or password is invalid.
+2024-08-06 15:37:09,123 [20] INFO UserService.Services.AuthService.MoveNext[81] - User Gigi logged in.
+2024-08-06 15:51:38,147 [3] INFO UserService.Services.AuthService.MoveNext[81] - User Gigi logged in.
+2024-08-06 18:58:54,506 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-06 19:00:05,441 [14] INFO UserService.Services.AuthService.MoveNext[81] - User Maria logged in.
+2024-08-06 19:01:31,476 [27] DEBUG UserService.Services.AuthService.MoveNext[78] - Login failed! Username or password is invalid.
+2024-08-06 19:01:48,303 [24] INFO UserService.Services.AuthService.MoveNext[81] - User Gigi logged in.

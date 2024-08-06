@@ -63,3 +63,25 @@
 2024-08-05 15:27:36,970 [23] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
 2024-08-05 15:27:37,116 [22] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
 2024-08-05 15:28:05,509 [20] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-06 14:51:39,129 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-06 15:38:11,712 [16] DEBUG OrderService.Services.Order.MoveNext[190] - CSV header 'item' does not match any property in the Item class.
+2024-08-06 15:39:09,247 [11] INFO OrderService.Services.Order.MoveNext[70] - Retrieved all paginated items.
+2024-08-06 15:39:09,262 [17] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-06 15:39:12,840 [18] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-06 15:39:15,465 [17] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-06 15:39:15,539 [18] INFO OrderService.Services.Order.MoveNext[70] - Retrieved all paginated items.
+2024-08-06 15:39:32,300 [18] DEBUG OrderService.Services.Order.MoveNext[211] - CSV contains empty or null fields at row 2
+2024-08-06 15:39:32,682 [17] INFO OrderService.Services.Order.MoveNext[261] - Items added from file and added to DB successfully, but some cells are empty or null
+2024-08-06 15:40:02,545 [11] DEBUG OrderService.Services.Order.MoveNext[146] - Item cannot be retrieved to delete.
+2024-08-06 15:58:49,425 [9] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-06 15:58:49,451 [20] INFO OrderService.Services.Order.MoveNext[70] - Retrieved all paginated items.
+2024-08-06 15:58:56,080 [20] INFO OrderService.Services.Order.MoveNext[91] - Retrieved item with ID 2.
+2024-08-06 16:39:41,151 [36] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-06 16:39:41,390 [36] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-06 16:39:43,198 [36] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-06 16:39:43,249 [36] INFO OrderService.Services.Order.MoveNext[70] - Retrieved all paginated items.
+2024-08-06 18:58:54,508 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-06 19:01:01,916 [16] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-06 19:01:56,633 [13] INFO OrderService.Services.Order.MoveNext[149] - Item with ID 3 deleted.
+2024-08-06 19:02:08,351 [16] DEBUG OrderService.Services.Order.MoveNext[146] - Item cannot be retrieved to delete.
+2024-08-06 19:02:08,720 [3] DEBUG OrderService.Services.Order.MoveNext[146] - Item cannot be retrieved to delete.
