@@ -1,15 +1,10 @@
-﻿using Microsoft.AspNetCore.Identity;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
 
 namespace UserService.Models;
 
-public class User
+public partial class User
 {
-    [Key]
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int Id { get; set; }
 
     public string Username { get; set; } = null!;
@@ -19,10 +14,14 @@ public class User
     public string Email { get; set; } = null!;
 
     public string Role { get; set; } = null!;
-    public bool Deleted { get; set; } = false;
+
+    public bool Deleted { get; set; }
+
     public string HindiName { get; set; } = null!;
-    public string DeletedBy {  get; set; } = null!;
-    public DateTime? DeletedAt { get; set; } = null!;
 
+    public DateTime? DeletedAt { get; set; }
 
+    public string DeletedBy { get; set; } = null!;
+
+    public virtual Cart? Cart { get; set; }
 }

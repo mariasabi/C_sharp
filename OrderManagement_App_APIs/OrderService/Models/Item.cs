@@ -1,21 +1,17 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System;
+using System.Collections.Generic;
 
-namespace OrderService.Models
+namespace OrderService.Models;
+
+public partial class Item
 {
-    public class Item
-    {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-       // [Column("Id")]
-        public int Id { get; set; }
-    //    [Column("Name")]
-        public string? Name { get; set; }
-     //   [Column("Type")]
-        public string? Type { get; set; }
-     //   [Column("Quantity")]
-        public int? Quantity { get; set; }
-      //  [Column("Price")]
-        public decimal? Price { get; set; }
-    }
+    public int Id { get; set; }
+
+    public string? Name { get; set; }
+
+    public string? Type { get; set; }
+
+    public int? Quantity { get; set; }
+
+    public decimal? Price { get; set; }
 }

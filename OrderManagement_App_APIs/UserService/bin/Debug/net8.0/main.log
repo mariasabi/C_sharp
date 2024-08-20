@@ -166,3 +166,108 @@
 2024-08-12 17:39:12,509 [67] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
 2024-08-12 17:40:57,130 [64] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
 2024-08-12 17:42:21,611 [64] INFO UserService.Services.AuthService.MoveNext[83] - User Ajoe logged in.
+2024-08-12 18:37:39,347 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-12 18:47:34,513 [7] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-12 18:47:34,513 [10] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-13 11:34:08,537 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-13 11:35:52,558 [13] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-13 11:36:41,249 [13] DEBUG UserService.Services.AuthService.MoveNext[59] - Item cannot be retrieved to delete.
+2024-08-13 11:42:05,676 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-13 11:43:06,161 [7] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-13 12:11:24,260 [5] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-13 12:35:19,352 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-13 12:38:28,316 [9] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-13 12:47:14,547 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-13 12:48:05,098 [5] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-13 12:50:45,575 [9] DEBUG UserService.Services.AuthService.MoveNext[91] - Item cannot be retrieved to delete.
+2024-08-13 12:50:45,899 [18] DEBUG UserService.Services.AuthService.MoveNext[91] - Item cannot be retrieved to delete.
+2024-08-13 13:54:32,616 [10] DEBUG UserService.Services.AuthService.MoveNext[0] - Item cannot be retrieved to delete.
+2024-08-13 13:54:33,641 [46] DEBUG UserService.Services.AuthService.MoveNext[0] - Item cannot be retrieved to delete.
+2024-08-13 13:54:33,779 [42] DEBUG UserService.Services.AuthService.MoveNext[0] - Item cannot be retrieved to delete.
+2024-08-13 13:55:12,710 [24] DEBUG UserService.Services.AuthService.MoveNext[0] - Item cannot be retrieved to delete.
+2024-08-13 13:56:39,693 [42] DEBUG UserService.Services.AuthService.MoveNext[0] - Item cannot be retrieved to delete.
+2024-08-13 15:18:21,227 [7] INFO UserService.Services.AuthService.MoveNext[0] - User Gigi logged in.
+2024-08-13 15:18:21,227 [24] INFO UserService.Services.AuthService.MoveNext[0] - User Gigi logged in.
+2024-08-13 15:18:21,227 [15] INFO UserService.Services.AuthService.MoveNext[0] - User Gigi logged in.
+2024-08-13 15:18:40,607 [24] DEBUG UserService.Services.AuthService.MoveNext[0] - Item cannot be retrieved to delete.
+2024-08-13 15:24:56,395 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-13 15:45:02,636 [16] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-13 17:44:47,425 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 17:45:33,920 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 18:06:19,669 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 18:07:29,270 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 18:07:48,797 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 18:08:22,298 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 18:10:56,315 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 18:11:17,068 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 18:11:38,861 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 18:14:55,724 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 18:15:14,099 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 18:21:55,005 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 18:22:26,386 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 18:23:00,278 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 18:23:52,070 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 18:24:08,114 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 18:25:28,965 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 18:32:10,096 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 18:32:45,661 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 18:40:06,373 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 18:40:26,147 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 18:42:46,434 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 18:59:05,717 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 18:59:25,891 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-13 19:00:23,461 [4] INFO Program.<Main>$[13] - Application started.
+2024-08-16 12:38:29,768 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-16 13:13:41,804 [15] INFO UserService.Services.AuthService.MoveNext[83] - User Ajoe logged in.
+2024-08-16 13:14:08,552 [3] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-16 14:15:36,568 [50] INFO UserService.Services.AuthService.MoveNext[83] - User Ajoe logged in.
+2024-08-16 14:15:36,569 [46] INFO UserService.Services.AuthService.MoveNext[83] - User Ajoe logged in.
+2024-08-16 14:15:56,477 [30] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-16 14:21:59,620 [32] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-16 15:00:59,413 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-16 15:03:58,922 [23] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-16 15:03:58,922 [22] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-19 11:59:18,635 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-19 12:01:20,570 [7] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-19 12:04:46,558 [5] INFO UserService.Services.AuthService.MoveNext[0] - User Gigi logged in.
+2024-08-19 12:10:19,642 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-19 12:11:01,151 [7] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-19 12:15:42,987 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-19 12:16:41,885 [7] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-19 12:18:41,482 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-19 12:19:05,888 [5] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-19 12:20:50,854 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-19 12:30:54,924 [14] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-19 12:33:03,737 [19] INFO UserService.Services.AuthService.MoveNext[0] - User Gigi logged in.
+2024-08-19 12:34:49,285 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-19 12:35:25,656 [10] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-19 12:38:32,211 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-19 12:38:56,431 [9] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-19 12:45:40,570 [5] INFO UserService.Services.AuthService.MoveNext[0] - User Gigi logged in.
+2024-08-19 13:28:56,273 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-19 13:29:31,132 [9] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-19 13:37:25,860 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-19 14:19:09,471 [10] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-19 14:20:43,049 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-19 14:21:29,773 [18] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-19 14:25:06,775 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-19 14:25:39,431 [5] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-19 14:30:41,740 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-19 14:31:04,815 [5] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-19 14:33:45,956 [22] INFO UserService.Services.AuthService.MoveNext[0] - User Gigi logged in.
+2024-08-19 17:12:52,719 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-19 17:13:37,127 [13] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-19 17:16:40,407 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-19 17:24:55,973 [21] INFO UserService.Services.AuthService.MoveNext[0] - User Gigi logged in.
+2024-08-19 17:29:49,146 [21] INFO UserService.Services.AuthService.MoveNext[0] - User Gigi logged in.
+2024-08-19 18:09:04,475 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-19 18:09:34,812 [7] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-19 18:20:27,986 [5] INFO UserService.Services.AuthService.MoveNext[0] - User Gigi logged in.
+2024-08-19 18:27:10,464 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-19 18:28:33,445 [7] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-08-19 18:36:45,607 [7] INFO UserService.Services.AuthService.MoveNext[0] - User Gigi logged in.
+2024-08-20 10:37:56,784 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-20 11:53:34,100 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-20 12:13:10,893 [3] INFO UserService.Services.AuthService.MoveNext[0] - User Gigi logged in.
+2024-08-20 12:39:33,279 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-20 12:47:29,626 [5] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.

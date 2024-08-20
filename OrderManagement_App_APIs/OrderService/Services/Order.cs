@@ -91,12 +91,43 @@ namespace OrderService.Services
         log.Info($"Retrieved item with ID {id}.");
         return item;
     }
-    /// <summary>
-    /// Add item given in request
-    /// </summary>
-    /// <param name="request"></param>
-    /// <returns>Task<Item></returns>
-    public async Task<Item> AddItem(Item request)
+     public async Task<Item> GetItemByName(string name)
+        {
+            var item = _context.Items.FirstOrDefault(x => x.Name == name);
+            if (item == null)
+            {
+                _dblog.CallStoredProcedure(DateTime.Now, Thread.CurrentThread.ManagedThreadId.ToString(), "DEBUG", nameof(Order), "Item cannot be retrieved.");
+                log.Debug("Item cannot be retrieved.");
+                throw new IdNotFoundException("No such item exists");
+
+            }
+            _dblog.CallStoredProcedure(DateTime.Now, Thread.CurrentThread.ManagedThreadId.ToString(), "INFO", nameof(Order), $"Retrieved item with name {name}.");
+            log.Info($"Retrieved item with ID {name}.");
+            return item;
+        }
+    public async Task<Item> UpdateItemQuantity(Item request,int quantity)
+    {
+
+            var existingItem = _context.Items.FirstOrDefault(x => x.Id == request.Id);
+            if (existingItem == null)
+            {
+                //  _dblog.CallStoredProcedure(DateTime.Now, Thread.CurrentThread.ManagedThreadId.ToString(), "DEBUG", nameof(DynamicOrder), "Item cannot be retrieved to update.");
+                log.Debug("Item cannot be retrieved to update.");
+                throw new IdNotFoundException("No such item exists to update");
+            }
+            // Update the existing book's properties
+       existingItem.Quantity=quantity;
+        _context.SaveChanges();
+        _dblog.CallStoredProcedure(DateTime.Now, Thread.CurrentThread.ManagedThreadId.ToString(), "INFO", nameof(Order), $"Item with ID {request.Id} updated.");
+        return request;
+    }
+
+        /// <summary>
+        /// Add item given in request
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns>Task<Item></returns>
+        public async Task<Item> AddItem(Item request)
     {
         _context.Items.Add(request);
         _context.SaveChanges();

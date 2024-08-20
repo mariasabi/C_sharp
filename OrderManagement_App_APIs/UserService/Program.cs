@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Services;
 using UserService.Interfaces;
 using UserService.Models;
 using UserService.Services;
@@ -53,7 +54,19 @@ builder.Services.AddSwaggerGen(swagger =>
                     }
                 });
 });
-builder.Services.AddHttpClient();
+
+
+
+builder.Services.AddHttpClient<IInventoryService, InventoryService>(client =>
+{
+    client.BaseAddress = new Uri("https://localhost:7173/api/Order/"); // Replace with your actual Inventory API base URL
+    client.DefaultRequestHeaders.Add("Accept", "application/json");
+})
+.AddHttpMessageHandler<JwtTokenHandler>();
+builder.Services.AddTransient<JwtTokenHandler>();
+
+builder.Services.AddHttpContextAccessor();
+
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -85,6 +98,7 @@ builder.Services.AddCors(options =>
 builder.Services.AddDbContext<OrderContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IAuthenticationService, AuthService>();
 builder.Services.AddScoped<IAdminService, AdminService>();
+builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddAuthorization();
 builder.Services.AddCors(options =>

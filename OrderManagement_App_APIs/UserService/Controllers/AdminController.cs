@@ -58,7 +58,7 @@ namespace UserService.Controllers
             try
             {
                 var username = User.Claims.FirstOrDefault(c => c.Type == "username")?.Value;
-                var response = await _adminService.DeleteUserByUsername(name,username);
+                var response = await _adminService.DeleteUserByUsername(name,username);  
                 return Ok(response);
             }
             catch (ArgumentsException ex)

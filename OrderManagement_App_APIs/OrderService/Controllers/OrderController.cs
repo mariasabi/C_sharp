@@ -59,6 +59,21 @@ namespace OrderService.Controllers
                 return NotFound(ex.Message);
             }
         }
+        [HttpGet]
+        [Route("getItemByName")]
+        [Authorize]
+        public async Task<ActionResult<Item>> GetItemByName(string name)
+        {
+            try
+            {
+                var item = await _order.GetItemByName(name);
+                return Ok(item);
+            }
+            catch (IdNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
 
         [HttpPost]
         [Route("addItem")]
@@ -77,6 +92,21 @@ namespace OrderService.Controllers
             try
             {
                 var item = await _order.UpdateItem(request);
+                return Ok(item);
+            }
+            catch (IdNotFoundException ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+        [HttpPut]
+        [Route("updateItemQuantity")]
+       
+        public async Task<ActionResult<Item>> UpdateItemQuantity(Item request,int quantity)
+        {
+            try
+            {
+                var item = await _order.UpdateItemQuantity(request,quantity);
                 return Ok(item);
             }
             catch (IdNotFoundException ex)

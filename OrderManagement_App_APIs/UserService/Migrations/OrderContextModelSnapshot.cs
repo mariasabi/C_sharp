@@ -68,7 +68,7 @@ namespace UserService.Migrations
                     b.HasKey("Id")
                         .HasName("PK__Users__3214EC07D576729B");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 #pragma warning restore 612, 618
         }

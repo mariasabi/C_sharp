@@ -1,12 +1,14 @@
-﻿using UserService.Models;
+﻿using UserService.DTOs;
+using UserService.Models;
+using UserService.Services;
 
 namespace UserService.Interfaces
 {
     public interface IAdminService
     {
-        Task<User> GetUserById(int id);
-        Task<List<User>> GetUsers();
+        Task<ShortUser> GetUserById(int id);
+        Task<List<ShortUser>> GetUsers();
          Task<User> DeleteUserByUsername(string name,string username);
-        Task<User> GetUserByUsername(string name);
+        Task<ShortUser> GetUserByUsername(string name);
     }
 }

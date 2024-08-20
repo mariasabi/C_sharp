@@ -1,6 +1,7 @@
 ﻿using log4net;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
+using UserService.DTOs;
 using UserService.Exceptions;
 using UserService.Interfaces;
 using UserService.Models;
@@ -19,18 +20,40 @@ namespace UserService.Services
             _config = config;
             _httpContextAccessor = http;
         }
-        public async Task<User> GetUserById(int id)
+        public async Task<ShortUser> GetUserById(int id)
         {
             var user= _context.Users.FirstOrDefault(x => x.Id == id);
-            if (user.Deleted == false) { return user; }
+            if (user == null) return null;
+            if (user.Deleted == false) 
+            {
+                var shortUser = new ShortUser
+                {
+                    Id = user.Id,
+                    Username = user.Username,
+                    Email = user.Email,
+                    Role = user.Role
+                };
+                return shortUser;
+            }
             else
                 return null;
 
         }
-        public async Task<User> GetUserByUsername(string name)
+        public async Task<ShortUser> GetUserByUsername(string name)
         {
             var user=_context.Users.FirstOrDefault(_x => _x.Username == name);
-            if (user.Deleted == false) { return user; }
+            if (user == null) return null;
+            if (user.Deleted == false) 
+            {
+                var shortUser = new ShortUser
+                {
+                    Id = user.Id,
+                    Username = user.Username,
+                    Email = user.Email,
+                    Role = user.Role
+                };
+                return shortUser;
+            }
             else
                 return null;
         }
@@ -38,7 +61,7 @@ namespace UserService.Services
         /// Retrieve all users.
         /// </summary>
         /// <returns>Task<List<User>></returns>
-        public async Task<List<User>> GetUsers()
+        public async Task<List<ShortUser>> GetUsers()
         {
             var user = await _context.Users.ToListAsync();
 
@@ -47,8 +70,18 @@ namespace UserService.Services
                 log.Debug("No users found to retrieve.");
                 return null;
             }
-            var users = user.FindAll(x => x.Deleted == false);
-            return users;
+            var shortUsers = user
+             .Where(x => x.Deleted == false)
+              .Select(x => new ShortUser
+                {
+                    Id = x.Id,
+                    Username=x.Username,
+                    Email=x.Email,
+                    Role=x.Role
+                })
+              .ToList();
+
+            return shortUsers;
         }
         public async Task<User> DeleteUserByUsername(string name,string username)
         {
