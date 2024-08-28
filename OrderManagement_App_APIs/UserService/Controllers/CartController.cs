@@ -30,7 +30,7 @@ namespace UserService.Controllers
             return NotFound("No cart items found");
         }
         [HttpPost("addCartItem")]
-        public async Task<IActionResult> AddCartItem(CartItemDTO item)
+        public async Task<IActionResult> AddCartItem([FromBody]CartItemDTO item)
         {
             try
             {
@@ -57,7 +57,7 @@ namespace UserService.Controllers
             }
         }
         [HttpPut("incrementCartItem")]
-        public async Task<IActionResult> IncreaseCartItem(string name)
+        public async Task<IActionResult> IncreaseCartItem([FromBody] string name)
         {
             try
             {
@@ -70,7 +70,7 @@ namespace UserService.Controllers
             }
         }
         [HttpPut("decrementCartItem")]
-        public async Task<IActionResult> DecreaseCartItem(string name)
+        public async Task<IActionResult> DecreaseCartItem([FromBody] string name)
         {
             try
             {
@@ -88,6 +88,45 @@ namespace UserService.Controllers
             try
             {
                 var response = await _cart.PurchaseCart();
+                return Ok(response);
+            }
+            catch (ArgumentsException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpGet("getAllOrders")]
+        public async Task<ActionResult<OrderDTO>> GetAllOrders()
+        {
+            try
+            {
+                var response = await _cart.GetAllOrders();
+                return Ok(response);
+            }
+            catch (ArgumentsException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpGet("getOrders")]
+        public async Task<ActionResult<OrderDTO>> GetOrders()
+        {
+            try
+            {
+                var response = await _cart.GetOrdersOfUser();
+                return Ok(response);
+            }
+            catch (ArgumentsException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpGet("getCartValue")]
+        public async Task<ActionResult<decimal>> GetCartValue()
+        {
+            try
+            {
+                var response = await _cart.GetCartValue();
                 return Ok(response);
             }
             catch (ArgumentsException ex)

@@ -10,6 +10,10 @@ using System.ComponentModel;
 using System.Reflection;
 using CsvHelper;
 using CsvHelper.Configuration;
+using OrderService.DTOs;
+using Azure.Core;
+using System.Reflection.PortableExecutable;
+using Microsoft.AspNetCore.Mvc;
 
 namespace OrderService.Services
 {
@@ -36,7 +40,7 @@ namespace OrderService.Services
     /// Retrieve all items
     /// </summary>
     /// <returns>Task<List<Item>></returns>
-    public async Task<List<Item>> GetItems()
+    public async Task<List<ItemViewDTO>> GetItems()
     {
         var items = await _context.Items.ToListAsync();
         if (items.Count == 0)
@@ -44,9 +48,18 @@ namespace OrderService.Services
             _dblog.CallStoredProcedure(DateTime.Now, Thread.CurrentThread.ManagedThreadId.ToString(), "DEBUG", nameof(Order), "No items found to retrieve.");
             log.Debug("No items found to retrieve.");
         }
-         _dblog.CallStoredProcedure(DateTime.Now, Thread.CurrentThread.ManagedThreadId.ToString(), "INFO", nameof(Order), "Retrieved all items.");
-    log.Info("Retrieved all items.");
-        return items;
+            var itemDTOs = items.Select(item => new ItemViewDTO
+            {
+                Id = item.Id,
+                Name = item.Name,
+                Type = item.Type,
+                Quantity = item.Quantity.GetValueOrDefault(), 
+                Price = item.Price.GetValueOrDefault(),
+                Image = item.Image != null ? Convert.ToBase64String(item.Image) : null
+            }).ToList();
+            _dblog.CallStoredProcedure(DateTime.Now, Thread.CurrentThread.ManagedThreadId.ToString(), "INFO", nameof(Order), "Retrieved all items.");
+        log.Info("Retrieved all items.");
+        return itemDTOs;
     }
     /// <summary>
     /// Retrieves the items in a particular page
@@ -77,7 +90,7 @@ namespace OrderService.Services
     /// <param name="id"></param>
     /// <returns>Task<Item></returns>
     /// <exception cref="IdNotFoundException"></exception>
-    public async Task<Item> GetItem(int id)
+    public async Task<ItemViewDTO> GetItem(int id)
     {
         var item = _context.Items.FirstOrDefault(x => x.Id == id);
         if (item == null)
@@ -87,11 +100,20 @@ namespace OrderService.Services
             throw new IdNotFoundException("No such item exists");
 
         }
-        _dblog.CallStoredProcedure(DateTime.Now, Thread.CurrentThread.ManagedThreadId.ToString(), "INFO", nameof(Order), $"Retrieved item with ID {id}.");
+            var itemDTO = new ItemViewDTO
+            {
+                Id = item.Id,
+                Name = item.Name,
+                Type = item.Type,
+                Quantity = (int)item.Quantity,
+                Price = (decimal)item.Price,
+                Image = item.Image != null ? Convert.ToBase64String(item.Image) : null
+            };
+            _dblog.CallStoredProcedure(DateTime.Now, Thread.CurrentThread.ManagedThreadId.ToString(), "INFO", nameof(Order), $"Retrieved item with ID {id}.");
         log.Info($"Retrieved item with ID {id}.");
-        return item;
+        return itemDTO;
     }
-     public async Task<Item> GetItemByName(string name)
+     public async Task<ItemViewDTO> GetItemByName(string name)
         {
             var item = _context.Items.FirstOrDefault(x => x.Name == name);
             if (item == null)
@@ -101,14 +123,23 @@ namespace OrderService.Services
                 throw new IdNotFoundException("No such item exists");
 
             }
+            var itemDTO = new ItemViewDTO
+            {
+                Id = item.Id,
+                Name = item.Name,
+                Type = item.Type,
+                Quantity = (int)item.Quantity,
+                Price = (decimal)item.Price,
+                Image = item.Image != null ? Convert.ToBase64String(item.Image) : null
+            };
             _dblog.CallStoredProcedure(DateTime.Now, Thread.CurrentThread.ManagedThreadId.ToString(), "INFO", nameof(Order), $"Retrieved item with name {name}.");
             log.Info($"Retrieved item with ID {name}.");
-            return item;
+            return itemDTO;
         }
-    public async Task<Item> UpdateItemQuantity(Item request,int quantity)
+    public async Task<Item> UpdateItemQuantity(string name,int quantity)
     {
 
-            var existingItem = _context.Items.FirstOrDefault(x => x.Id == request.Id);
+            var existingItem = _context.Items.FirstOrDefault(x => x.Name == name);
             if (existingItem == null)
             {
                 //  _dblog.CallStoredProcedure(DateTime.Now, Thread.CurrentThread.ManagedThreadId.ToString(), "DEBUG", nameof(DynamicOrder), "Item cannot be retrieved to update.");
@@ -118,8 +149,8 @@ namespace OrderService.Services
             // Update the existing book's properties
        existingItem.Quantity=quantity;
         _context.SaveChanges();
-        _dblog.CallStoredProcedure(DateTime.Now, Thread.CurrentThread.ManagedThreadId.ToString(), "INFO", nameof(Order), $"Item with ID {request.Id} updated.");
-        return request;
+        _dblog.CallStoredProcedure(DateTime.Now, Thread.CurrentThread.ManagedThreadId.ToString(), "INFO", nameof(Order), $"Item with ID {name} updated.");
+        return existingItem;
     }
 
         /// <summary>
@@ -127,13 +158,40 @@ namespace OrderService.Services
         /// </summary>
         /// <param name="request"></param>
         /// <returns>Task<Item></returns>
-        public async Task<Item> AddItem(Item request)
+        public async Task<Item> AddItem([FromForm]ItemDTO itemDto)
     {
-        _context.Items.Add(request);
+            if (itemDto == null)
+                return null;
+            var existingItem = _context.Items.FirstOrDefault(x => x.Name == itemDto.Name);
+            if(existingItem != null)
+            {
+                existingItem.Quantity+=itemDto.Quantity;
+                _context.SaveChanges();
+                return existingItem;
+            }
+            byte[] imageData = null;
+            if (itemDto.Image != null && itemDto.Image.Length > 0)
+            {
+                using (var ms = new MemoryStream())
+                {
+                    await itemDto.Image.CopyToAsync(ms);
+                    imageData = ms.ToArray();
+                }
+            }
+
+            var newItem = new Item
+            {
+                Name = itemDto.Name,
+                Quantity = itemDto.Quantity,
+                Type=itemDto.Type,
+                Price = itemDto.Price,
+                Image = imageData
+            };
+            _context.Items.Add(newItem);
         _context.SaveChanges();
-        _dblog.CallStoredProcedure(DateTime.Now, Thread.CurrentThread.ManagedThreadId.ToString(), "INFO", nameof(Order), $"Item with ID {request.Id} added.");
-        log.Info($"Item with ID {request.Id} added.");
-        return request;
+        _dblog.CallStoredProcedure(DateTime.Now, Thread.CurrentThread.ManagedThreadId.ToString(), "INFO", nameof(Order), $"Item {itemDto.Name} added.");
+        log.Info($"Item {itemDto.Name} added.");
+        return newItem;
     }
     /// <summary>
     /// Update item identified by Id in request with new values
@@ -141,7 +199,7 @@ namespace OrderService.Services
     /// <param name="request"></param>
     /// <returns>Task<Item></returns>
     /// <exception cref="IdNotFoundException"></exception>
-    public async Task<Item> UpdateItem(Item request)
+    public async Task<Item> UpdateItem([FromForm] ItemDTO request)
     {
 
             var existingItem = _context.Items.FirstOrDefault(x => x.Id == request.Id);
@@ -151,17 +209,39 @@ namespace OrderService.Services
                 log.Debug("Item cannot be retrieved to update.");
                 throw new IdNotFoundException("No such item exists to update");
             }
-            // Update the existing book's properties
-            foreach (PropertyInfo property in existingItem.GetType().GetProperties().Where(p => p.Name != "Id"))
+            if(request==null)
             {
-                var propertyValue = property.GetValue(request);
-                property.SetValue(existingItem, propertyValue);
+                throw new ArgumentsException("Invalid item data");
             }
-            log.Info($"Item with ID {request.Id} updated.");
+            // Update the existing book's properties
+            foreach (PropertyInfo property in existingItem.GetType().GetProperties().Where(p => (p.Name != "Id")))
+            {
+               if(property.Name.Equals("Image"))
+                {
+                    byte[] imageData = null;
+                    if (request.Image != null && request.Image.Length > 0)
+                    {
+                        using (var ms = new MemoryStream())
+                        {
+                            await request.Image.CopyToAsync(ms);
+                            imageData = ms.ToArray();
+                        }
+                        existingItem.Image = imageData;
+                    }
+                    continue;
+                }
+                var propertyValue = request.GetType().GetProperty(property.Name)?.GetValue(request);
+
+                if (propertyValue != null)
+                {
+                    property.SetValue(existingItem, propertyValue);
+                }
+            }
+            log.Info($"Item {request.Name} updated.");
        
         _context.SaveChanges();
         _dblog.CallStoredProcedure(DateTime.Now, Thread.CurrentThread.ManagedThreadId.ToString(), "INFO", nameof(Order), $"Item with ID {request.Id} updated.");
-        return request;
+        return existingItem;
     }
     /// <summary>
     /// Delete item identified by Id
@@ -185,7 +265,6 @@ namespace OrderService.Services
     }
         public async Task<string> BulkAddItem(IFormFile file)
         {
-
 
             if (file == null || file.Length == 0)
             {
@@ -233,6 +312,7 @@ namespace OrderService.Services
                     var item = new Item();
                     foreach (var header in headerRow)
                     {
+                        
                         //Get each cell value
                         var value = csv.GetField(header);
                         //If any field is empty, give proper message and read next row
@@ -243,6 +323,23 @@ namespace OrderService.Services
                             emptyCell = ", but some cells are empty or null";
                             flag = true;
                             break;
+                        }
+                        if (header == "Image"||header=="image")
+                        {
+                            var imagePath = csv.GetField(header);
+                            if (File.Exists(imagePath))
+                            {
+                                byte[] imageBytes = File.ReadAllBytes(imagePath);
+                                var prop = propertyMap["Image"];
+                                object convertedImage;
+    
+                                prop.SetValue(item, imageBytes);
+                                continue;
+                            }
+                            else
+                            {
+                                throw new ArgumentsException($"Image file not found: {imagePath}");
+                            }
                         }
                         var property = propertyMap[header];
                         object convertedValue;
@@ -268,12 +365,11 @@ namespace OrderService.Services
                     var existingItem = _context.Items.FirstOrDefault(b => b.Name == item.Name && b.Type == item.Type);
                     if (existingItem != null)
                     {
-                        // Update the existing book's properties
-                        foreach (PropertyInfo property in existingItem.GetType().GetProperties().Where(p => p.Name != "Name" && p.Name != "Type" && p.Name != "Id"))
-                        {
-                            var propertyValue = property.GetValue(item);
-                            property.SetValue(existingItem, propertyValue);
-                        }
+                       
+                        var fieldValue = csv.GetField("Quantity");
+                        var field=int.Parse(fieldValue);
+                        existingItem.Quantity = (int)existingItem.Quantity + field;
+                        
                     }
                     else
                     {

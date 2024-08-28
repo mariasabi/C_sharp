@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using UserService.Models;
 
 namespace UserService.Models;
 
@@ -18,6 +19,8 @@ public partial class OrderContext : DbContext
     public virtual DbSet<Cart> Carts { get; set; }
 
     public virtual DbSet<CartItem> CartItems { get; set; }
+
+    public virtual DbSet<Order> Orders { get; set; }
 
     public virtual DbSet<User> Users { get; set; }
 
@@ -54,6 +57,14 @@ public partial class OrderContext : DbContext
             entity.HasOne(d => d.Cart).WithMany(p => p.CartItems)
                 .HasForeignKey(d => d.CartId)
                 .HasConstraintName("FK__CartItem__CartId__36470DEF");
+        });
+
+        modelBuilder.Entity<Order>(entity =>
+        {
+            entity.HasKey(e => e.OrderId).HasName("PK__Orders__C3905BCF7E30C457");
+
+            entity.Property(e => e.OrderTime).HasColumnType("datetime");
+            entity.Property(e => e.TotalPrice).HasColumnType("decimal(18, 2)");
         });
 
         modelBuilder.Entity<User>(entity =>

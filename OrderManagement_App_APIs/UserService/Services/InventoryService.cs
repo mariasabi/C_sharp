@@ -60,18 +60,14 @@ namespace UserService.Services
         }
          public async Task<string> ReduceInventoryItemQuantity(Item item,int reduceBy )
         {           
-
-            var jsonContent = JsonConvert.SerializeObject(item);
-            var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
-
             var newQuant = item.Quantity - reduceBy;
-            var response = await _httpClient.PutAsync($"https://localhost:7173/api/Order/updateItemQuantity?quantity={newQuant}",content); 
+            var response = await _httpClient.PutAsync($"https://localhost:7173/api/Order/updateItemQuantity?itemname={item.Name}&quantity={newQuant}",null); 
             if (response.IsSuccessStatusCode)
                 return "Updated quantity";
             else
                 throw new ArgumentsException("Failed to update quantity in inventory");
         
-        //    return "";
+        
         }
     }
 }

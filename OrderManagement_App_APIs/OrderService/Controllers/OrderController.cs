@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using OrderService.DTOs;
 using OrderService.Exceptions;
 using OrderService.Interfaces;
 using OrderService.Models;
@@ -22,7 +23,7 @@ namespace OrderService.Controllers
         [HttpGet]
         [Route("getItems")]
         [Authorize]
-        public async Task<ActionResult<Item>> GetItems()
+        public async Task<ActionResult<List<ItemViewDTO>>> GetItems()
         {
             var items = await _order.GetItems();
             if (items.Count == 0)
@@ -32,7 +33,7 @@ namespace OrderService.Controllers
         [HttpGet]
         [Route("getPaginatedItems")]
         [Authorize]
-        public async Task<ActionResult<Item>> GetPaginatedItems(int page = 1, int pageSize = 10)
+        public async Task<ActionResult<List<Item>>> GetPaginatedItems(int page = 1, int pageSize = 10)
         {
             try
             {
@@ -47,7 +48,7 @@ namespace OrderService.Controllers
         [HttpGet]
         [Route("getItem")]
         [Authorize]
-        public async Task<ActionResult<Item>> GetItem(int id)
+        public async Task<ActionResult<ItemViewDTO>> GetItem(int id)
         {
             try
             {
@@ -62,7 +63,7 @@ namespace OrderService.Controllers
         [HttpGet]
         [Route("getItemByName")]
         [Authorize]
-        public async Task<ActionResult<Item>> GetItemByName(string name)
+        public async Task<ActionResult<ItemViewDTO>> GetItemByName(string name)
         {
             try
             {
@@ -78,16 +79,24 @@ namespace OrderService.Controllers
         [HttpPost]
         [Route("addItem")]
         [Authorize(Roles = "Admin")]
-        public async Task<ActionResult<Item>> AddItem(Item request)
+        public async Task<ActionResult<Item>> AddItem([FromForm] ItemDTO request)
         {
-            var item = await _order.AddItem(request);
-            return Ok(item);
+            try
+            {
+                var item = await _order.AddItem(request);
+                return Ok(item);
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message); 
+            }
+           
         }
 
         [HttpPut]
         [Route("updateItem")]
         [Authorize(Roles = "Admin")]
-        public async Task<ActionResult<Item>> UpdateItemDynamic(Item request)
+        public async Task<ActionResult<Item>> UpdateItemDynamic([FromForm] ItemDTO request)       
         {
             try
             {
@@ -102,11 +111,11 @@ namespace OrderService.Controllers
         [HttpPut]
         [Route("updateItemQuantity")]
        
-        public async Task<ActionResult<Item>> UpdateItemQuantity(Item request,int quantity)
+        public async Task<ActionResult<Item>> UpdateItemQuantity(string itemname,int quantity)
         {
             try
-            {
-                var item = await _order.UpdateItemQuantity(request,quantity);
+            { 
+                var item = await _order.UpdateItemQuantity(itemname,quantity);
                 return Ok(item);
             }
             catch (IdNotFoundException ex)
@@ -134,11 +143,11 @@ namespace OrderService.Controllers
         [HttpPost]
         [Route("bulkaddItemsDynamic")]
         [Authorize(Roles = "Admin")]
-        public async Task<ActionResult<string>> BulkAddItemDynamic()
+        public async Task<ActionResult<string>> BulkAddItemDynamic(IFormFile file)
         {
             try
             {
-                var file = Request.Form.Files[0];
+               // var file = Request.Form.Files[0];
 
 
                 if (file.Length > 0)

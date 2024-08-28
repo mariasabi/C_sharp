@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using log4net;
+using Microsoft.EntityFrameworkCore;
 using UserService.DTOs;
 using UserService.Exceptions;
 using UserService.Interfaces;
@@ -8,6 +9,7 @@ namespace UserService.Services
 {
     public class CartService:ICartService
     {
+        private static readonly ILog log = LogManager.GetLogger(typeof(CartService));
         private readonly OrderContext _context;
         private readonly IHttpContextAccessor _httpContextAccessor;
         private int userId;
@@ -47,9 +49,9 @@ namespace UserService.Services
                 return null;
             }
         }
-        public async Task<string> AddCartItem(CartItemDTO cartItemDTO)
+        public async Task<CartItemDTO[]> AddCartItem(CartItemDTO cartItemDTO)
         {
-            
+          //  log.Debug($"Add cart item called, {cartItemDTO.ItemName}");
             var inventoryItem = await _inventoryService.GetInventoryItem(cartItemDTO.ItemName);
             var res = await _inventoryService.CheckInventoryItemQuantity(inventoryItem, (int)cartItemDTO.Quantity);
             
@@ -101,10 +103,11 @@ namespace UserService.Services
             
             var result = await _context.SaveChangesAsync();
 
-            return "Added item to cart";
+            var cartItemsDTOs = covertToCartItemDTO(cart.CartItems);
+            return cartItemsDTOs;
         }
 
-       public  async Task<string> RemoveCartItem(string itemName)
+       public  async Task<CartItemDTO[]> RemoveCartItem(string itemName)
         {
             var cart = await _context.Carts
             .Include(c => c.CartItems)
@@ -130,10 +133,11 @@ namespace UserService.Services
             _context.CartItems.Remove(cartItem);
             await _context.SaveChangesAsync();
 
-            return $"Item '{itemName}' successfully removed from the cart.";
+            var cartItemsDTOs = covertToCartItemDTO(cart.CartItems);
+            return cartItemsDTOs;
 
         }
-        public async Task<string> UpdateCartItemQuantity(string itemName,bool inc=true)
+        public async Task<CartItemDTO[]> UpdateCartItemQuantity(string itemName,bool inc=true)
         {
             var cart = await _context.Carts
                         .Include(c => c.CartItems)
@@ -162,9 +166,8 @@ namespace UserService.Services
             }
             else
             {
-                
-                var result = await _inventoryService.ReduceInventoryItemQuantity(inventoryItem, -1);
-                if(cartItem.Quantity==0)
+                 var result = await _inventoryService.ReduceInventoryItemQuantity(inventoryItem, -1);
+                if(cartItem.Quantity==1)
                     _context.CartItems.Remove(cartItem);
                 else
                     cartItem.Quantity--;
@@ -178,11 +181,24 @@ namespace UserService.Services
            
             await _context.SaveChangesAsync();
 
-            return $"Item '{itemName}' successfully updated in cart.";
+            var cartItemsDTOs=covertToCartItemDTO(cart.CartItems);
+            return cartItemsDTOs;
 
         }
 
+public CartItemDTO[] covertToCartItemDTO(ICollection<CartItem> cartItems)
+        {
+            var cartItemDTOs = cartItems
+                 .Select(item => new CartItemDTO
+                 {
+                     ItemName = item.ItemName,
+                     Quantity = item.Quantity,
+                     Price = item.Price
 
+                 })
+                 .ToArray();
+            return cartItemDTOs;
+        }
         public async Task<string> PurchaseCart()
         {
              // Retrieve the user's cart based on the userId
@@ -199,21 +215,65 @@ namespace UserService.Services
                 {
                     throw new ArgumentsException("The cart is empty. Add items to the cart before purchasing.");
                 }
-
-                // Remove each CartItem associated with the cart
                 foreach (var cartItem in cart.CartItems.ToList())
                 {
-                    _context.CartItems.Remove(cartItem); // Remove CartItem from the database
+                    var orderItem = new Order
+                    {
+                        UserId = userId,
+                        Itemname =cartItem.ItemName,
+                         Quantity= (int)cartItem.Quantity,
+                         TotalPrice= (decimal)(cartItem.Quantity*cartItem.Price),
+                         OrderTime=DateTime.Now
+                    };  
+                _context.Orders.Add(orderItem);
+                _context.CartItems.Remove(cartItem);
                 }
 
-                cart.CartValue = 0; // Reset the cart value
-
-                // Save the changes to the database
+                cart.CartValue = 0;
                 await _context.SaveChangesAsync();
 
                 return "Purchase successful";
             
 
+        }
+        public async Task<List<OrderDTO>> GetOrdersOfUser()
+        {
+            var orders = (from o in _context.Orders
+                          join u in _context.Users on userId equals u.Id
+                          select new OrderDTO
+                          {
+                              OrderId = o.OrderId,
+                              Itemname = o.Itemname,
+                              Quantity = o.Quantity,
+                              TotalPrice = o.TotalPrice,
+                              OrderTime = o.OrderTime
+                   
+                          }).ToList();
+            return orders;
+        }
+        public async Task<List<OrderDTO>> GetAllOrders()
+        {
+            var orders = (from o in _context.Orders
+                          join u in _context.Users on o.UserId equals u.Id
+                          select new OrderDTO
+                          {
+                              OrderId=o.OrderId,
+                              Itemname = o.Itemname,
+                              Quantity = o.Quantity,
+                              TotalPrice = o.TotalPrice,
+                              OrderTime = o.OrderTime,
+                              Username = u.Username
+                          }).ToList();
+            return orders;
+        }
+        public async Task<decimal> GetCartValue()
+        {
+            var cart = await _context.Carts.FirstOrDefaultAsync(c => c.UserId == userId);
+            if(cart==null)
+            {
+                return 0;
+            }
+            return (decimal)cart.CartValue;
         }
     }
 }

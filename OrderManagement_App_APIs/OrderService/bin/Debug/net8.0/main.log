@@ -198,3 +198,694 @@ System.Text.Json.JsonException: The input does not contain any JSON tokens. Expe
 2024-08-20 13:42:53,640 [34] INFO OrderService.Services.Order.MoveNext[105] - Retrieved item with ID Lux.
 2024-08-20 13:47:50,709 [56] INFO OrderService.Services.Order.MoveNext[105] - Retrieved item with ID Frooti.
 2024-08-20 13:48:02,048 [59] INFO OrderService.Services.Order.MoveNext[105] - Retrieved item with ID Lux.
+2024-08-20 14:35:02,030 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-20 14:51:49,454 [46] INFO OrderService.Services.Order.MoveNext[105] - Retrieved item with ID Lux.
+2024-08-20 14:52:23,379 [39] INFO OrderService.Services.Order.MoveNext[105] - Retrieved item with ID Lux.
+2024-08-20 14:54:53,220 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-20 15:02:17,133 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-20 15:08:43,879 [5] INFO OrderService.Services.Order.MoveNext[105] - Retrieved item with ID Lux.
+2024-08-20 16:14:09,116 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-21 10:51:38,982 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-21 11:00:06,763 [16] INFO OrderService.Services.Order.MoveNext[105] - Retrieved item with ID Mentos.
+2024-08-21 11:02:01,388 [14] INFO OrderService.Services.Order.MoveNext[105] - Retrieved item with ID Mentos.
+2024-08-21 11:02:56,160 [20] INFO OrderService.Services.Order.MoveNext[105] - Retrieved item with ID Mentos.
+2024-08-21 11:03:41,897 [9] INFO OrderService.Services.Order.MoveNext[105] - Retrieved item with ID Lux.
+2024-08-21 11:04:09,097 [9] INFO OrderService.Services.Order.MoveNext[105] - Retrieved item with ID Mentos.
+2024-08-21 12:01:00,392 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-21 15:32:56,663 [1] INFO Program.<Main>$[13] - Application started.
+2024-08-21 15:45:22,212 [16] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-21 15:46:17,793 [20] INFO OrderService.Services.Order.MoveNext[48] - Retrieved all items.
+2024-08-21 17:11:07,775 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-21 17:18:29,808 [22] INFO OrderService.Services.Order.MoveNext[0] - Item Kissan jam added.
+2024-08-21 17:21:38,713 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-21 18:07:33,541 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-21 18:09:31,272 [14] INFO OrderService.Services.Order.MoveNext[187] - Item Kissan jam updated.
+2024-08-22 11:29:36,846 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-22 11:33:00,449 [15] INFO OrderService.Services.Order.MoveNext[50] - Retrieved all items.
+2024-08-22 11:36:35,727 [29] INFO OrderService.Services.Order.MoveNext[0] - Retrieved all items.
+2024-08-22 11:47:24,975 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-22 12:05:31,740 [41] INFO OrderService.Services.Order.MoveNext[0] - Retrieved all items.
+2024-08-22 12:20:19,184 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-22 12:21:18,635 [7] INFO OrderService.Services.Order.MoveNext[51] - Retrieved all items.
+2024-08-22 12:23:18,739 [20] INFO OrderService.Services.Order.MoveNext[354] - Items added from file and added to DB successfully
+2024-08-22 12:38:08,720 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-22 14:54:42,312 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-22 15:13:46,091 [19] INFO OrderService.Services.Order.MoveNext[0] - Item Lays updated.
+2024-08-22 15:30:19,469 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-22 18:35:55,392 [9] INFO OrderService.Services.Order.MoveNext[51] - Retrieved all items.
+2024-08-22 18:38:45,538 [14] INFO OrderService.Services.Order.MoveNext[51] - Retrieved all items.
+2024-08-22 18:39:07,190 [14] INFO OrderService.Services.Order.MoveNext[51] - Retrieved all items.
+2024-08-22 18:39:50,899 [20] INFO OrderService.Services.Order.MoveNext[51] - Retrieved all items.
+2024-08-22 18:40:02,918 [19] INFO OrderService.Services.Order.MoveNext[51] - Retrieved all items.
+2024-08-22 18:40:18,603 [14] INFO OrderService.Services.Order.MoveNext[51] - Retrieved all items.
+2024-08-22 18:40:39,381 [14] INFO OrderService.Services.Order.MoveNext[51] - Retrieved all items.
+2024-08-22 18:41:36,336 [19] INFO OrderService.Services.Order.MoveNext[51] - Retrieved all items.
+2024-08-22 18:42:00,801 [22] INFO OrderService.Services.Order.MoveNext[51] - Retrieved all items.
+2024-08-22 18:42:07,953 [22] INFO OrderService.Services.Order.MoveNext[51] - Retrieved all items.
+2024-08-22 18:44:25,582 [28] INFO OrderService.Services.Order.MoveNext[51] - Retrieved all items.
+2024-08-22 18:44:45,666 [14] INFO OrderService.Services.Order.MoveNext[51] - Retrieved all items.
+2024-08-22 18:44:46,625 [10] INFO OrderService.Services.Order.MoveNext[51] - Retrieved all items.
+2024-08-22 18:46:59,216 [10] INFO OrderService.Services.Order.MoveNext[51] - Retrieved all items.
+2024-08-22 18:47:56,697 [31] INFO OrderService.Services.Order.MoveNext[51] - Retrieved all items.
+2024-08-23 11:57:28,480 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-23 12:09:04,680 [22] INFO OrderService.Services.Order.MoveNext[82] - Retrieved all paginated items.
+2024-08-23 12:09:17,376 [23] INFO OrderService.Services.Order.MoveNext[112] - Retrieved item with ID 2.
+2024-08-23 12:09:23,070 [20] INFO OrderService.Services.Order.MoveNext[112] - Retrieved item with ID 1.
+2024-08-23 12:10:17,231 [20] INFO OrderService.Services.Order.MoveNext[135] - Retrieved item with ID Lays.
+2024-08-23 12:13:31,346 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-23 12:15:59,649 [17] INFO OrderService.Services.Order.MoveNext[82] - Retrieved all paginated items.
+2024-08-23 12:18:07,479 [27] INFO OrderService.Services.Order.MoveNext[0] - Retrieved all items.
+2024-08-23 12:18:13,761 [24] INFO OrderService.Services.Order.MoveNext[0] - Retrieved all paginated items.
+2024-08-23 12:21:19,678 [11] INFO OrderService.Services.Order.MoveNext[0] - Retrieved all items.
+2024-08-23 12:21:23,703 [10] INFO OrderService.Services.Order.MoveNext[0] - Retrieved all items.
+2024-08-23 12:21:23,728 [11] INFO OrderService.Services.Order.MoveNext[0] - Retrieved all paginated items.
+2024-08-23 12:21:29,690 [11] INFO OrderService.Services.Order.MoveNext[0] - Retrieved all paginated items.
+2024-08-23 12:21:31,069 [11] INFO OrderService.Services.Order.MoveNext[0] - Retrieved all paginated items.
+2024-08-23 12:21:38,178 [11] INFO OrderService.Services.Order.MoveNext[0] - Retrieved item with ID 1.
+2024-08-23 15:27:20,581 [131] INFO OrderService.Services.Order.MoveNext[0] - Retrieved all items.
+2024-08-23 15:27:20,911 [63] INFO OrderService.Services.Order.MoveNext[0] - Retrieved all items.
+2024-08-23 15:27:20,930 [131] INFO OrderService.Services.Order.MoveNext[0] - Retrieved all items.
+2024-08-23 15:27:21,415 [63] INFO OrderService.Services.Order.MoveNext[0] - Retrieved all items.
+2024-08-23 15:27:21,493 [62] INFO OrderService.Services.Order.MoveNext[0] - Retrieved all items.
+2024-08-23 15:45:07,731 [38] INFO OrderService.Services.Order.MoveNext[0] - Retrieved all items.
+2024-08-23 15:46:08,554 [11] INFO OrderService.Services.Order.MoveNext[0] - Item Notebook added.
+2024-08-23 15:51:29,136 [30] DEBUG OrderService.Services.Order.MoveNext[0] - Item cannot be retrieved to update.
+2024-08-23 15:58:22,659 [38] INFO OrderService.Services.Order.MoveNext[0] - Item Eraser added.
+2024-08-23 16:03:28,488 [21] INFO OrderService.Services.Order.MoveNext[0] - Retrieved all items.
+2024-08-23 18:41:30,373 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-23 18:47:30,785 [7] INFO OrderService.Services.Order.MoveNext[193] - Item Eraser added.
+2024-08-23 18:49:07,728 [5] INFO OrderService.Services.Order.MoveNext[193] - Item Ruler added.
+2024-08-23 18:49:42,424 [15] INFO OrderService.Services.Order.MoveNext[113] - Retrieved item with ID 15.
+2024-08-23 18:49:49,999 [14] DEBUG OrderService.Services.Order.MoveNext[99] - Item cannot be retrieved.
+2024-08-23 18:49:59,468 [15] INFO OrderService.Services.Order.MoveNext[113] - Retrieved item with ID 12.
+2024-08-23 18:51:26,150 [23] INFO OrderService.Services.Order.MoveNext[113] - Retrieved item with ID 14.
+2024-08-23 18:51:30,890 [26] INFO OrderService.Services.Order.MoveNext[113] - Retrieved item with ID 15.
+2024-08-23 18:52:57,688 [25] INFO OrderService.Services.Order.MoveNext[240] - Item Ruler updated.
+2024-08-23 18:53:03,292 [25] INFO OrderService.Services.Order.MoveNext[113] - Retrieved item with ID 15.
+2024-08-26 11:06:26,006 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-26 11:45:20,146 [16] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 11:45:20,316 [4] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 11:45:23,700 [16] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 11:45:23,768 [7] INFO OrderService.Services.Order.MoveNext[83] - Retrieved all paginated items.
+2024-08-26 11:45:29,836 [16] INFO OrderService.Services.Order.MoveNext[113] - Retrieved item with ID 1.
+2024-08-26 12:06:19,021 [7] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:06:19,094 [15] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:06:19,159 [14] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:13:41,004 [19] INFO OrderService.Services.Order.MoveNext[240] - Item Pears updated.
+2024-08-26 12:13:54,910 [17] INFO OrderService.Services.Order.MoveNext[113] - Retrieved item with ID 2.
+2024-08-26 12:15:04,280 [24] INFO OrderService.Services.Order.MoveNext[193] - Item Sharpner added.
+2024-08-26 12:17:54,734 [31] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:20:33,443 [38] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:21:10,805 [38] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:21:42,385 [20] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:31:23,526 [26] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:32:00,555 [17] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:32:31,923 [32] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:32:36,737 [17] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:32:46,307 [17] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:34:31,498 [9] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:34:54,506 [29] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:35:52,469 [31] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:36:21,951 [22] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:37:17,331 [33] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:40:53,312 [5] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:41:26,676 [5] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:42:31,889 [32] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:43:03,875 [38] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:43:51,412 [38] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:44:07,933 [26] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:48:09,133 [40] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:48:48,141 [38] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:49:20,720 [26] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:49:33,853 [4] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 12:50:23,596 [32] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:04:04,962 [38] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:15:49,310 [40] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:17:53,481 [26] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:18:47,578 [29] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:19:00,436 [29] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:19:21,996 [16] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:21:21,738 [32] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:22:03,578 [40] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:22:37,818 [40] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:22:48,578 [36] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:22:59,836 [32] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:24:10,809 [17] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:25:04,708 [19] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:25:12,209 [32] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:26:51,773 [26] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:27:09,843 [26] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:30:33,244 [39] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:34:31,009 [27] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:34:48,753 [24] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:35:01,891 [27] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:35:10,367 [34] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:37:22,236 [30] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:37:55,685 [19] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:38:02,899 [36] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 14:38:03,272 [34] INFO OrderService.Services.Order.MoveNext[83] - Retrieved all paginated items.
+2024-08-26 14:38:10,349 [36] INFO OrderService.Services.Order.MoveNext[113] - Retrieved item with ID 2.
+2024-08-26 14:39:42,898 [17] INFO OrderService.Services.Order.MoveNext[193] - Item Head & Shoulders added.
+2024-08-26 14:46:57,962 [9] INFO OrderService.Services.Order.MoveNext[240] - Item Frooti updated.
+2024-08-26 15:06:03,929 [46] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:07:23,177 [30] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:07:24,023 [46] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:07:53,477 [30] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:10:51,184 [34] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:11:25,572 [51] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:11:54,139 [34] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:12:52,812 [27] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:13:05,289 [27] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:16:36,683 [46] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:18:08,904 [21] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:18:41,307 [26] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:19:56,493 [46] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:20:27,757 [21] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:20:56,832 [46] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:21:10,758 [27] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:21:22,189 [26] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:21:41,626 [27] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:21:52,716 [27] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:23:18,555 [26] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:25:47,512 [50] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:32:29,027 [24] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:32:49,280 [32] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:34:00,519 [41] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:34:11,262 [21] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:34:27,326 [21] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:34:45,380 [41] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:35:03,023 [20] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:35:53,292 [41] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:36:18,614 [41] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:36:35,690 [16] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:37:03,024 [32] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:37:13,393 [13] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:37:19,415 [36] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:37:51,151 [36] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:38:03,889 [36] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:38:53,037 [17] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:39:51,041 [32] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:40:07,419 [33] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:40:27,824 [23] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:40:49,917 [23] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:41:11,157 [33] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:41:35,241 [5] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:42:03,671 [15] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:42:18,598 [5] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:43:37,451 [15] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:43:47,292 [23] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:44:39,706 [46] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:44:55,602 [33] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:45:16,340 [34] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:46:02,986 [30] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:46:29,898 [40] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:46:41,634 [34] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:47:03,472 [29] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:47:25,114 [24] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:48:09,528 [29] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:48:59,161 [22] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:49:19,433 [31] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:49:54,447 [47] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:57:19,812 [35] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:57:51,695 [31] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:58:30,608 [35] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:59:07,368 [47] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:59:24,845 [31] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 15:59:52,498 [7] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 16:02:26,036 [15] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 16:03:13,895 [7] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 16:04:49,815 [22] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 16:05:37,542 [15] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 16:58:14,765 [48] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 16:58:19,077 [32] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:00:40,248 [14] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:01:16,631 [15] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:01:21,185 [14] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:04:44,334 [5] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:05:43,934 [31] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:07:20,961 [26] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:08:11,394 [5] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:08:21,597 [5] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:08:35,637 [31] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:08:54,601 [31] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:09:22,677 [25] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:09:50,038 [14] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:11:07,086 [7] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:21:20,842 [32] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:21:44,145 [24] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:22:58,802 [41] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:24:11,459 [41] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:24:25,972 [25] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:25:20,113 [22] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:25:33,741 [20] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:26:47,328 [21] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:27:36,577 [36] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:27:53,633 [20] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:29:39,013 [46] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:30:45,918 [15] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:30:58,171 [22] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:31:04,110 [15] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:31:49,750 [26] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:33:09,391 [5] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:34:10,482 [32] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:34:20,875 [33] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:35:15,831 [38] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:36:06,695 [13] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:36:58,497 [13] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:38:44,159 [48] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:39:04,774 [29] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:39:21,133 [38] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:39:22,355 [13] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:39:37,802 [14] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:40:22,404 [32] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:40:23,684 [32] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:41:10,786 [14] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:43:32,252 [22] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:44:09,121 [5] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:44:36,327 [32] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:45:49,375 [7] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:46:13,417 [14] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:46:57,145 [16] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:47:33,179 [39] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:47:41,664 [37] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:48:00,062 [23] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:48:57,124 [9] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:49:32,614 [37] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:50:11,277 [51] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:50:25,473 [49] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:52:09,354 [30] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 17:52:20,760 [14] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 18:01:35,537 [35] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 18:03:44,244 [7] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-26 18:05:13,713 [17] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 10:33:57,059 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-27 10:42:03,207 [3] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 10:46:57,837 [10] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 10:47:51,965 [18] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 10:53:56,130 [27] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 10:55:37,274 [18] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 10:58:33,261 [15] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 10:59:09,069 [36] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 10:59:56,997 [17] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 11:00:02,061 [5] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 11:02:02,370 [19] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 11:25:47,097 [48] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lays.
+2024-08-27 11:26:31,332 [15] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lays.
+2024-08-27 11:31:42,834 [25] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 11:32:23,398 [29] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 11:42:49,215 [19] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 11:43:18,205 [36] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 11:47:55,692 [26] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 11:55:23,980 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-27 11:58:10,330 [10] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 12:01:52,368 [15] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 12:02:07,701 [7] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lays.
+2024-08-27 12:03:07,211 [22] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 12:04:04,534 [7] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-27 12:04:39,135 [7] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 12:04:43,131 [7] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
+2024-08-27 12:06:07,196 [16] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 12:07:18,854 [14] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 12:14:45,131 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-27 12:15:55,873 [5] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 12:16:42,272 [3] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lux.
+2024-08-27 12:17:22,758 [12] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 12:17:42,994 [24] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lux.
+2024-08-27 12:18:50,472 [26] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 12:21:37,333 [31] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lux.
+2024-08-27 12:22:52,338 [29] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 12:23:40,721 [3] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 12:25:20,423 [22] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 12:25:32,991 [33] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lux.
+2024-08-27 12:26:53,126 [26] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 12:27:07,847 [26] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 12:28:49,005 [7] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 12:28:52,355 [33] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 12:29:07,836 [36] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 12:30:07,718 [37] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 12:30:21,478 [40] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 12:32:05,567 [45] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 12:41:38,609 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-27 13:06:58,328 [16] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 13:07:02,938 [11] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-27 13:07:50,806 [11] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 13:08:02,703 [17] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Mentos.
+2024-08-27 13:08:07,392 [9] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Mentos.
+2024-08-27 13:08:11,122 [17] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Mentos.
+2024-08-27 13:09:03,753 [25] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 13:13:28,338 [16] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 13:14:44,984 [9] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 14:10:02,340 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-27 14:12:08,310 [9] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 14:14:16,779 [23] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 15:01:27,297 [130] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 15:19:29,912 [89] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 15:19:34,327 [89] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 15:22:03,013 [82] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 15:23:40,258 [80] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 15:24:32,215 [96] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 15:26:16,459 [98] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 15:26:34,423 [100] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 15:29:07,513 [84] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 15:29:24,264 [103] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 15:29:44,076 [84] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 15:30:40,309 [102] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 15:30:50,830 [98] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 15:31:06,156 [97] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 15:31:31,707 [101] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 15:31:39,490 [101] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 15:31:53,488 [101] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 15:32:00,670 [101] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 15:32:14,358 [103] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 15:32:29,109 [102] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:11:55,659 [103] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:12:03,120 [84] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:12:13,484 [95] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-27 17:12:14,324 [84] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-27 17:14:14,974 [98] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-27 17:14:32,347 [85] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:14:35,494 [10] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-27 17:14:41,607 [85] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
+2024-08-27 17:15:15,354 [10] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:15:55,219 [95] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Mentos.
+2024-08-27 17:17:41,941 [91] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:18:16,887 [96] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:19:42,274 [82] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:22:35,499 [81] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:23:33,193 [81] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:24:24,141 [98] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:25:00,625 [102] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:26:18,523 [91] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:26:55,394 [89] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:28:37,729 [89] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:28:59,112 [82] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:29:16,902 [81] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:29:51,412 [89] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:30:36,197 [91] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:31:09,143 [92] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:34:07,440 [106] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:34:10,977 [106] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:35:18,175 [82] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:35:38,426 [81] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:35:44,296 [83] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:36:27,164 [102] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:37:43,450 [81] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:38:14,230 [91] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:38:40,238 [102] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:40:08,902 [20] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:40:36,498 [91] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:40:55,720 [102] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:41:05,357 [91] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:41:10,566 [102] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:42:15,005 [94] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:42:17,648 [106] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:42:44,635 [94] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:43:32,688 [106] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:44:24,571 [106] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:44:35,790 [98] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:44:45,419 [88] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:45:01,316 [98] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:45:16,923 [94] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:45:36,227 [106] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:47:04,987 [98] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:47:22,926 [88] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:47:46,533 [90] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:48:05,927 [95] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:48:45,701 [23] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:49:10,270 [92] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:49:28,844 [96] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:49:47,285 [95] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:50:46,473 [95] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:50:58,319 [88] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:51:13,484 [95] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:51:25,668 [98] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:51:33,431 [98] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:52:00,323 [95] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:52:15,774 [95] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:52:24,201 [95] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:52:35,968 [95] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Kissan jam.
+2024-08-27 17:54:14,683 [91] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:57:22,111 [86] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:58:25,353 [10] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 17:59:14,323 [102] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:00:38,676 [82] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:03:50,792 [142] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:04:38,170 [93] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:07:27,760 [119] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:08:35,036 [120] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:08:46,001 [123] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:09:01,622 [14] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:09:19,952 [118] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:10:38,562 [14] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:11:34,421 [116] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:11:37,807 [120] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:11:47,511 [119] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:13:28,997 [107] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:13:40,814 [110] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:14:00,189 [108] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:15:09,231 [135] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:15:42,428 [85] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:16:00,106 [85] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:16:10,182 [101] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:16:28,738 [108] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:16:51,113 [144] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:17:04,137 [144] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:17:28,140 [144] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:17:44,025 [109] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:18:16,042 [93] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:18:38,570 [108] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:19:56,373 [85] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:20:21,225 [110] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:20:47,197 [110] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:21:25,178 [110] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:21:52,144 [125] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:21:55,927 [125] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:22:47,200 [107] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:22:55,241 [112] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:23:20,932 [125] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:23:52,752 [85] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:26:18,996 [118] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:26:32,340 [118] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:28:03,483 [121] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:28:14,003 [14] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:29:21,719 [105] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:29:40,372 [118] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:29:54,119 [105] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:29:59,481 [98] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:37:11,261 [80] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:38:36,700 [89] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:38:46,582 [20] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:40:38,786 [84] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-27 18:42:08,993 [103] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 10:47:05,621 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-28 11:24:28,338 [19] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:27:13,390 [4] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:27:39,780 [15] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:29:55,060 [15] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:31:07,170 [18] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:31:15,233 [22] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:32:53,618 [10] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:34:44,496 [10] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:36:05,786 [22] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:39:18,767 [22] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:39:40,419 [22] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:40:19,882 [23] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:41:16,137 [19] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:41:41,111 [21] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:42:31,410 [23] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:42:52,313 [23] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:43:06,051 [30] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:45:10,947 [23] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:45:58,114 [38] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:46:07,968 [34] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:47:01,378 [37] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:47:14,101 [34] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:47:37,793 [36] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:48:02,003 [33] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:49:36,179 [29] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:53:47,144 [26] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:54:19,193 [26] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:55:07,146 [20] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:55:18,044 [26] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:55:54,723 [26] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:57:04,163 [26] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:57:22,061 [28] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:57:30,601 [28] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:57:44,315 [37] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:57:50,337 [26] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:58:34,384 [28] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:59:13,490 [27] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:59:25,986 [27] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 11:59:52,789 [26] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 12:00:14,286 [40] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 12:01:08,396 [45] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 12:03:46,696 [47] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 12:04:22,333 [49] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 12:04:36,703 [45] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 12:05:55,719 [53] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 12:05:59,288 [44] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 12:10:24,548 [45] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 12:12:01,811 [41] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 12:12:18,093 [40] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 12:12:34,326 [27] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 13:31:11,473 [41] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 13:37:06,585 [53] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 13:37:17,455 [19] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 13:55:04,443 [19] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 13:56:27,463 [48] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Boomer.
+2024-08-28 14:00:39,253 [41] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 14:06:37,843 [25] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 14:07:13,599 [25] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Notebook.
+2024-08-28 14:09:14,715 [51] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 14:09:51,086 [49] DEBUG OrderService.Services.Order.MoveNext[122] - Item cannot be retrieved.
+2024-08-28 14:10:01,785 [49] DEBUG OrderService.Services.Order.MoveNext[122] - Item cannot be retrieved.
+2024-08-28 14:10:43,487 [20] DEBUG OrderService.Services.Order.MoveNext[122] - Item cannot be retrieved.
+2024-08-28 14:11:41,524 [26] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Sharpner.
+2024-08-28 14:13:17,833 [51] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 14:16:09,609 [24] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 14:18:01,395 [4] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 14:18:32,113 [27] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 14:19:32,247 [44] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Notebook.
+2024-08-28 14:19:42,187 [40] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Notebook.
+2024-08-28 14:23:57,929 [31] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 14:24:05,062 [35] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Mysore pak.
+2024-08-28 14:24:08,536 [27] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Mysore pak.
+2024-08-28 14:28:45,416 [23] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 14:30:52,750 [36] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 14:30:54,182 [36] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 14:31:08,298 [44] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lays.
+2024-08-28 14:31:40,022 [37] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 14:31:57,176 [28] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 14:32:16,147 [44] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 14:32:23,612 [44] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 14:32:59,460 [27] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 14:33:32,082 [32] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-28 14:33:37,921 [32] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-28 14:37:48,439 [48] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
+2024-08-28 14:37:58,944 [31] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lux.
+2024-08-28 14:38:00,822 [33] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lux.
+2024-08-28 14:38:02,589 [33] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
+2024-08-28 15:30:21,184 [1] INFO Program.<Main>$[14] - Application started.
+2024-08-28 15:32:18,306 [13] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 15:32:39,853 [13] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Eraser.
+2024-08-28 15:32:43,070 [20] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Eraser.
+2024-08-28 16:40:21,563 [4] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 16:43:51,354 [24] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 16:44:50,924 [4] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lays.
+2024-08-28 16:49:05,658 [46] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 16:49:15,149 [43] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-28 16:52:13,683 [33] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 16:54:44,673 [32] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 16:56:38,553 [9] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 16:56:43,846 [26] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lays.
+2024-08-28 16:56:58,727 [29] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-28 17:01:42,451 [9] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Mentos.
+2024-08-28 17:03:24,818 [21] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:03:28,850 [26] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Mentos.
+2024-08-28 17:03:34,560 [26] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-28 17:05:45,045 [9] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:06:36,519 [29] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:06:50,501 [29] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:07:29,411 [32] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:07:59,149 [14] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:08:22,046 [9] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:09:38,485 [24] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:09:47,405 [26] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-28 17:09:49,333 [24] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-28 17:11:03,549 [42] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:11:15,788 [42] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:11:19,832 [42] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-28 17:11:21,640 [42] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
+2024-08-28 17:11:28,679 [42] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
+2024-08-28 17:11:38,509 [31] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Mentos.
+2024-08-28 17:11:40,275 [46] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Mentos.
+2024-08-28 17:11:49,869 [47] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Mentos.
+2024-08-28 17:11:51,715 [31] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Mentos.
+2024-08-28 17:13:50,345 [15] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:15:11,411 [42] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:17:48,746 [28] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:17:57,005 [30] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pinpoint.
+2024-08-28 17:18:54,828 [18] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Kissan jam.
+2024-08-28 17:19:56,080 [45] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:25:26,925 [43] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:28:19,661 [35] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:29:40,396 [21] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:31:09,682 [9] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:31:11,919 [24] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lays.
+2024-08-28 17:31:45,881 [24] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:32:07,318 [21] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:32:40,552 [35] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:32:54,176 [35] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:33:35,782 [24] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:33:53,210 [24] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:34:25,481 [15] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:34:39,028 [28] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:34:58,378 [24] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:35:41,058 [34] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:36:05,427 [28] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:36:54,267 [35] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:41:43,801 [44] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:42:06,240 [39] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:42:18,591 [14] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:56:44,348 [47] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:56:54,012 [46] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-28 17:57:03,330 [47] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-28 17:57:05,250 [43] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lays.
+2024-08-28 17:57:48,238 [45] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:58:42,265 [7] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 17:58:49,466 [45] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lays.
+2024-08-28 18:03:26,031 [7] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 18:03:29,579 [4] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lays.
+2024-08-28 18:03:32,640 [4] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-28 18:03:37,773 [4] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
+2024-08-28 18:04:48,371 [45] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 18:05:04,391 [41] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-28 18:05:06,467 [46] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
+2024-08-28 18:05:08,378 [45] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lays.
+2024-08-28 18:05:13,362 [46] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lays.
+2024-08-28 18:05:14,631 [45] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lays.
+2024-08-28 18:05:15,593 [46] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lays.
+2024-08-28 18:05:16,955 [45] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
+2024-08-28 18:05:19,439 [33] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
+2024-08-28 18:05:52,744 [23] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 18:06:21,205 [14] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 18:06:28,241 [23] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
+2024-08-28 18:06:29,643 [4] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
+2024-08-28 18:06:30,927 [23] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lays.
+2024-08-28 18:06:33,465 [23] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lays.
+2024-08-28 18:06:35,267 [42] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Mentos.
+2024-08-28 18:06:37,605 [14] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Mentos.
+2024-08-28 18:06:40,984 [4] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Mentos.
+2024-08-28 18:06:45,319 [4] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Mentos.
+2024-08-28 18:06:47,063 [14] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Mentos.
+2024-08-28 18:06:54,591 [42] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Mentos.
+2024-08-28 18:07:36,974 [45] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 18:07:56,707 [33] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 18:08:07,871 [33] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lays.
+2024-08-28 18:08:09,602 [43] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lays.
+2024-08-28 18:08:12,984 [31] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lays.
+2024-08-28 18:08:17,925 [31] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lays.
+2024-08-28 18:08:25,302 [31] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lays.
+2024-08-28 18:10:00,266 [4] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 18:11:17,073 [20] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 18:18:44,083 [25] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 18:19:12,650 [22] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 18:19:15,766 [29] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Lays.
+2024-08-28 18:22:48,046 [41] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 18:22:51,291 [16] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-28 18:22:54,988 [42] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-28 18:22:58,349 [42] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
+2024-08-28 18:23:01,565 [16] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
+2024-08-28 18:23:04,324 [41] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
+2024-08-28 18:23:06,642 [42] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
+2024-08-28 18:23:08,371 [45] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
+2024-08-28 18:23:12,699 [41] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-28 18:23:14,898 [41] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
+2024-08-28 18:23:33,964 [41] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
+2024-08-28 18:31:29,304 [35] INFO OrderService.Services.Order.MoveNext[61] - Retrieved all items.
+2024-08-28 18:31:31,781 [5] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-28 18:31:34,001 [5] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Pears.
+2024-08-28 18:31:37,474 [35] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
+2024-08-28 18:31:39,395 [35] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
+2024-08-28 18:31:40,341 [31] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
+2024-08-28 18:31:40,873 [31] INFO OrderService.Services.Order.MoveNext[136] - Retrieved item with ID Frooti.
