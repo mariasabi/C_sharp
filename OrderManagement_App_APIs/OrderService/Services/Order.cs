@@ -136,7 +136,34 @@ namespace OrderService.Services
             log.Info($"Retrieved item with ID {name}.");
             return itemDTO;
         }
-    public async Task<Item> UpdateItemQuantity(string name,int quantity)
+        public async Task<List<ItemViewDTO>> SearchItemByName(string name)
+        {
+            if (string.IsNullOrEmpty(name))
+            {
+                throw new IdNotFoundException("Please enter some search value");
+            }
+
+            var items = await _context.Items
+                .Where(i => i.Name.Contains(name))
+                .ToListAsync();
+
+            if (items.Count == 0)
+            {
+                return new List<ItemViewDTO>();
+            }
+            var itemDTOs = items.Select(item => new ItemViewDTO
+            {
+                Id = item.Id,
+                Name = item.Name,
+                Type = item.Type,
+                Quantity = item.Quantity.GetValueOrDefault(),
+                Price = item.Price.GetValueOrDefault(),
+                Image = item.Image != null ? Convert.ToBase64String(item.Image) : null
+            }).ToList();
+            return itemDTOs;
+
+        }
+        public async Task<Item> UpdateItemQuantity(string name,int quantity)
     {
 
             var existingItem = _context.Items.FirstOrDefault(x => x.Name == name);

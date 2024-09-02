@@ -15,5 +15,6 @@ namespace OrderService.Interfaces
     Task<List<Item>> GetPaginatedItems(int page, int pageSize);
         Task<string> BulkAddItem(IFormFile fileName);
         Task<Item> UpdateItemQuantity(string name, int quantity);
+        Task<List<ItemViewDTO>> SearchItemByName(string name);
 }
 }

@@ -37,6 +37,10 @@ namespace UserService.Controllers
                 var response = await _cart.AddCartItem(item);
                 return Ok(response);
             }
+            catch (OutOfStockException ex)
+            {
+                return NotFound(ex.Message);
+            }
             catch (ArgumentsException ex)
             {
                 return BadRequest(ex.Message);
@@ -63,6 +67,10 @@ namespace UserService.Controllers
             {
                 var response = await _cart.UpdateCartItemQuantity(name);
                 return Ok(response);
+            }
+            catch(OutOfStockException ex)
+            {
+                return NotFound(ex.Message);
             }
             catch (ArgumentsException ex)
             {

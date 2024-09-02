@@ -23,7 +23,7 @@ namespace UserService.Services
         {
             var inventoryQuantity = (int)item.Quantity;
             if (inventoryQuantity < quantity)
-                throw new ArgumentsException($"Insufficient stock for item '{item.Name}'. Only {inventoryQuantity} available.");
+                throw new OutOfStockException($"Insufficient stock for item '{item.Name}'. Only {inventoryQuantity} available.");
 
             var res = ReduceInventoryItemQuantity(item, quantity);
             return "Quantity reduced";

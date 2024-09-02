@@ -170,6 +170,23 @@ namespace OrderService.Controllers
             }
 
         }
+        [HttpGet]
+        [Route("searchItem")]
+        [Authorize]
+        public async Task<ActionResult<List<ItemViewDTO>>> SearchItem(string name)
+        {
+            try
+            {
+                var items = await _order.SearchItemByName(name);
+                return Ok(items);
+            }
+            catch (IdNotFoundException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+          
+        }
+
     }
 
 }
