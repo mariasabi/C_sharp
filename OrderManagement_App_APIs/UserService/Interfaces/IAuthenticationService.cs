@@ -15,6 +15,7 @@ namespace UserService.Interfaces
         // string GenerateJSONWebToken(User userInfo);
 
         Task<string> GetHindiName(string name);
-
+        Task<string> ForgotPassword(ForgotPassword model);
+        string ValidateOTP(string email, string otp);
     }
 }

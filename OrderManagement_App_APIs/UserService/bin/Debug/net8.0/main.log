@@ -463,3 +463,114 @@
 2024-09-02 16:58:08,274 [34] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
 2024-09-02 16:58:08,275 [38] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
 2024-09-02 18:38:07,103 [10] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-04 10:55:53,122 [1] INFO Program.<Main>$[15] - Application started.
+2024-09-04 11:26:08,456 [7] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-04 11:26:08,456 [18] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-04 11:29:12,381 [19] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-04 11:29:56,509 [18] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-04 11:30:27,683 [22] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-04 11:32:21,282 [24] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-04 11:34:33,222 [33] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-04 11:38:01,520 [42] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-04 11:39:00,275 [37] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-04 11:40:56,646 [29] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-04 11:41:28,778 [24] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-04 11:42:00,002 [9] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-04 11:55:01,427 [33] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-04 12:17:29,050 [3] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-04 15:35:16,962 [37] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-04 18:32:00,973 [37] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-04 18:32:00,973 [20] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-04 18:32:00,973 [30] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-05 10:42:45,147 [1] INFO Program.<Main>$[15] - Application started.
+2024-09-05 10:48:24,038 [14] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-05 14:19:43,140 [30] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-05 14:26:48,781 [28] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-05 15:31:20,314 [1] INFO Program.<Main>$[15] - Application started.
+2024-09-05 15:41:11,785 [1] INFO Program.<Main>$[15] - Application started.
+2024-09-05 15:42:57,328 [24] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-05 15:43:18,442 [21] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-05 15:46:13,335 [15] INFO UserService.Services.AuthService.MoveNext[102] - User with username UserService.Models.User deleted.
+2024-09-05 15:48:59,620 [27] DEBUG UserService.Services.AuthService.MoveNext[97] - User cannot be deleted as role is Admin.
+2024-09-05 16:57:35,954 [64] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-05 17:01:42,706 [71] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-05 17:02:16,877 [67] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-05 17:03:20,097 [74] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-05 18:48:49,292 [41] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-06 10:12:10,150 [1] INFO Program.<Main>$[15] - Application started.
+2024-09-06 10:15:21,271 [11] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-06 13:55:27,322 [29] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-06 14:04:10,307 [7] INFO UserService.Services.AuthService.MoveNext[64] - New user with user Maria added.
+2024-09-06 14:04:13,567 [28] INFO UserService.Services.AuthService.MoveNext[83] - User Maria logged in.
+2024-09-06 14:17:09,016 [28] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-06 14:28:05,317 [30] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-09 10:40:40,032 [1] INFO Program.<Main>$[15] - Application started.
+2024-09-09 14:31:08,812 [14] DEBUG UserService.Services.AuthService.MoveNext[80] - Login failed! Username or password is invalid.
+2024-09-09 14:31:23,420 [16] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-09 18:28:41,894 [33] DEBUG UserService.Services.AuthService.MoveNext[97] - User cannot be deleted as role is Admin.
+2024-09-09 18:32:00,871 [20] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-10 10:41:31,282 [1] INFO Program.<Main>$[15] - Application started.
+2024-09-10 11:15:36,928 [11] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-10 18:37:23,877 [15] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-10 18:37:23,877 [30] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-10 18:37:26,428 [48] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-11 11:13:00,983 [1] INFO Program.<Main>$[15] - Application started.
+2024-09-11 11:39:08,941 [19] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-11 11:39:08,941 [14] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-11 11:39:09,655 [18] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-11 12:31:50,399 [28] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-11 14:33:21,774 [3] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-11 17:33:57,088 [27] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-11 17:33:57,088 [9] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-12 10:40:01,901 [1] INFO Program.<Main>$[15] - Application started.
+2024-09-12 10:44:42,697 [3] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-12 11:51:52,522 [102] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-12 12:39:45,724 [94] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-12 15:29:56,394 [99] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-12 17:39:48,406 [97] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-12 17:47:26,607 [94] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-12 18:40:26,547 [94] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-13 10:25:44,835 [1] INFO Program.<Main>$[15] - Application started.
+2024-09-13 10:40:50,186 [5] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-13 10:47:31,348 [32] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-13 11:41:41,319 [21] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-13 11:48:40,877 [25] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-13 12:00:01,679 [29] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-13 12:00:10,830 [36] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-13 12:35:25,477 [5] INFO UserService.Services.AuthService.MoveNext[64] - New user with user Yadu added.
+2024-09-13 12:35:29,716 [26] DEBUG UserService.Services.AuthService.MoveNext[80] - Login failed! Username or password is invalid.
+2024-09-13 12:35:38,196 [5] DEBUG UserService.Services.AuthService.MoveNext[80] - Login failed! Username or password is invalid.
+2024-09-13 12:36:02,033 [29] DEBUG UserService.Services.AuthService.MoveNext[80] - Login failed! Username or password is invalid.
+2024-09-13 12:36:12,573 [29] DEBUG UserService.Services.AuthService.MoveNext[80] - Login failed! Username or password is invalid.
+2024-09-13 12:39:54,105 [30] DEBUG UserService.Services.AuthService.MoveNext[80] - Login failed! Username or password is invalid.
+2024-09-13 12:40:08,166 [30] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-13 13:35:31,855 [10] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-13 14:21:15,706 [27] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-13 14:22:40,444 [34] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-16 10:44:43,831 [1] INFO Program.<Main>$[15] - Application started.
+2024-09-16 10:56:03,287 [9] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-16 12:41:37,602 [1] INFO Program.<Main>$[15] - Application started.
+2024-09-16 12:44:10,755 [3] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-16 12:46:15,940 [22] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-16 13:31:04,853 [111] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-16 14:35:50,945 [102] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-16 14:35:50,945 [18] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-16 14:58:50,252 [1] INFO Program.<Main>$[15] - Application started.
+2024-09-16 15:01:00,047 [3] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-16 15:45:04,034 [68] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-16 16:02:35,968 [67] INFO UserService.Services.AuthService.MoveNext[83] - User Gigi logged in.
+2024-09-17 10:45:09,670 [1] INFO Program.<Main>$[15] - Application started.
+2024-09-17 12:30:18,916 [1] INFO Program.<Main>$[18] - Application started.
+2024-09-17 13:00:17,797 [1] INFO Program.<Main>$[18] - Application started.
+2024-09-17 14:58:07,528 [1] INFO Program.<Main>$[18] - Application started.
+2024-09-17 15:12:44,020 [1] INFO Program.<Main>$[18] - Application started.
+2024-09-17 15:31:06,064 [1] INFO Program.<Main>$[18] - Application started.
+2024-09-17 17:07:30,148 [1] INFO Program.<Main>$[18] - Application started.
+2024-09-17 17:10:45,293 [1] INFO Program.<Main>$[18] - Application started.
+2024-09-18 10:28:11,878 [1] INFO Program.<Main>$[18] - Application started.
+2024-09-18 11:40:23,104 [7] INFO UserService.Services.AuthService.MoveNext[0] - User Gigi logged in.
+2024-09-18 12:16:43,098 [1] INFO Program.<Main>$[18] - Application started.
+2024-09-18 12:35:08,260 [1] INFO Program.<Main>$[18] - Application started.
+2024-09-18 12:56:02,085 [1] INFO Program.<Main>$[18] - Application started.
+2024-09-18 13:10:28,539 [1] INFO Program.<Main>$[18] - Application started.
+2024-09-18 13:32:20,479 [31] INFO UserService.Services.AuthService.MoveNext[0] - User Gigi logged in.

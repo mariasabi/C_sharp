@@ -6,6 +6,7 @@ using UserService.Models;
 using UserService.DTOs;
 using UserService.Interfaces;
 using UserService.Exceptions;
+using Microsoft.AspNetCore.Components.Forms;
 
 namespace UserService.Controllers
 {
@@ -18,6 +19,52 @@ namespace UserService.Controllers
         public UserController(IAuthenticationService authenticationService)
         {
             _authenticationService = authenticationService;
+        }
+        [AllowAnonymous]
+        [HttpPost("forgotPassword")]
+        public async Task<IActionResult> ForgotPassword([FromBody] ForgotPassword model)
+        {
+            try
+            {
+                var response = await _authenticationService.ForgotPassword(model);
+                return Ok(response);
+            }
+            catch (ArgumentsException ex)
+            {
+                return BadRequest(ex.Message);
+                    
+            }
+        }
+
+        [AllowAnonymous]
+        [HttpPut("resetPassword")]
+        public async Task<IActionResult> ResetPassword([FromBody] Reset request)
+        {
+            try
+            {
+                var response = await _authenticationService.ResetPassword(request);
+                return Ok(response);
+            }
+            catch (ArgumentsException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [AllowAnonymous]
+        [HttpPost("validateOTP")]
+        public IActionResult ValidateOTP([FromBody] ForgotPassword model, [FromQuery] string otp)
+        {
+            try
+            {
+                var response = _authenticationService.ValidateOTP(model.Email, otp);
+               
+                return Ok(response);
+            }
+            catch (ArgumentsException ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [AllowAnonymous]
@@ -59,22 +106,7 @@ namespace UserService.Controllers
             }
 
         }
-        [AllowAnonymous]
-        [HttpPut("resetPassword")]
-
-        public async Task<IActionResult> ResetPassword(Reset request)
-        {
-            try
-            {
-                var response = await _authenticationService.ResetPassword(request);
-
-                return Ok(response);
-            }
-            catch (ArgumentsException ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
+    
         [Authorize]
         [HttpGet("getHindiName")]
         public async Task<ActionResult<string>> GetUserByUsername(string name)

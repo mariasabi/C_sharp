@@ -1,5 +1,7 @@
 using log4net;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -8,6 +10,7 @@ using System.Text.Json;
 using UserService.Interfaces;
 using UserService.Models;
 using UserService.Services;
+
 
 
 [assembly: log4net.Config.XmlConfigurator(ConfigFile = "log4net.config", Watch = true)]
@@ -103,9 +106,13 @@ builder.Services.AddCors(options =>
         });
 });
 builder.Services.AddDbContext<OrderContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 builder.Services.AddScoped<IAuthenticationService, AuthService>();
 builder.Services.AddScoped<IAdminService, AdminService>();
 builder.Services.AddScoped<ICartService, CartService>();
+builder.Services.AddTransient<IEmailSender, EmailSender>();
+builder.Services.AddMemoryCache();
+
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddAuthorization();
 builder.Services.AddCors(options =>

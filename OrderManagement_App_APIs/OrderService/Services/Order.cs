@@ -55,6 +55,7 @@ namespace OrderService.Services
                 Type = item.Type,
                 Quantity = item.Quantity.GetValueOrDefault(), 
                 Price = item.Price.GetValueOrDefault(),
+                Description=item.Description,
                 Image = item.Image != null ? Convert.ToBase64String(item.Image) : null
             }).ToList();
             _dblog.CallStoredProcedure(DateTime.Now, Thread.CurrentThread.ManagedThreadId.ToString(), "INFO", nameof(Order), "Retrieved all items.");
@@ -107,6 +108,7 @@ namespace OrderService.Services
                 Type = item.Type,
                 Quantity = (int)item.Quantity,
                 Price = (decimal)item.Price,
+                Description = item.Description,
                 Image = item.Image != null ? Convert.ToBase64String(item.Image) : null
             };
             _dblog.CallStoredProcedure(DateTime.Now, Thread.CurrentThread.ManagedThreadId.ToString(), "INFO", nameof(Order), $"Retrieved item with ID {id}.");
@@ -130,6 +132,7 @@ namespace OrderService.Services
                 Type = item.Type,
                 Quantity = (int)item.Quantity,
                 Price = (decimal)item.Price,
+                Description = item.Description,
                 Image = item.Image != null ? Convert.ToBase64String(item.Image) : null
             };
             _dblog.CallStoredProcedure(DateTime.Now, Thread.CurrentThread.ManagedThreadId.ToString(), "INFO", nameof(Order), $"Retrieved item with name {name}.");
@@ -158,6 +161,7 @@ namespace OrderService.Services
                 Type = item.Type,
                 Quantity = item.Quantity.GetValueOrDefault(),
                 Price = item.Price.GetValueOrDefault(),
+                Description = item.Description,
                 Image = item.Image != null ? Convert.ToBase64String(item.Image) : null
             }).ToList();
             return itemDTOs;
@@ -212,7 +216,8 @@ namespace OrderService.Services
                 Quantity = itemDto.Quantity,
                 Type=itemDto.Type,
                 Price = itemDto.Price,
-                Image = imageData
+                Image = imageData,
+                Description=itemDto.Description
             };
             _context.Items.Add(newItem);
         _context.SaveChanges();

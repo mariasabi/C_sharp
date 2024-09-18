@@ -2,14 +2,12 @@
 
 namespace UserService.DTOs
 {
-    public class Reset
+    public class ForgotPassword
     {
-
         [Required]
         [EmailAddress]
         public string Email { get; set; }
-
-        [Required]
-        public string NewPassword { get; set; }
     }
+ 
+ 
 }

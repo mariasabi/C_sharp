@@ -13,19 +13,27 @@ using UserService.Models;
 using Microsoft.EntityFrameworkCore;
 using log4net;
 using UserService.Interfaces;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using Microsoft.Extensions.Caching.Memory;
 namespace UserService.Services
 {
     public class AuthService : Interfaces.IAuthenticationService
     {
         private readonly OrderContext _context;
         private readonly IConfiguration _config;
-         private static readonly ILog log = LogManager.GetLogger(typeof(AuthService));
+        private readonly IMemoryCache _cache;
+        private readonly IEmailSender _emailSender;
+        private static readonly ILog log = LogManager.GetLogger(typeof(AuthService));
         private readonly IHttpContextAccessor _httpContextAccessor;
-        public AuthService(OrderContext context, IConfiguration config, IHttpContextAccessor http)
+        public AuthService(IMemoryCache cache,OrderContext context, IConfiguration config, IHttpContextAccessor http,IEmailSender emailSender)
         {
+            _cache = cache;
             _context = context;
             _config = config;
             _httpContextAccessor = http;
+
+            _emailSender = emailSender;
         }
         /// <summary>
         /// Register user giving email, username and password. 
@@ -104,8 +112,46 @@ namespace UserService.Services
             var token = tokenHandler.CreateToken(tokenDescriptor);
             return tokenHandler.WriteToken(token);
         }
+        public async Task<string> ForgotPassword(ForgotPassword model)
+        {
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == model.Email);
+            if (user == null || user.Deleted)
+            {
+                throw new ArgumentException("If the email is registered, you will receive a password reset link.");
+            }
 
-       
+            // Generate OTP
+            var otp = GenerateOtp();
+            StoreOtpInCache(user.Email, otp);
+
+            // Send OTP via email
+            await _emailSender.SendEmailAsync(user.Email, "OTP for Quick Buy",
+                $"Your OTP for password reset is: {otp}. This OTP is valid for 5 minutes.");
+
+            return "Password reset OTP has been sent to your email.";
+        }
+        public string ValidateOTP(string email, string otp)
+        {
+            var cacheKey = GetOtpCacheKey(email);
+            if (_cache.TryGetValue(cacheKey, out string cachedOtp) && cachedOtp == otp)
+                return "Valid OTP";
+            else
+                throw new ArgumentsException("Invalid or expired OTP");
+        }
+
+        private void StoreOtpInCache(string email, string otp)
+        {
+            var cacheKey = GetOtpCacheKey(email);
+            _cache.Set(cacheKey, otp, TimeSpan.FromMinutes(5));
+        }
+
+        private string GetOtpCacheKey(string email) => $"OTP_{email}";
+
+        private string GenerateOtp()
+        {
+            var random = new Random();
+            return random.Next(100000, 999999).ToString(); // Generates a 6-digit OTP
+        }
         /// <summary>
         /// Reset password if username/email and old password matches.
         /// </summary>
@@ -114,20 +160,23 @@ namespace UserService.Services
         /// <exception cref="ArgumentsException"></exception>
         public async Task<string> ResetPassword(Reset request)
         {
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.Username == request.Username || u.Email == request.Username);
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == request.Email);
 
-            if (user == null || user.Deleted || !VerifyPassword(request.OldPassword, user.Password))
+            if (user == null || user.Deleted)
             {
-                log.Debug($"Unable to authenticate user for resetting password.");
-                throw new ArgumentsException($"Username or old password is not valid.");
+                throw new ArgumentException("User not found or deleted.");
             }
-            ValidatePassword(request.NewPassword);
-            user.Password = HashPassword(request.NewPassword);
-            _context.SaveChanges();
-            log.Debug($"Password reset for user {request.Username}.");
-            return "Password reset successfully";
-        }
 
+            user.Password = HashPassword(request.NewPassword);
+            _context.Users.Update(user);
+            await _context.SaveChangesAsync();
+
+            // Clear OTP from cache
+            _cache.Remove(GetOtpCacheKey(request.Email));
+
+            return "Password has been successfully reset.";
+        }
+ 
         /// <summary>
         /// Create a hash of the password using SHA256 encoding.
         /// </summary>
