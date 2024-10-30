@@ -106,7 +106,7 @@ namespace UserService.Services
                 Subject = new ClaimsIdentity(new[] { new Claim("id", user.Id.ToString()),
                     new Claim("username",user.Username.ToString()),
                     new Claim("role",user.Role.ToString())}), 
-                Expires = DateTime.UtcNow.AddDays(7),
+                Expires = DateTime.UtcNow.AddDays(1),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
             var token = tokenHandler.CreateToken(tokenDescriptor);
@@ -120,11 +120,11 @@ namespace UserService.Services
                 throw new ArgumentException("If the email is registered, you will receive a password reset link.");
             }
 
-            // Generate OTP
+          
             var otp = GenerateOtp();
             StoreOtpInCache(user.Email, otp);
 
-            // Send OTP via email
+         
             await _emailSender.SendEmailAsync(user.Email, "OTP for Quick Buy",
                 $"Your OTP for password reset is: {otp}. This OTP is valid for 5 minutes.");
 
@@ -150,7 +150,7 @@ namespace UserService.Services
         private string GenerateOtp()
         {
             var random = new Random();
-            return random.Next(100000, 999999).ToString(); // Generates a 6-digit OTP
+            return random.Next(100000, 999999).ToString(); 
         }
         /// <summary>
         /// Reset password if username/email and old password matches.
@@ -164,7 +164,7 @@ namespace UserService.Services
 
             if (user == null || user.Deleted)
             {
-                throw new ArgumentException("User not found or deleted.");
+                throw new ArgumentsException("User not found or deleted.");
             }
 
             user.Password = HashPassword(request.NewPassword);

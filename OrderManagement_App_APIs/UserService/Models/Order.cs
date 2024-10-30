@@ -16,4 +16,6 @@ public partial class Order
     public decimal TotalPrice { get; set; }
 
     public DateTime OrderTime { get; set; }
+
+    public virtual User User { get; set; } = null!;
 }

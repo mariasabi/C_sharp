@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using UserService.Models;
 
 namespace UserService.Models;
 
@@ -65,6 +64,11 @@ public partial class OrderContext : DbContext
 
             entity.Property(e => e.OrderTime).HasColumnType("datetime");
             entity.Property(e => e.TotalPrice).HasColumnType("decimal(18, 2)");
+
+            entity.HasOne(d => d.User).WithMany(p => p.Orders)
+                .HasForeignKey(d => d.UserId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Orders_User");
         });
 
         modelBuilder.Entity<User>(entity =>

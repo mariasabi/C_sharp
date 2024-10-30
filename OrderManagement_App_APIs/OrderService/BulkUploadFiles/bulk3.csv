@@ -1,3 +1,3 @@
-Name,Type,Quantity,Price,Image
-Lays,food,25,30,C:\Users\P10\Pictures\OrderManagement\lays.jfif
-Boomer,gum,20,10,C:\Users\P10\Pictures\OrderManagement\boomer.jfif
+Name,Type,Quantity,Price,Image,Description
+Snickers,Sweet cravings,3,45,C:\Users\P10\Pictures\OrderManagement\snickers.jfif,Chocolate bar with peanuts caramel and nougat
+

@@ -237,7 +237,7 @@ public CartItemDTO[] covertToCartItemDTO(ICollection<CartItem> cartItems)
 
         }
         public async Task<List<OrderDTO>> GetOrdersOfUser()
-        {
+        {/*
             var orders = (from o in _context.Orders
                           join u in _context.Users on userId equals u.Id
                           select new OrderDTO
@@ -248,8 +248,24 @@ public CartItemDTO[] covertToCartItemDTO(ICollection<CartItem> cartItems)
                               TotalPrice = o.TotalPrice,
                               OrderTime = o.OrderTime
                    
-                          }).ToList();
-            return orders;
+                          }).ToList(); 
+            return orders;*/
+            var orders = await _context.Orders
+         .Where(b => b.UserId == userId)
+         .ToListAsync();
+
+            var ordersDTO = orders.Select(order => new OrderDTO
+            {
+                OrderId = order.OrderId,
+                Itemname = order.Itemname,
+                Quantity = order.Quantity,
+                TotalPrice = order.TotalPrice,
+                OrderTime = order.OrderTime
+            }).ToList();
+
+            return ordersDTO;
+
+
         }
         public async Task<List<OrderDTO>> GetAllOrders()
         {
